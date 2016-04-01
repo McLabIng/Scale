@@ -1,0 +1,1 @@
+cd /Users/Blackbird/Sites/scale/ php script_ftp.php

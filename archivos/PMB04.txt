@@ -1,0 +1,3920 @@
+090;2016-02-18;171009;mc;;PMB04DOM\ADMINISTRATOR;AD-490;1;2148414;PMB04A;127.0.0.1;0000000213;LMSTP;
+
+LICENSE MANAGEMENT STATUS
+
+CLIENT STATE
+LICENSE KEY DISTRIBUTION COMPLETED
+
+GRACE MODE
+NOT ACTIVE
+
+EMERGENCY MODE
+NOT ACTIVE
+
+SERVER VIRGIN MODE
+NOT ACTIVE
+
+TEST MODE
+NOT ACTIVE
+
+END
+
+;
+075;2016-02-18;171010;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;mml.exe;
+063;2016-02-18;171010;alp;42;.\;AD-41;1;1332638;PMB04A;;0000000317;WO      PMB04/BSC13B/08/00/00     AD-41   TIME 160218 1710  PAGE    1
+*** ALARM 955 A2/APT "PMB04/BSC13B/08"U 160218 1710
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-75-0-4                       3115            TS SYNC FAULT
+
+END
+;
+062;2016-02-18;171010;mp;42;.\;AD-13;1;1332636;PMB04A;;0000000317;WO      PMB04/BSC13B/08/00/00     AD-13   TIME 160218 1710  PAGE    1
+*** ALARM 955 A2/APT "PMB04/BSC13B/08"U 160218 1710
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-75-0-4                       3115            TS SYNC FAULT
+
+END
+;
+075;2016-02-18;171010;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000010;lmlkls.exe;
+071;2016-02-18;171009;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD71B94B)  
+	Logon Type:	3  
+;
+076;2016-02-18;171009;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECB1201)  
+	Logon Type:	2  
+;
+068;2016-02-18;171018;sec;;PMB04DOM\PMB04A$;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD71F712)  
+	Logon Type:	3  
+;
+076;2016-02-18;171017;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECDD9BA)  
+	Logon Type:	3  
+;
+068;2016-02-18;171022;sec;;PMB04DOM\PMB04A$;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7206F1)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{b3b5bf9d-67a4-fe8c-86c1-5c2d18026210}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.170.1  
+	Source Port:	4263  
+;
+063;2016-02-18;171037;alp;42;.\;AD-41;1;1332638;PMB04A;;0000000317;WO      PMB04/BSC13B/08/00/00     AD-41   TIME 160218 1710  PAGE    1
+*** ALARM 956 A2/APT "PMB04/BSC13B/08"U 160218 1710
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-189-0-5                      3150            TS SYNC FAULT
+
+END
+;
+062;2016-02-18;171037;mp;42;.\;AD-13;1;1332636;PMB04A;;0000000317;WO      PMB04/BSC13B/08/00/00     AD-13   TIME 160218 1710  PAGE    1
+*** ALARM 956 A2/APT "PMB04/BSC13B/08"U 160218 1710
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-189-0-5                      3150            TS SYNC FAULT
+
+END
+;
+071;2016-02-18;171039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7211EB)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000527;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7211EB)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+071;2016-02-18;171039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7212FA)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7212FA)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	3028  
+;
+071;2016-02-18;171039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD721377)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD721377)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	3029  
+;
+071;2016-02-18;171039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7213A2)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000539;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7213A2)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	0  
+;
+071;2016-02-18;171039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7212FA)  
+	Logon Type:	3  
+;
+071;2016-02-18;171039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD721377)  
+	Logon Type:	3  
+;
+071;2016-02-18;171039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7211EB)  
+	Logon Type:	3  
+;
+073;2016-02-18;171040;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000514;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	8624  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;171040;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000549;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECE9718)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 8624  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+075;2016-02-18;171041;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;cmd.exe;
+076;2016-02-18;171040;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000446;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ECE9718)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+075;2016-02-18;171051;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000008;wmic.exe;
+071;2016-02-18;171050;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7213A2)  
+	Logon Type:	3  
+;
+073;2016-02-18;171059;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEEBE8)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171059;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000539;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEEBE8)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{be5a01d8-1355-2129-0cdb-95cf4a617e31}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	0  
+;
+073;2016-02-18;171059;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEED5B)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171059;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEED5B)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6390c96e-0402-b5a9-7be1-3e7c54056ba8}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	4306  
+;
+073;2016-02-18;171059;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEEDC6)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171059;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEEDC6)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{be5a01d8-1355-2129-0cdb-95cf4a617e31}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	4306  
+;
+075;2016-02-18;171103;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;cmd.exe;
+076;2016-02-18;171100;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECE9718)  
+	Logon Type:	2  
+;
+073;2016-02-18;171102;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000508;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	ossuser  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	1548  
+Source Network Address:	-  
+Source Port:	-  
+;
+070;2016-02-18;171102;sec;;PMB04DOM\ossuser;;1;1332566;PMB04A;;0000000551;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	ossuser  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEF520)  
+	Logon Type:	8  
+	Logon Process:	IIS       
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 1548  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+070;2016-02-18;171102;sec;;PMB04DOM\ossuser;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	ossuser  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEF520)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171102;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000514;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	9612  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;171102;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000549;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEF9C1)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 9612  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+076;2016-02-18;171102;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000446;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ECEF9C1)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171110;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEEBE8)  
+	Logon Type:	3  
+;
+083;2016-02-18;171111;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000493;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECF2069)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+090;2016-02-18;171112;mc;;PMB04DOM\ADMINISTRATOR;AD-491;1;2148416;PMB04A;127.0.0.1;0000001112;RACLP;
+
+BSC CAPACITY LOCK ALARM DATA
+
+CLNAME           CLAL      CLSUP  CLEX  CLUSE  CLTHR  CLMAX  CLABSUSE
+ABISIPCL                          OFF   27            22528  6192
+AMRFRMAXTRAFFIC  ACTIVE    OFF    OFF   1      80     32760  634
+AMRHRMAXTRAFFIC  ACTIVE    OFF    OFF   0      80     65520  273
+AMRWBMAXTRAFFIC  ACTIVE    OFF    OFF   100    80     0      0
+AOIP             ACTIVE    OFF    OFF   21     80     6300   1337
+BTSPSCL                           OFF   37            22528  8360
+CRESLTECL                         OFF   63            22528  14248
+DTMCL                             OFF   0             22528  0
+EGPRSBPCLIMIT                     OFF   7             32760  2596
+MAXNUMPDCH       INACTIVE  OFF    OFF   66     100    3584   2386
+MAXNUMTRX                         OFF   63            2816   1796
+MCTRPWR40                         OFF   63            247    158
+MCTRPWR60                         OFF   62            240    149
+MCTRTRX                           OFF   67            870    583
+VAMOSMAXTRAFFIC  ACTIVE    OFF    OFF   0      80     3100   0
+
+END
+;
+083;2016-02-18;171111;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000555;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECF2069)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{b55c0756-5bf8-ecf7-90a9-ce041a4c3bd7}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.170.2  
+	Source Port:	3033  
+;
+075;2016-02-18;171113;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;mml.exe;
+073;2016-02-18;171127;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000514;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	4708  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;171127;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000549;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECF533B)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 4708  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+075;2016-02-18;171127;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;cmd.exe;
+076;2016-02-18;171127;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000446;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ECF533B)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+063;2016-02-18;171135;alp;42;.\;AD-41;1;1332638;PMB04A;;0000000325;WO      PMB04/BSC13B/08/00/00     AD-41   TIME 160218 1711  PAGE    1
+*** ALARM CEASING 953 A2/APT "PMB04/BSC13B/08"U 160218 1711
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-41-8-5                       3122            TS SYNC FAULT
+
+END
+;
+062;2016-02-18;171135;mp;42;.\;AD-13;1;1332636;PMB04A;;0000000325;WO      PMB04/BSC13B/08/00/00     AD-13   TIME 160218 1711  PAGE    1
+*** ALARM CEASING 953 A2/APT "PMB04/BSC13B/08"U 160218 1711
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-41-8-5                       3122            TS SYNC FAULT
+
+END
+;
+075;2016-02-18;171137;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;mml.exe;
+076;2016-02-18;171137;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEF9C1)  
+	Logon Type:	2  
+;
+090;2016-02-18;171137;mc;;PMB04DOM\ADMINISTRATOR;AD-492;1;2148418;PMB04A;127.0.0.1;0000000030;AFTSI:TEST=104;
+
+ORDERED
+
+;
+091;2016-02-18;171137;mp;0;PMB04DOM\ADMINISTRATOR;AD-492;1;2148418;PMB04A;127.0.0.1;0000000322;WO      PMB04/BSC13B/08/00/00     AD-492  TIME 160218 1711  PAGE    1
+AUDIT FUNCTION THRESHOLD SUPERVISION MEMORY UTILIZATION
+
+TEST  STORE  FLAG  LIM1   HYST1 ACL1  LIM2   HYST2  ACL2  UTIL
+104   DS     0     90     5     A3    99     5      A2    41
+
+FA                 LAA
+00002368371572     00000060653568
+END
+;
+068;2016-02-18;171137;sec;;PMB04DOM\PMB04A$;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7206F1)  
+	Logon Type:	3  
+;
+063;2016-02-18;171142;alp;42;.\;AD-41;1;1332638;PMB04A;;0000000325;WO      PMB04/BSC13B/08/00/00     AD-41   TIME 160218 1711  PAGE    1
+*** ALARM CEASING 955 A2/APT "PMB04/BSC13B/08"U 160218 1711
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-75-0-4                       3115            TS SYNC FAULT
+
+END
+;
+062;2016-02-18;171142;mp;42;.\;AD-13;1;1332636;PMB04A;;0000000325;WO      PMB04/BSC13B/08/00/00     AD-13   TIME 160218 1711  PAGE    1
+*** ALARM CEASING 955 A2/APT "PMB04/BSC13B/08"U 160218 1711
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-75-0-4                       3115            TS SYNC FAULT
+
+END
+;
+068;2016-02-18;171142;sec;;PMB04DOM\PMB04A$;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7243AD)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{b3b5bf9d-67a4-fe8c-86c1-5c2d18026210}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.170.1  
+	Source Port:	4364  
+;
+083;2016-02-18;171139;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000216;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECF2069)  
+	Logon Type:	3  
+;
+081;2016-02-18;171155;sec;;PMB04DOM\jMmkpdaHNZH4oAmo4Y68;;1;44052;PMB04B;;0000000216;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	jMmkpdaHNZH4oAmo4Y68  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD717CF1)  
+	Logon Type:	3  
+;
+073;2016-02-18;171155;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000514;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	9116  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;171155;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000549;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECFC8D6)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 9116  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+076;2016-02-18;171155;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000446;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ECFC8D6)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+075;2016-02-18;171156;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;cmd.exe;
+075;2016-02-18;171156;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000012;hostname.exe;
+075;2016-02-18;171156;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000012;prcstate.exe;
+075;2016-02-18;171156;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000010;vxdisk.exe;
+075;2016-02-18;171157;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000011;cluster.exe;
+075;2016-02-18;171157;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000011;cluster.exe;
+075;2016-02-18;171157;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000011;findstr.exe;
+075;2016-02-18;171157;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000009;afpls.exe;
+075;2016-02-18;171157;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000009;stmmp.exe;
+075;2016-02-18;171157;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000011;cluster.exe;
+081;2016-02-18;171157;sec;;PMB04DOM\jMmkpdaHNZH4oAmo4Y68;;1;44052;PMB04B;;0000000493;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	jMmkpdaHNZH4oAmo4Y68  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD724DFA)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+081;2016-02-18;171157;sec;;PMB04DOM\jMmkpdaHNZH4oAmo4Y68;;1;44052;PMB04B;;0000000505;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	jMmkpdaHNZH4oAmo4Y68  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD724DFA)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+076;2016-02-18;171158;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECFC8D6)  
+	Logon Type:	2  
+;
+063;2016-02-18;171215;alp;42;.\;AD-41;1;1332638;PMB04A;;0000000325;WO      PMB04/BSC13B/08/00/00     AD-41   TIME 160218 1712  PAGE    1
+*** ALARM CEASING 956 A2/APT "PMB04/BSC13B/08"U 160218 1712
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-189-0-5                      3150            TS SYNC FAULT
+
+END
+;
+062;2016-02-18;171215;mp;42;.\;AD-13;1;1332636;PMB04A;;0000000325;WO      PMB04/BSC13B/08/00/00     AD-13   TIME 160218 1712  PAGE    1
+*** ALARM CEASING 956 A2/APT "PMB04/BSC13B/08"U 160218 1712
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-189-0-5                      3150            TS SYNC FAULT
+
+END
+;
+082;2016-02-18;171300;sec;;NT AUTHORITY\ANONYMOUS LOGON;;1;1332566;PMB04A;;0000000489;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ED0BA31)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	PMB04B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	172.16.48.107  
+	Source Port:	0  
+;
+082;2016-02-18;171300;sec;;NT AUTHORITY\ANONYMOUS LOGON;;1;1332566;PMB04A;;0000000215;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	ANONYMOUS LOGON  
+	Domain:		NT AUTHORITY  
+	Logon ID:		(0x4,0x7ED0BA31)  
+	Logon Type:	3  
+;
+082;2016-02-18;171300;sec;;NT AUTHORITY\ANONYMOUS LOGON;;1;1332566;PMB04A;;0000000489;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ED0BACD)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	PMB04B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	172.16.48.107  
+	Source Port:	0  
+;
+082;2016-02-18;171300;sec;;NT AUTHORITY\ANONYMOUS LOGON;;1;1332566;PMB04A;;0000000215;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	ANONYMOUS LOGON  
+	Domain:		NT AUTHORITY  
+	Logon ID:		(0x4,0x7ED0BACD)  
+	Logon Type:	3  
+;
+070;2016-02-18;171300;sec;;PMB04DOM\PMB04B$;;1;1332566;PMB04A;;0000000539;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED0BAEF)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{5be6b144-9381-dcdb-0732-6d6cbafda4cf}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	172.16.48.107  
+	Source Port:	0  
+;
+076;2016-02-18;171309;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECE0106)  
+	Logon Type:	2  
+;
+070;2016-02-18;171311;sec;;PMB04DOM\PMB04B$;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED0BAEF)  
+	Logon Type:	3  
+;
+083;2016-02-18;171312;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000493;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED0E27C)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+083;2016-02-18;171312;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000555;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED0E27C)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{b55c0756-5bf8-ecf7-90a9-ce041a4c3bd7}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.170.2  
+	Source Port:	3036  
+;
+070;2016-02-18;171319;sec;;PMB04DOM\PMB04B$;;1;1332566;PMB04A;;0000000539;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED10347)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{5be6b144-9381-dcdb-0732-6d6cbafda4cf}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	172.16.48.107  
+	Source Port:	0  
+;
+063;2016-02-18;171329;alp;42;.\;AD-41;1;1332638;PMB04A;;0000000325;WO      PMB04/BSC13B/08/00/00     AD-41   TIME 160218 1713  PAGE    1
+*** ALARM CEASING 954 A2/APT "PMB04/BSC13B/08"U 160218 1713
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-37-6-4                       3853            TS SYNC FAULT
+
+END
+;
+062;2016-02-18;171329;mp;42;.\;AD-13;1;1332636;PMB04A;;0000000325;WO      PMB04/BSC13B/08/00/00     AD-13   TIME 160218 1713  PAGE    1
+*** ALARM CEASING 954 A2/APT "PMB04/BSC13B/08"U 160218 1713
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-37-6-4                       3853            TS SYNC FAULT
+
+END
+;
+070;2016-02-18;171330;sec;;PMB04DOM\PMB04B$;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED10347)  
+	Logon Type:	3  
+;
+071;2016-02-18;171347;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD728E13)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171347;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000539;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD728E13)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	0  
+;
+071;2016-02-18;171347;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD728F85)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171347;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD728F85)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	3041  
+;
+071;2016-02-18;171347;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD728FF0)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171347;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD728FF0)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{f31d6b42-6892-9664-4eac-25e9403f735b}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	3041  
+;
+063;2016-02-18;171351;alp;42;.\;AD-41;1;1332638;PMB04A;;0000000317;WO      PMB04/BSC13B/08/00/00     AD-41   TIME 160218 1713  PAGE    1
+*** ALARM 957 A2/APT "PMB04/BSC13B/08"U 160218 1713
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-135-2-4                      6223            TS SYNC FAULT
+
+END
+;
+062;2016-02-18;171351;mp;42;.\;AD-13;1;1332636;PMB04A;;0000000317;WO      PMB04/BSC13B/08/00/00     AD-13   TIME 160218 1713  PAGE    1
+*** ALARM 957 A2/APT "PMB04/BSC13B/08"U 160218 1713
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-135-2-4                      6223            TS SYNC FAULT
+
+END
+;
+073;2016-02-18;171359;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEED5B)  
+	Logon Type:	3  
+;
+073;2016-02-18;171359;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECEEDC6)  
+	Logon Type:	3  
+;
+071;2016-02-18;171358;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD728E13)  
+	Logon Type:	3  
+;
+068;2016-02-18;171436;sec;;PMB04DOM\PMB04A$;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD7243AD)  
+	Logon Type:	3  
+;
+083;2016-02-18;171450;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000493;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED21E2E)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+083;2016-02-18;171450;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000505;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED21E2E)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	PMB04B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+071;2016-02-18;171450;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72BCA7)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171450;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000535;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72BCA7)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{c50f9f2a-6353-72f9-2c3b-2e7d81f61f90}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	127.0.0.1  
+	Source Port:	0  
+;
+083;2016-02-18;171452;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000216;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED0E27C)  
+	Logon Type:	3  
+;
+071;2016-02-18;171502;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72BCA7)  
+	Logon Type:	3  
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29CB4)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29CB4)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6390c96e-0402-b5a9-7be1-3e7c54056ba8}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	4583  
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29E22)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+068;2016-02-18;171507;sec;;PMB04DOM\PMB04A$;;1;44052;PMB04B;;0000000539;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72CCE4)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{4650591c-3fe1-56ec-c57e-49a66a9fc25b}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.170.1  
+	Source Port:	0  
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000527;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29E22)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6390c96e-0402-b5a9-7be1-3e7c54056ba8}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29E96)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29E96)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6390c96e-0402-b5a9-7be1-3e7c54056ba8}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	4584  
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29F13)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29F13)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6390c96e-0402-b5a9-7be1-3e7c54056ba8}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	4585  
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29F43)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000539;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29F43)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{be5a01d8-1355-2129-0cdb-95cf4a617e31}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	0  
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29E96)  
+	Logon Type:	3  
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29F13)  
+	Logon Type:	3  
+;
+073;2016-02-18;171507;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29E22)  
+	Logon Type:	3  
+;
+083;2016-02-18;171513;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000493;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED2C374)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+083;2016-02-18;171513;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000555;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED2C374)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{b55c0756-5bf8-ecf7-90a9-ce041a4c3bd7}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.170.2  
+	Source Port:	3044  
+;
+068;2016-02-18;171518;sec;;PMB04DOM\PMB04A$;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72CCE4)  
+	Logon Type:	3  
+;
+073;2016-02-18;171519;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29F43)  
+	Logon Type:	3  
+;
+063;2016-02-18;171538;alp;42;.\;AD-41;1;1332638;PMB04A;;0000000325;WO      PMB04/BSC13B/08/00/00     AD-41   TIME 160218 1715  PAGE    1
+*** ALARM CEASING 957 A2/APT "PMB04/BSC13B/08"U 160218 1715
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-135-2-4                      6223            TS SYNC FAULT
+
+END
+;
+062;2016-02-18;171538;mp;42;.\;AD-13;1;1332636;PMB04A;;0000000325;WO      PMB04/BSC13B/08/00/00     AD-13   TIME 160218 1715  PAGE    1
+*** ALARM CEASING 957 A2/APT "PMB04/BSC13B/08"U 160218 1715
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-135-2-4                      6223            TS SYNC FAULT
+
+END
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E34E)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E34E)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	3046  
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E4BD)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000527;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E4BD)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E530)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E530)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	3047  
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E5AD)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E5AD)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	3048  
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E5D8)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000539;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E5D8)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	0  
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E530)  
+	Logon Type:	3  
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E4BD)  
+	Logon Type:	3  
+;
+071;2016-02-18;171539;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E5AD)  
+	Logon Type:	3  
+;
+073;2016-02-18;171542;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000514;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	8956  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;171542;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000549;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED316C5)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 8956  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+076;2016-02-18;171542;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000446;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ED316C5)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+075;2016-02-18;171542;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;cmd.exe;
+075;2016-02-18;171552;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000008;wmic.exe;
+071;2016-02-18;171550;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E5D8)  
+	Logon Type:	3  
+;
+082;2016-02-18;171550;sec;;NT AUTHORITY\ANONYMOUS LOGON;;1;1332566;PMB04A;;0000000489;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ED340A4)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	PMB04B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	172.16.48.107  
+	Source Port:	0  
+;
+082;2016-02-18;171550;sec;;NT AUTHORITY\ANONYMOUS LOGON;;1;1332566;PMB04A;;0000000215;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	ANONYMOUS LOGON  
+	Domain:		NT AUTHORITY  
+	Logon ID:		(0x4,0x7ED340A4)  
+	Logon Type:	3  
+;
+082;2016-02-18;171550;sec;;NT AUTHORITY\ANONYMOUS LOGON;;1;1332566;PMB04A;;0000000489;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ED340B2)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	PMB04B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	172.16.48.107  
+	Source Port:	0  
+;
+082;2016-02-18;171550;sec;;NT AUTHORITY\ANONYMOUS LOGON;;1;1332566;PMB04A;;0000000215;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	ANONYMOUS LOGON  
+	Domain:		NT AUTHORITY  
+	Logon ID:		(0x4,0x7ED340B2)  
+	Logon Type:	3  
+;
+068;2016-02-18;171557;sec;;PMB04DOM\PMB04A$;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72F974)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{b3b5bf9d-67a4-fe8c-86c1-5c2d18026210}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.170.1  
+	Source Port:	4638  
+;
+076;2016-02-18;171603;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED316C5)  
+	Logon Type:	2  
+;
+075;2016-02-18;171604;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;cmd.exe;
+073;2016-02-18;171604;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000514;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	6360  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;171604;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000549;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED38D7B)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 6360  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+076;2016-02-18;171604;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000446;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ED38D7B)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+076;2016-02-18;171614;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ECF533B)  
+	Logon Type:	2  
+;
+090;2016-02-18;171614;mc;;PMB04DOM\ADMINISTRATOR;AD-494;1;2148422;PMB04A;127.0.0.1;0000001112;RACLP;
+
+BSC CAPACITY LOCK ALARM DATA
+
+CLNAME           CLAL      CLSUP  CLEX  CLUSE  CLTHR  CLMAX  CLABSUSE
+ABISIPCL                          OFF   27            22528  6192
+AMRFRMAXTRAFFIC  ACTIVE    OFF    OFF   1      80     32760  594
+AMRHRMAXTRAFFIC  ACTIVE    OFF    OFF   0      80     65520  319
+AMRWBMAXTRAFFIC  ACTIVE    OFF    OFF   100    80     0      0
+AOIP             ACTIVE    OFF    OFF   20     80     6300   1298
+BTSPSCL                           OFF   37            22528  8360
+CRESLTECL                         OFF   63            22528  14248
+DTMCL                             OFF   0             22528  0
+EGPRSBPCLIMIT                     OFF   7             32760  2596
+MAXNUMPDCH       INACTIVE  OFF    OFF   66     100    3584   2387
+MAXNUMTRX                         OFF   63            2816   1796
+MCTRPWR40                         OFF   63            247    158
+MCTRPWR60                         OFF   62            240    149
+MCTRTRX                           OFF   67            870    583
+VAMOSMAXTRAFFIC  ACTIVE    OFF    OFF   0      80     3100   0
+
+END
+;
+075;2016-02-18;171614;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;mml.exe;
+071;2016-02-18;171619;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD728F85)  
+	Logon Type:	3  
+;
+071;2016-02-18;171619;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD728FF0)  
+	Logon Type:	3  
+;
+063;2016-02-18;171628;alp;53;.\;AD-41;1;1332638;PMB04A;;0000000354;WO      PMB04/BSC13B/08/00/00     AD-41   TIME 160218 1716  PAGE    1
+*** ALARM CEASING 931 A1/EXT "PMB04/BSC13B/08"U 160218 1716
+RADIO X-CEIVER ADMINISTRATION
+BTS EXTERNAL FAULT
+
+MO                RSITE            CLASS
+RXOCF-88          6135             1
+
+EXTERNAL ALARM
+PM 135 ENSENADA VOLCAN ALARMA PUERTA                          
+
+END
+;
+062;2016-02-18;171628;mp;53;.\;AD-13;1;1332636;PMB04A;;0000000354;WO      PMB04/BSC13B/08/00/00     AD-13   TIME 160218 1716  PAGE    1
+*** ALARM CEASING 931 A1/EXT "PMB04/BSC13B/08"U 160218 1716
+RADIO X-CEIVER ADMINISTRATION
+BTS EXTERNAL FAULT
+
+MO                RSITE            CLASS
+RXOCF-88          6135             1
+
+EXTERNAL ALARM
+PM 135 ENSENADA VOLCAN ALARMA PUERTA                          
+
+END
+;
+073;2016-02-18;171628;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000514;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	9480  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;171628;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000549;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED3EB23)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 9480  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+075;2016-02-18;171629;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;cmd.exe;
+076;2016-02-18;171628;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000446;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ED3EB23)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+075;2016-02-18;171639;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;mml.exe;
+090;2016-02-18;171639;mc;;PMB04DOM\ADMINISTRATOR;AD-495;1;2148424;PMB04A;127.0.0.1;0000000030;AFTSI:TEST=104;
+
+ORDERED
+
+;
+091;2016-02-18;171639;mp;0;PMB04DOM\ADMINISTRATOR;AD-495;1;2148424;PMB04A;127.0.0.1;0000000322;WO      PMB04/BSC13B/08/00/00     AD-495  TIME 160218 1716  PAGE    1
+AUDIT FUNCTION THRESHOLD SUPERVISION MEMORY UTILIZATION
+
+TEST  STORE  FLAG  LIM1   HYST1 ACL1  LIM2   HYST2  ACL2  UTIL
+104   DS     0     90     5     A3    99     5      A2    41
+
+FA                 LAA
+00002368371572     00000060653568
+END
+;
+073;2016-02-18;171706;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED4623E)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171706;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000535;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED4623E)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6e197629-67a2-c591-f619-412059c5be72}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	127.0.0.1  
+	Source Port:	0  
+;
+083;2016-02-18;171709;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000216;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED2C374)  
+	Logon Type:	3  
+;
+083;2016-02-18;171714;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000493;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED48467)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+083;2016-02-18;171714;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000555;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED48467)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{b55c0756-5bf8-ecf7-90a9-ce041a4c3bd7}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.170.2  
+	Source Port:	3052  
+;
+073;2016-02-18;171718;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED4623E)  
+	Logon Type:	3  
+;
+075;2016-02-18;171723;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;cmd.exe;
+075;2016-02-18;171723;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000012;hostname.exe;
+075;2016-02-18;171723;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000008;wmic.exe;
+090;2016-02-18;171723;mc;;PMB04DOM\ADMINISTRATOR;AD-496;1;2148426;PMB04A;127.0.0.1;0000000194;EREPP:ENUM=1014&1015&1016&1019&1020&1023&1025&1027&1030&1032&1035&1040&1041&1042&1047&1083&1084&1029&1034&1036;
+
+NOT ACCEPTED
+FAULT CODE  3
+EVENT REPORTING IS NOT INITIATED
+(0)ENUM=1014
+
+;
+075;2016-02-18;171723;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;mml.exe;
+073;2016-02-18;171720;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000269;Event ID: 515
+Source: Security
+Category: System Event
+Type: Success Audit
+Description:
+A trusted logon process has registered with the Local Security Authority.
+This logon process will be trusted to submit logon requests.        
+Logon Process Name:	SSH Server
+;
+073;2016-02-18;171720;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000514;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	2252  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;171720;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000526;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED4A8ED)  
+	Logon Type:	3  
+	Logon Process:	SSHSrv  
+	Authentication Package:	Kerberos  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 2252  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+076;2016-02-18;171720;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000467;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED4A8ED)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171722;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000551;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: {ab60089c-0cd0-ce88-8b63-799057ee9ba4}    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	2252  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;171722;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000558;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED4AE21)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	Negotiate  
+	Workstation Name:	PMB04A  
+	Logon GUID:	{ab60089c-0cd0-ce88-8b63-799057ee9ba4}  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 2252  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+076;2016-02-18;171722;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000446;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ED4AE21)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+076;2016-02-18;171723;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED3EB23)  
+	Logon Type:	2  
+;
+076;2016-02-18;171732;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED4A8ED)  
+	Logon Type:	3  
+;
+073;2016-02-18;171744;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED29CB4)  
+	Logon Type:	3  
+;
+068;2016-02-18;171744;sec;;PMB04DOM\PMB04A$;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD6FF9F3)  
+	Logon Type:	3  
+;
+088;2016-02-18;171829;mc;;PMB04DOM\OSSUSER;AD-919;1;2147245;PMB04A;172.18.220.71;0000000315;CACLP;
+
+
+TIME
+
+LOCAL TIME
+
+DATE     TIME     SUMMERTIME     DAY      DCAT
+160218   171829   NO             THU      0
+
+
+REFERENCE CLOCKS
+
+RC      DEV     STATE            URCTYPE  SERVICE   LOCATION
+URC1            NOT CONNECTED
+URC2            NOT CONNECTED
+URC3            NOT CONNECTED
+
+END
+
+;
+083;2016-02-18;171839;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000216;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED48467)  
+	Logon Type:	3  
+;
+063;2016-02-18;171909;alp;42;.\;AD-41;1;1332638;PMB04A;;0000000317;WO      PMB04/BSC13B/08/00/00     AD-41   TIME 160218 1719  PAGE    1
+*** ALARM 958 A2/APT "PMB04/BSC13B/08"U 160218 1719
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-150-2-2                      6250            TS SYNC FAULT
+
+END
+;
+062;2016-02-18;171909;mp;42;.\;AD-13;1;1332636;PMB04A;;0000000317;WO      PMB04/BSC13B/08/00/00     AD-13   TIME 160218 1719  PAGE    1
+*** ALARM 958 A2/APT "PMB04/BSC13B/08"U 160218 1719
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-150-2-2                      6250            TS SYNC FAULT
+
+END
+;
+073;2016-02-18;171914;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000269;Event ID: 515
+Source: Security
+Category: System Event
+Type: Success Audit
+Description:
+A trusted logon process has registered with the Local Security Authority.
+This logon process will be trusted to submit logon requests.        
+Logon Process Name:	SSH Server
+;
+073;2016-02-18;171914;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000514;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	2460  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;171914;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000526;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED63AFE)  
+	Logon Type:	3  
+	Logon Process:	SSHSrv  
+	Authentication Package:	Kerberos  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 2460  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+076;2016-02-18;171914;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000467;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED63AFE)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;171914;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD72E34E)  
+	Logon Type:	3  
+;
+076;2016-02-18;171914;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED38D7B)  
+	Logon Type:	2  
+;
+090;2016-02-18;171916;mc;;PMB04DOM\ADMINISTRATOR;AD-498;1;2148430;PMB04A;127.0.0.1;0000000831;SYELP;
+
+LIMITS FOR SOFTWARE ERROR INTENSITY
+
+DCAT TIME             LIMIT                  
+   0 0000 - 2359      10000 
+   1 0000 - 2359      10000 
+   2 0000 - 2359      10000 
+   3 0000 - 2359      10000 
+   4 0000 - 2359      10000 
+   5 0000 - 2359      10000 
+   6 0000 - 2359      10000 
+   7 0000 - 2359      10000 
+   8 0000 - 2359      10000 
+   9 0000 - 2359      10000 
+  10 0000 - 2359      10000 
+  11 0000 - 2359      10000 
+  12 0000 - 2359      10000 
+  13 0000 - 2359      10000 
+  14 0000 - 2359      10000 
+  15 0000 - 2359      10000 
+                          
+CURRENT ERROR LIMIT:       10000
+CURRENT ERROR INTENSITY:       0
+                                
+FORLOPP RELEASE DELAY LIMIT:      30
+DELAY FOR LAST FORLOPP RELEASE:    0
+
+NUMBER OF FORLOPPS DURING RELEASE: 0
+
+END
+
+;
+075;2016-02-18;171917;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;cmd.exe;
+075;2016-02-18;171917;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;mml.exe;
+083;2016-02-18;171915;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000493;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED640E4)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+083;2016-02-18;171915;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000555;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED640E4)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{b55c0756-5bf8-ecf7-90a9-ce041a4c3bd7}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.170.2  
+	Source Port:	3055  
+;
+073;2016-02-18;171916;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000551;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: {e90f49f2-21fa-040f-f11f-3fcb1188f4b7}    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	2460  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;171916;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000558;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED64267)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	Negotiate  
+	Workstation Name:	PMB04A  
+	Logon GUID:	{e90f49f2-21fa-040f-f11f-3fcb1188f4b7}  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 2460  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+076;2016-02-18;171916;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000446;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ED64267)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+076;2016-02-18;171916;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED4AE21)  
+	Logon Type:	2  
+;
+076;2016-02-18;171926;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED63AFE)  
+	Logon Type:	3  
+;
+083;2016-02-18;172000;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000216;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED21E2E)  
+	Logon Type:	3  
+;
+073;2016-02-18;172007;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED6FEEC)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;172007;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000527;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED6FEEC)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6390c96e-0402-b5a9-7be1-3e7c54056ba8}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+068;2016-02-18;172007;sec;;PMB04DOM\PMB04A$;;1;44052;PMB04B;;0000000539;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD738E50)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{4650591c-3fe1-56ec-c57e-49a66a9fc25b}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.170.1  
+	Source Port:	0  
+;
+073;2016-02-18;172007;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED6FFFB)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;172007;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED6FFFB)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6390c96e-0402-b5a9-7be1-3e7c54056ba8}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	1051  
+;
+073;2016-02-18;172007;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED70078)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;172007;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED70078)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6390c96e-0402-b5a9-7be1-3e7c54056ba8}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	1052  
+;
+073;2016-02-18;172007;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED6FFFB)  
+	Logon Type:	3  
+;
+073;2016-02-18;172007;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED6FEEC)  
+	Logon Type:	3  
+;
+073;2016-02-18;172007;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED70078)  
+	Logon Type:	3  
+;
+083;2016-02-18;172009;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000216;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED640E4)  
+	Logon Type:	3  
+;
+068;2016-02-18;172019;sec;;PMB04DOM\PMB04A$;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD738E50)  
+	Logon Type:	3  
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A4D3)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000527;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A4D3)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A5E2)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A5E2)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	3056  
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A660)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A660)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	3057  
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A68D)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000539;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A68D)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	0  
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000461;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A70A)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000542;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A70A)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{1505dfeb-3724-a776-3a16-01ab60b60b60}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.200.1  
+	Source Port:	3062  
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A5E2)  
+	Logon Type:	3  
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A660)  
+	Logon Type:	3  
+;
+071;2016-02-18;172039;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A4D3)  
+	Logon Type:	3  
+;
+063;2016-02-18;172042;alp;42;.\;AD-41;1;1332638;PMB04A;;0000000325;WO      PMB04/BSC13B/08/00/00     AD-41   TIME 160218 1720  PAGE    1
+*** ALARM CEASING 958 A2/APT "PMB04/BSC13B/08"U 160218 1720
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-150-2-2                      6250            TS SYNC FAULT
+
+END
+;
+062;2016-02-18;172042;mp;42;.\;AD-13;1;1332636;PMB04A;;0000000325;WO      PMB04/BSC13B/08/00/00     AD-13   TIME 160218 1720  PAGE    1
+*** ALARM CEASING 958 A2/APT "PMB04/BSC13B/08"U 160218 1720
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                                 RSITE           ALARM SLOGAN
+RXOTS-150-2-2                      6250            TS SYNC FAULT
+
+END
+;
+073;2016-02-18;172043;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000514;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	3112  
+Source Network Address:	-  
+Source Port:	-  
+;
+075;2016-02-18;172043;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;cmd.exe;
+076;2016-02-18;172043;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000549;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED774BE)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 3112  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+076;2016-02-18;172043;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000446;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ED774BE)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+071;2016-02-18;172050;sec;;NT AUTHORITY\SYSTEM;;1;44052;PMB04B;;0000000203;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	PMB04B$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0xCD73A68D)  
+	Logon Type:	3  
+;
+075;2016-02-18;172053;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000008;wmic.exe;
+076;2016-02-18;172104;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED774BE)  
+	Logon Type:	2  
+;
+075;2016-02-18;172105;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;cmd.exe;
+073;2016-02-18;172105;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000514;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	8452  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;172105;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000549;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED7D241)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 8452  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+076;2016-02-18;172105;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000446;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ED7D241)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+090;2016-02-18;172115;mc;;PMB04DOM\ADMINISTRATOR;AD-499;1;2148432;PMB04A;127.0.0.1;0000001112;RACLP;
+
+BSC CAPACITY LOCK ALARM DATA
+
+CLNAME           CLAL      CLSUP  CLEX  CLUSE  CLTHR  CLMAX  CLABSUSE
+ABISIPCL                          OFF   27            22528  6192
+AMRFRMAXTRAFFIC  ACTIVE    OFF    OFF   1      80     32760  606
+AMRHRMAXTRAFFIC  ACTIVE    OFF    OFF   0      80     65520  328
+AMRWBMAXTRAFFIC  ACTIVE    OFF    OFF   100    80     0      0
+AOIP             ACTIVE    OFF    OFF   21     80     6300   1358
+BTSPSCL                           OFF   37            22528  8360
+CRESLTECL                         OFF   63            22528  14248
+DTMCL                             OFF   0             22528  0
+EGPRSBPCLIMIT                     OFF   7             32760  2596
+MAXNUMPDCH       INACTIVE  OFF    OFF   66     100    3584   2401
+MAXNUMTRX                         OFF   63            2816   1796
+MCTRPWR40                         OFF   63            247    158
+MCTRPWR60                         OFF   62            240    149
+MCTRTRX                           OFF   67            870    583
+VAMOSMAXTRAFFIC  ACTIVE    OFF    OFF   0      80     3100   0
+
+END
+;
+075;2016-02-18;172115;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;mml.exe;
+083;2016-02-18;172116;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000493;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED7FE5E)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+083;2016-02-18;172116;sec;;PMB04DOM\HdU8P4aAhEEHeT2A3uoM;;1;1332566;PMB04A;;0000000555;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	HdU8P4aAhEEHeT2A3uoM  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED7FE5E)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{b55c0756-5bf8-ecf7-90a9-ce041a4c3bd7}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.170.2  
+	Source Port:	3063  
+;
+073;2016-02-18;172129;sec;;NT AUTHORITY\SYSTEM;;1;1332566;PMB04A;;0000000514;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	PMB04A$  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	PMB04DOM  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	6224  
+Source Network Address:	-  
+Source Port:	-  
+;
+076;2016-02-18;172129;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000549;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED82BB9)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	PMB04A  
+	Logon GUID:	-  
+	Caller User Name:	PMB04A$  
+	Caller Domain:	PMB04DOM  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 6224  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+076;2016-02-18;172129;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000446;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	  
+	Domain:		  
+	Logon ID:		(0x4,0x7ED82BB9)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+075;2016-02-18;172130;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;cmd.exe;
+090;2016-02-18;172139;mc;;PMB04DOM\ADMINISTRATOR;AD-500;1;2148434;PMB04A;127.0.0.1;0000000030;AFTSI:TEST=104;
+
+ORDERED
+
+;
+091;2016-02-18;172139;mp;0;PMB04DOM\ADMINISTRATOR;AD-500;1;2148434;PMB04A;127.0.0.1;0000000322;WO      PMB04/BSC13B/08/00/00     AD-500  TIME 160218 1721  PAGE    1
+AUDIT FUNCTION THRESHOLD SUPERVISION MEMORY UTILIZATION
+
+TEST  STORE  FLAG  LIM1   HYST1 ACL1  LIM2   HYST2  ACL2  UTIL
+104   DS     0     90     5     A3    99     5      A2    41
+
+FA                 LAA
+00002368371572     00000060653568
+END
+;
+075;2016-02-18;172140;nc;;PMB04DOM\Administrator;;1;1332567;PMB04A;;0000000007;mml.exe;
+076;2016-02-18;172139;sec;;PMB04DOM\Administrator;;1;1332566;PMB04A;;0000000209;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		PMB04DOM  
+	Logon ID:		(0x4,0x7ED7D241)  
+	Logon Type:	2  
+;

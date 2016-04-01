@@ -1,0 +1,117 @@
+080;2016-02-18;172317;sec;;SAB12D\Qs46z0WAHDfIRm25gHiN;;1;439545;SAB12A;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	Qs46z0WAHDfIRm25gHiN  
+	Domain:		SAB12D  
+	Logon ID:		(0x0,0x8D109156)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB12B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+080;2016-02-18;172328;sec;;SAB12D\Qs46z0WAHDfIRm25gHiN;;1;439545;SAB12A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Qs46z0WAHDfIRm25gHiN  
+	Domain:		SAB12D  
+	Logon ID:		(0x0,0x8D109156)  
+	Logon Type:	3  
+;
+081;2016-02-18;172334;sec;;SAB12D\IAeEcWWDLI0Cq2DOPPOM;;1;1360311;SAB12B;;0000000490;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	IAeEcWWDLI0Cq2DOPPOM  
+	Domain:		SAB12D  
+	Logon ID:		(0x0,0xA31A58C)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+081;2016-02-18;172334;sec;;SAB12D\IAeEcWWDLI0Cq2DOPPOM;;1;1360311;SAB12B;;0000000514;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	IAeEcWWDLI0Cq2DOPPOM  
+	Domain:		SAB12D  
+	Logon ID:		(0x0,0xA31A58C)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB12A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+080;2016-02-18;172331;sec;;SAB12D\Qs46z0WAHDfIRm25gHiN;;1;439545;SAB12A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	Qs46z0WAHDfIRm25gHiN  
+	Domain:		SAB12D  
+	Logon ID:		(0x0,0x8D109AD2)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;172331;sec;;SAB12D\Qs46z0WAHDfIRm25gHiN;;1;439545;SAB12A;;0000000553;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	Qs46z0WAHDfIRm25gHiN  
+	Domain:		SAB12D  
+	Logon ID:		(0x0,0x8D109AD2)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{118e6d36-0f0e-70c1-fd1a-3fe917776c5a}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	3489  
+;

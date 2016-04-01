@@ -1,0 +1,4980 @@
+080;2016-02-18;171145;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A4552)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171145;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A4552)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+080;2016-02-18;171146;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE44AA9)  
+	Logon Type:	3  
+;
+080;2016-02-18;171156;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A4552)  
+	Logon Type:	3  
+;
+061;2016-02-18;171201;mp;35;.\;AD-41;1;513866;SAB10A;;0000000075;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1712  PAGE    1
+HB
+;
+080;2016-02-18;171202;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A26F2)  
+	Logon Type:	3  
+;
+080;2016-02-18;171214;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE4D9C2)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171214;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE4D9C2)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+080;2016-02-18;171217;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A51C4)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171217;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000553;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A51C4)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{37cc8568-9c5a-90c1-1adb-fb57768e5977}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	1908  
+;
+085;2016-02-18;171220;mc;;SAB10D\OSSUSER;AD-600;1;1155998;SAB10A;10.170.14.79;0000000336;CACLP;
+
+
+TIME
+
+
+DATE     TIME     SUMMERTIME     DAY      DCAT
+160218   171220   NO             THU      0
+
+
+REFERENCE CLOCKS
+
+RC      DEV     STATE            URCTYPE  SERVICE   LOCATION
+
+RTU             NOT CONNECTED
+URC1            NOT CONNECTED
+URC2            NOT CONNECTED
+URC3            NOT CONNECTED
+
+END
+
+;
+080;2016-02-18;171225;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE4D9C2)  
+	Logon Type:	3  
+;
+080;2016-02-18;171233;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE4E4C4)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171233;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000553;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE4E4C4)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6370ad3a-7221-892e-93f4-d542231340be}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	3367  
+;
+080;2016-02-18;171245;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A583D)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171245;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A583D)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+080;2016-02-18;171256;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A583D)  
+	Logon Type:	3  
+;
+072;2016-02-18;171301;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000475;Event ID: 520
+Source: Security
+Category: System Event
+Type: Success Audit
+Description:
+The system time was changed.  
+Process ID:		2280  
+Process Name:		C:\Program Files\AP\ACS\bin\ACS_CHB_ClockSyncService.exe  
+Primary User Name:	SAB10B$  
+Primary Domain:		SAB10D  
+Primary Logon ID:		(0x0,0x3E7)  
+Client User Name:		SAB10B$  
+Client Domain:		SAB10D  
+Client Logon ID:		(0x0,0x3E7)  
+Previous Time:		5:13:01 PM 2/18/2016  
+New Time:		5:13:01 PM 2/18/2016  
+;
+061;2016-02-18;171301;mp;35;.\;AD-41;1;513866;SAB10A;;0000000075;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1713  PAGE    1
+HB
+;
+072;2016-02-18;171304;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE47DA3)  
+	Logon Type:	3  
+;
+072;2016-02-18;171302;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A633A)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171302;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000525;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A633A)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{11240563-2882-ff58-df3a-74d4f976198c}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+072;2016-02-18;171302;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A63B1)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171302;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A63B1)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{11240563-2882-ff58-df3a-74d4f976198c}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.201.2  
+	Source Port:	3368  
+;
+072;2016-02-18;171302;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A6432)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171302;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A6432)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{11240563-2882-ff58-df3a-74d4f976198c}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.201.2  
+	Source Port:	3369  
+;
+072;2016-02-18;171302;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A6451)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171302;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000537;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A6451)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{11240563-2882-ff58-df3a-74d4f976198c}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+072;2016-02-18;171302;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A63B1)  
+	Logon Type:	3  
+;
+072;2016-02-18;171302;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A6432)  
+	Logon Type:	3  
+;
+072;2016-02-18;171302;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A633A)  
+	Logon Type:	3  
+;
+067;2016-02-18;171304;sec;;SAB10D\SAB10A$;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A4259)  
+	Logon Type:	3  
+;
+080;2016-02-18;171305;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A51C4)  
+	Logon Type:	3  
+;
+080;2016-02-18;171314;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE4F598)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171314;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE4F598)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+072;2016-02-18;171313;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A6451)  
+	Logon Type:	3  
+;
+080;2016-02-18;171325;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE4F598)  
+	Logon Type:	3  
+;
+080;2016-02-18;171329;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE4E4C4)  
+	Logon Type:	3  
+;
+080;2016-02-18;171346;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A7006)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171346;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A7006)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+080;2016-02-18;171357;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A7006)  
+	Logon Type:	3  
+;
+061;2016-02-18;171401;mp;35;.\;AD-41;1;513866;SAB10A;;0000000075;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1714  PAGE    1
+HB
+;
+080;2016-02-18;171414;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE50DEF)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171414;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE50DEF)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+080;2016-02-18;171418;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A7A43)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171418;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000553;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A7A43)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{37cc8568-9c5a-90c1-1adb-fb57768e5977}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	2010  
+;
+085;2016-02-18;171421;mc;;SAB10D\OSSUSER;AD-600;1;1155998;SAB10A;10.170.14.79;0000000336;CACLP;
+
+
+TIME
+
+
+DATE     TIME     SUMMERTIME     DAY      DCAT
+160218   171421   NO             THU      0
+
+
+REFERENCE CLOCKS
+
+RC      DEV     STATE            URCTYPE  SERVICE   LOCATION
+
+RTU             NOT CONNECTED
+URC1            NOT CONNECTED
+URC2            NOT CONNECTED
+URC3            NOT CONNECTED
+
+END
+
+;
+080;2016-02-18;171425;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE50DEF)  
+	Logon Type:	3  
+;
+080;2016-02-18;171434;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE51917)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171434;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000553;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE51917)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6370ad3a-7221-892e-93f4-d542231340be}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	3372  
+;
+072;2016-02-18;171437;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000269;Event ID: 515
+Source: Security
+Category: System Event
+Type: Success Audit
+Description:
+A trusted logon process has registered with the Local Security Authority.
+This logon process will be trusted to submit logon requests.        
+Logon Process Name:	SSH Server
+;
+072;2016-02-18;171437;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000510;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	SAB10D  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	2568  
+Source Network Address:	-  
+Source Port:	-  
+;
+073;2016-02-18;171437;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000522;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE51D49)  
+	Logon Type:	3  
+	Logon Process:	SSHSrv  
+	Authentication Package:	Kerberos  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 2568  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+072;2016-02-18;171440;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;cmd.exe;
+073;2016-02-18;171437;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000484;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE51D49)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171440;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000547;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	administrator  
+	Target Domain:	SAB10D  
+	Target Logon GUID: {9995a062-a5f6-befc-9595-66dbd4311302}    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	2568  
+Source Network Address:	-  
+Source Port:	-  
+;
+073;2016-02-18;171440;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000554;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE52236)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	Negotiate  
+	Workstation Name:	SAB10A  
+	Logon GUID:	{9995a062-a5f6-befc-9595-66dbd4311302}  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 2568  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+073;2016-02-18;171440;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000484;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE52236)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171440;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000207;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE51D49)  
+	Logon Type:	3  
+;
+072;2016-02-18;171440;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000009;hwver.exe;
+072;2016-02-18;171440;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000008;wmic.exe;
+072;2016-02-18;171440;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000011;stmotls.exe;
+072;2016-02-18;171440;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000011;stmotls.exe;
+072;2016-02-18;171440;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000011;stmotls.exe;
+072;2016-02-18;171441;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000011;stmotls.exe;
+072;2016-02-18;171441;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000011;stmotls.exe;
+072;2016-02-18;171441;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000011;stmotls.exe;
+072;2016-02-18;171441;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000011;stmotls.exe;
+072;2016-02-18;171441;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000011;stmotls.exe;
+072;2016-02-18;171441;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000011;stmotls.exe;
+072;2016-02-18;171441;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000011;stmotls.exe;
+072;2016-02-18;171441;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000011;stmotls.exe;
+072;2016-02-18;171441;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000009;stmfo.exe;
+080;2016-02-18;171446;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A80D0)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171447;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000011;findstr.exe;
+080;2016-02-18;171446;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A80D0)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+073;2016-02-18;171447;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000207;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE52236)  
+	Logon Type:	2  
+;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000076;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\CELLPA~1.DAT;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000076;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\CELTCH~1.DAT;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000076;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\CELTCH~2.DAT;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000076;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\CLSDCC~1.DAT;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000076;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\CLSDCC~2.DAT;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000075;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\CLTCH~1.DAT;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000076;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\DOWNTI~1.DAT;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000076;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\GENERA~1.DAT;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000074;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\LOAS~1.DAT;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000076;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\NCELLR~1.DAT;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000076;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\NECELL~1.DAT;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000076;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\NUCELL~1.DAT;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000072;cmd.exe
+del S:\Sts\data\Deliverydir\loadfiles20160218171441_91\STATUS~1;
+072;2016-02-18;171448;nc;;SAB10D\Administrator;;1;511120;SAB10A;;0000000065;cmd.exe
+rmdir S:\Sts\data\Deliverydir\loadfiles20160218171441_91;
+067;2016-02-18;171455;sec;;SAB10D\SAB10A$;;1;192580;SAB10B;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A85D3)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{907f353a-0287-03b0-7f7d-a53124c01fc2}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	2054  
+;
+080;2016-02-18;171457;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A80D0)  
+	Logon Type:	3  
+;
+061;2016-02-18;171501;mp;35;.\;AD-41;1;513866;SAB10A;;0000000075;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1715  PAGE    1
+HB
+;
+072;2016-02-18;171501;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000475;Event ID: 520
+Source: Security
+Category: System Event
+Type: Success Audit
+Description:
+The system time was changed.  
+Process ID:		3820  
+Process Name:		C:\Program Files\AP\ACS\bin\ACS_CHB_ClockSyncService.exe  
+Primary User Name:	SAB10A$  
+Primary Domain:		SAB10D  
+Primary Logon ID:		(0x0,0x3E7)  
+Client User Name:		SAB10A$  
+Client Domain:		SAB10D  
+Client Logon ID:		(0x0,0x3E7)  
+Previous Time:		5:15:01 PM 2/18/2016  
+New Time:		5:15:01 PM 2/18/2016  
+;
+080;2016-02-18;171514;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5885F)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171514;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5885F)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+062;2016-02-18;171520;alp;42;.\;AD-41;1;513866;SAB10A;;0000000283;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1715  PAGE    1
+*** ALARM 669 A3/APT "SAB10/BSC13B/09"U 160218 1715
+DIGITAL PATH QUALITY SUPERVISION
+
+SESR
+DIP      DIPPART  SESL2  QSV    SECTION  DATE    TIME
+RBLT84            1      1               160218  171500
+END
+;
+080;2016-02-18;171525;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5885F)  
+	Logon Type:	3  
+;
+062;2016-02-18;171532;alp;42;.\;AD-41;1;513866;SAB10A;;0000000316;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1715  PAGE    1
+*** ALARM 670 A3/APT "SAB10/BSC13B/09"U 160218 1715
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                SCGR  SC         RSITE           ALARM SLOGAN
+RXOTRX-91-2                        2176            BTS INTERNAL
+
+END
+;
+062;2016-02-18;171533;alp;42;.\;AD-41;1;513866;SAB10A;;0000000324;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1715  PAGE    1
+*** ALARM CEASING 668 A3/APT "SAB10/BSC13B/09"U 160218 1715
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                SCGR  SC         RSITE           ALARM SLOGAN
+RXOTRX-119-4                       4136            BTS INTERNAL
+
+END
+;
+072;2016-02-18;171537;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000510;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	SAB10D  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	7320  
+Source Network Address:	-  
+Source Port:	-  
+;
+073;2016-02-18;171537;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000545;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE59733)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 7320  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+072;2016-02-18;171537;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;cmd.exe;
+073;2016-02-18;171537;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000484;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE59733)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+066;2016-02-18;171540;nc;;SAB10D\ossuser;;1;511119;SAB10A;;0000000009;aploc.exe;
+066;2016-02-18;171540;nc;;SAB10D\ossuser;;1;511119;SAB10A;;0000000007;cmd.exe;
+066;2016-02-18;171541;nc;;SAB10D\ossuser;;1;511119;SAB10A;;0000000009;stmfo.exe;
+072;2016-02-18;171540;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000504;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	ossuser  
+	Target Domain:	SAB10D  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	4664  
+Source Network Address:	-  
+Source Port:	-  
+;
+067;2016-02-18;171540;sec;;SAB10D\ossuser;;1;511117;SAB10A;;0000000539;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	ossuser  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE59CEB)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 4664  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+067;2016-02-18;171540;sec;;SAB10D\ossuser;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	ossuser  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE59CEB)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+067;2016-02-18;171540;sec;;SAB10D\ossuser;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	ossuser  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE4C904)  
+	Logon Type:	2  
+;
+080;2016-02-18;171546;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A8FB3)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171546;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A8FB3)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+072;2016-02-18;171547;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000008;wmic.exe;
+080;2016-02-18;171548;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE51917)  
+	Logon Type:	3  
+;
+080;2016-02-18;171557;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A8FB3)  
+	Logon Type:	3  
+;
+073;2016-02-18;171558;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000207;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE59733)  
+	Logon Type:	2  
+;
+072;2016-02-18;171559;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;cmd.exe;
+061;2016-02-18;171601;mp;35;.\;AD-41;1;513866;SAB10A;;0000000075;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1716  PAGE    1
+HB
+;
+080;2016-02-18;171604;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A7A43)  
+	Logon Type:	3  
+;
+072;2016-02-18;171559;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000510;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	SAB10D  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	7604  
+Source Network Address:	-  
+Source Port:	-  
+;
+073;2016-02-18;171559;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000545;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C074)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 7604  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+073;2016-02-18;171559;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000484;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C074)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171601;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C5F8)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171601;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000525;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C5F8)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6099ddeb-4699-73ef-c37c-15ea4e13b814}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+072;2016-02-18;171601;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C66F)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171601;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C66F)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6099ddeb-4699-73ef-c37c-15ea4e13b814}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.201.1  
+	Source Port:	2133  
+;
+072;2016-02-18;171601;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C6F0)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171601;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C6F0)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6099ddeb-4699-73ef-c37c-15ea4e13b814}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.201.1  
+	Source Port:	2134  
+;
+072;2016-02-18;171601;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C70F)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171601;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000537;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C70F)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6099ddeb-4699-73ef-c37c-15ea4e13b814}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+072;2016-02-18;171601;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C66F)  
+	Logon Type:	3  
+;
+072;2016-02-18;171601;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C6F0)  
+	Logon Type:	3  
+;
+072;2016-02-18;171601;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C5F8)  
+	Logon Type:	3  
+;
+088;2016-02-18;171609;mc;;SAB10D\ADMINISTRATOR;AD-220;1;1157683;SAB10A;127.0.0.1;0000001114;RACLP;
+
+BSC CAPACITY LOCK ALARM DATA
+
+CLNAME           CLAL      CLSUP  CLEX  CLUSE  CLTHR  CLMAX  CLABSUSE
+ABISIPCL                          OFF   33            26624  8880
+AMRFRMAXTRAFFIC  ACTIVE    OFF    OFF   0      80     32760  283
+AMRHRMAXTRAFFIC  ACTIVE    OFF    OFF   1      80     65520  836
+AMRWBMAXTRAFFIC  ACTIVE    OFF    OFF   100    80     0      0
+AOIP             ACTIVE    OFF    OFF   14     80     8100   1207
+BTSPSCL                           OFF   42            26624  11248
+CRESLTECL                         OFF   39            26624  10568
+DTMCL                             OFF   0             26624  0
+EGPRSBPCLIMIT                     OFF   17            24570  4420
+MAXNUMPDCH       INACTIVE  OFF    OFF   50     100    5374   2707
+MAXNUMTRX                         OFF   42            3584   1508
+MCTRPWR40                         OFF   82            176    145
+MCTRPWR60                         OFF   82            169    139
+MCTRTRX                           OFF   79            691    549
+VAMOSMAXTRAFFIC  INACTIVE  OFF    OFF   0      0      3900   18
+
+END
+;
+072;2016-02-18;171609;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;mml.exe;
+073;2016-02-18;171609;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000207;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE4B244)  
+	Logon Type:	2  
+;
+072;2016-02-18;171612;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C70F)  
+	Logon Type:	3  
+;
+080;2016-02-18;171614;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5D782)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171614;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5D782)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+080;2016-02-18;171619;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A9C52)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171619;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000553;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A9C52)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{37cc8568-9c5a-90c1-1adb-fb57768e5977}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	2159  
+;
+072;2016-02-18;171623;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000510;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	SAB10D  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	5316  
+Source Network Address:	-  
+Source Port:	-  
+;
+072;2016-02-18;171623;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;cmd.exe;
+073;2016-02-18;171623;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000545;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5E099)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 5316  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+073;2016-02-18;171623;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000484;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5E099)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+066;2016-02-18;171626;nc;;SAB10D\ossuser;;1;511119;SAB10A;;0000000009;aploc.exe;
+066;2016-02-18;171626;nc;;SAB10D\ossuser;;1;511119;SAB10A;;0000000007;cmd.exe;
+066;2016-02-18;171627;nc;;SAB10D\ossuser;;1;511119;SAB10A;;0000000009;stmfo.exe;
+080;2016-02-18;171625;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5D782)  
+	Logon Type:	3  
+;
+072;2016-02-18;171626;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000504;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	ossuser  
+	Target Domain:	SAB10D  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	4664  
+Source Network Address:	-  
+Source Port:	-  
+;
+067;2016-02-18;171626;sec;;SAB10D\ossuser;;1;511117;SAB10A;;0000000539;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	ossuser  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5E652)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 4664  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+067;2016-02-18;171626;sec;;SAB10D\ossuser;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	ossuser  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5E652)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+067;2016-02-18;171626;sec;;SAB10D\ossuser;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	ossuser  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE59CEB)  
+	Logon Type:	2  
+;
+067;2016-02-18;171633;sec;;SAB10D\SAB10A$;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A85D3)  
+	Logon Type:	3  
+;
+088;2016-02-18;171633;mc;;SAB10D\ADMINISTRATOR;AD-222;1;1157685;SAB10A;127.0.0.1;0000000030;AFTSI:TEST=104;
+
+ORDERED
+
+;
+089;2016-02-18;171633;mp;0;SAB10D\ADMINISTRATOR;AD-222;1;1157685;SAB10A;127.0.0.1;0000000317;WO      SAB10/BSC13B/09/00/00     AD-222  TIME 160218 1716  PAGE    1
+AUDIT FUNCTION THRESHOLD SUPERVISION MEMORY UTILIZATION
+
+TEST  STORE  FLAG  LIM1   HYST1 ACL1  LIM2   HYST2  ACL2  UTIL
+104   DS     0     90     5     A3    99     5      A2    48
+
+FA                 TA
+1102189176         0020480002
+END
+;
+072;2016-02-18;171633;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;mml.exe;
+073;2016-02-18;171633;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000207;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5C074)  
+	Logon Type:	2  
+;
+067;2016-02-18;171638;sec;;SAB10D\SAB10A$;;1;192580;SAB10B;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AA400)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{907f353a-0287-03b0-7f7d-a53124c01fc2}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	2204  
+;
+080;2016-02-18;171635;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5FBF2)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171635;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000553;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5FBF2)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6370ad3a-7221-892e-93f4-d542231340be}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	3373  
+;
+080;2016-02-18;171646;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AA713)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171646;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AA713)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+062;2016-02-18;171656;alp;53;.\;AD-41;1;513866;SAB10A;;0000000482;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1716  PAGE    1
+*** ALARM CEASING 665 A1/EXT "SAB10/BSC13B/09"U 160218 1716
+RADIO X-CEIVER ADMINISTRATION
+BTS EXTERNAL FAULT
+
+MO                RSITE            CLASS
+RXOCF-9           2028             1
+
+EXTERNAL ALARM
+AMPOLLETA MASTER DE BALIZA QUEMADA                            
+ALARMA DE PUERTA ABIERTA                                      
+ENERGIA GRUPO ELECTROGENO EN VACIO SA028                      
+
+END
+;
+062;2016-02-18;171656;alp;53;.\;AD-41;1;513866;SAB10A;;0000000410;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1716  PAGE    1
+*** ALARM 671 A1/EXT "SAB10/BSC13B/09"U 160218 1716
+RADIO X-CEIVER ADMINISTRATION
+BTS EXTERNAL FAULT
+
+MO                RSITE            CLASS
+RXOCF-9           2028             1
+
+EXTERNAL ALARM
+AMPOLLETA MASTER DE BALIZA QUEMADA                            
+ENERGIA GRUPO ELECTROGENO EN VACIO SA028                      
+
+END
+;
+080;2016-02-18;171657;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AA713)  
+	Logon Type:	3  
+;
+072;2016-02-18;171700;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE606E2)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171700;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000537;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE606E2)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6099ddeb-4699-73ef-c37c-15ea4e13b814}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+072;2016-02-18;171700;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE60884)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171700;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE60884)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6099ddeb-4699-73ef-c37c-15ea4e13b814}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	2239  
+;
+072;2016-02-18;171700;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE60922)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171700;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE60922)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{3b471a15-2d8a-19a5-3792-c10459fde345}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	2239  
+;
+061;2016-02-18;171701;mp;35;.\;AD-41;1;513866;SAB10A;;0000000075;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1717  PAGE    1
+HB
+;
+062;2016-02-18;171704;alp;42;.\;AD-41;1;513866;SAB10A;;0000000316;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1717  PAGE    1
+*** ALARM 672 A3/APT "SAB10/BSC13B/09"U 160218 1717
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                SCGR  SC         RSITE           ALARM SLOGAN
+RXOTRX-91-10                       2176            BTS INTERNAL
+
+END
+;
+072;2016-02-18;171705;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000494;Event ID: 529
+Source: Security
+Category: Logon/Logoff
+Type: Failure Audit
+Description:
+Logon Failure:  
+	Reason:		Unknown user name or bad password  
+	User Name:	  
+	Domain:		WORKGROUP  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	lQPxf2ISQgEV1bGK  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID:	-  
+	Transited Services:	-  
+	Source Network Address:	192.168.63.50  
+	Source Port:	0  
+;
+072;2016-02-18;171711;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE606E2)  
+	Logon Type:	3  
+;
+080;2016-02-18;171715;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE614CC)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171715;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE614CC)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+072;2016-02-18;171715;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000269;Event ID: 515
+Source: Security
+Category: System Event
+Type: Success Audit
+Description:
+A trusted logon process has registered with the Local Security Authority.
+This logon process will be trusted to submit logon requests.        
+Logon Process Name:	SSH Server
+;
+072;2016-02-18;171715;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000510;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	SAB10D  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	1664  
+Source Network Address:	-  
+Source Port:	-  
+;
+073;2016-02-18;171715;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000522;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6159A)  
+	Logon Type:	3  
+	Logon Process:	SSHSrv  
+	Authentication Package:	Kerberos  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 1664  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+073;2016-02-18;171715;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000484;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6159A)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171717;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;cmd.exe;
+072;2016-02-18;171717;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000012;hostname.exe;
+072;2016-02-18;171717;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000008;wmic.exe;
+088;2016-02-18;171717;mc;;SAB10D\ADMINISTRATOR;AD-223;1;1157686;SAB10A;127.0.0.1;0000008437;EREPP:ENUM=1014&1015&1016&1019&1020&1023&1025&1027&1030&1032&1035&1040&1041&1042&1047&1083&1084&1029&1034&1036;
+
+
+EVENT REPORTING RESULT
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1014 SCTP COMMUNICATION ERROR
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1015 SCTP DATA ARRIVE DISCARDING
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1016 SCTP ASSOCIATION RESTART
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1019 DESTINATION UNREACHABLE
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1020 PARAMETER PROBLEM ON DATAGRAM
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1023 M3UA ERROR MESSAGE RECEIVED     SIGALE  150527  130049800
+
+SAID                             ERRCOD
+EP22VAMSS01                      13
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1023 M3UA ERROR MESSAGE RECEIVED     SIGALE  150527  130053900
+
+SAID                             ERRCOD
+EP42VAMSS01                      13
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1023 M3UA ERROR MESSAGE RECEIVED     SIGALE  150527  130130400
+
+SAID                             ERRCOD
+EP22ANMSS01                      13
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1023 M3UA ERROR MESSAGE RECEIVED     SIGALE  150527  130133600
+
+SAID                             ERRCOD
+EP32ANMSS01                      13
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1023 M3UA ERROR MESSAGE RECEIVED     SIGALE  150527  130137000
+
+SAID                             ERRCOD
+EP42ANMSS01                      13
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1023 M3UA ERROR MESSAGE RECEIVED     SIGALE  150709  105722400
+
+SAID                             ERRCOD
+IQMBC01_SPX2                     6
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1023 M3UA ERROR MESSAGE RECEIVED     SIGALE  150709  105724200
+
+SAID                             ERRCOD
+IQMBC01_SPX2                     6
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1023 M3UA ERROR MESSAGE RECEIVED     SIGALE  150709  105724400
+
+SAID                             ERRCOD
+IQMBC01_SPX2                     6
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1023 M3UA ERROR MESSAGE RECEIVED     SIGALE  150709  110154600
+
+SAID                             ERRCOD
+IQMBC01_SPX2                     6
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1023 M3UA ERROR MESSAGE RECEIVED     SIGALE  150908  005504200
+
+SAID                             ERRCOD
+IQMBC01_SPX1                     6
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1023 M3UA ERROR MESSAGE RECEIVED     SIGALE  150908  005637200
+
+SAID                             ERRCOD
+IQMBC01_SPX1                     6
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1025 M3UA SCTP SEND FAILURE
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1027 M3UA ROUTING ERROR
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1030 M3UA SCTP ASSOC CONGESTION
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1032 M3UA SCON MESSAGE SENT
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1035 M3UA DUPU MESSAGE SENT
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1040 M3UA MSG ON ASSOC UNDEF PROT
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1041 M3UA MESSAGE SYNTAX ERROR
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1042 M3UA MSG ON INVALID ASSOC STATE
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1047 SCTP EP MIGRATION OCCURRED      SCTP    151030  013925300
+
+EPID       SRCEQM     DESTEQM
+EP02       324        326
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1047 SCTP EP MIGRATION OCCURRED      SCTP    151030  024828800
+
+EPID       SRCEQM     DESTEQM
+EP02       326        324
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  141203  032407900
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  141203  042021800
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  141211  031939300
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  150113  034330600
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  150114  022723600
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  150115  013038900
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  150115  014105100
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  150122  030905600
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  150210  022909300
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  150211  023219100
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  150316  134031100
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  150916  200028800
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  151020  042850400
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  151020  175247200
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1083 M3UADR BUFFER CONGESTION        SIGALE  160218  111245000
+
+
+
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  141203  032453600
+
+DISCMSG
+708
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  141203  042057800
+
+DISCMSG
+1613
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  141211  032028000
+
+DISCMSG
+2101
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  150113  034435800
+
+DISCMSG
+39271
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  150114  022807100
+
+DISCMSG
+25711
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  150115  013153000
+
+DISCMSG
+65535
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  150115  014135100
+
+DISCMSG
+8848
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  150122  030943800
+
+DISCMSG
+14207
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  150210  022943500
+
+DISCMSG
+2654
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  150211  023254100
+
+DISCMSG
+16621
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  150316  134221700
+
+DISCMSG
+65535
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  150916  200455600
+
+DISCMSG
+40115
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  151020  043113200
+
+DISCMSG
+65535
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  151020  175319000
+
+DISCMSG
+4639
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1084 M3UADR BUFFER CONGESTION CEASED SIGALE  160218  111451500
+
+DISCMSG
+65535
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1029 M3UA DISTRIBUTION ERROR
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1034 M3UA SCON MESSAGE RECEIVED
+NONE
+
+ENUM HEADER                          BLOCK   DATE    TIME
+1036 M3UA DUPU MESSAGE RECEIVED
+;
+072;2016-02-18;171717;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;mml.exe;
+072;2016-02-18;171717;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000547;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	administrator  
+	Target Domain:	SAB10D  
+	Target Logon GUID: {c15c604b-631d-cb47-66a7-25e6d12be45b}    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	1664  
+Source Network Address:	-  
+Source Port:	-  
+;
+073;2016-02-18;171717;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000554;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE61C83)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	Negotiate  
+	Workstation Name:	SAB10A  
+	Logon GUID:	{c15c604b-631d-cb47-66a7-25e6d12be45b}  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 1664  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+073;2016-02-18;171717;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000484;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE61C83)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;171717;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000207;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6159A)  
+	Logon Type:	3  
+;
+073;2016-02-18;171717;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000207;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5E099)  
+	Logon Type:	2  
+;
+080;2016-02-18;171725;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE614CC)  
+	Logon Type:	3  
+;
+080;2016-02-18;171746;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AB3A1)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171746;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AB3A1)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+080;2016-02-18;171749;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5FBF2)  
+	Logon Type:	3  
+;
+080;2016-02-18;171757;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AB3A1)  
+	Logon Type:	3  
+;
+072;2016-02-18;171801;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000475;Event ID: 520
+Source: Security
+Category: System Event
+Type: Success Audit
+Description:
+The system time was changed.  
+Process ID:		2280  
+Process Name:		C:\Program Files\AP\ACS\bin\ACS_CHB_ClockSyncService.exe  
+Primary User Name:	SAB10B$  
+Primary Domain:		SAB10D  
+Primary Logon ID:		(0x0,0x3E7)  
+Client User Name:		SAB10B$  
+Client Domain:		SAB10D  
+Client Logon ID:		(0x0,0x3E7)  
+Previous Time:		5:18:01 PM 2/18/2016  
+New Time:		5:18:01 PM 2/18/2016  
+;
+061;2016-02-18;171801;mp;35;.\;AD-41;1;513866;SAB10A;;0000000075;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1718  PAGE    1
+HB
+;
+072;2016-02-18;171802;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ABD53)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171802;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000525;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ABD53)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{11240563-2882-ff58-df3a-74d4f976198c}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+072;2016-02-18;171802;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ABDCA)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171802;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ABDCA)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{11240563-2882-ff58-df3a-74d4f976198c}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.201.2  
+	Source Port:	3374  
+;
+072;2016-02-18;171802;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ABE4B)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+062;2016-02-18;171808;alp;53;.\;AD-41;1;513866;SAB10A;;0000000354;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1718  PAGE    1
+*** ALARM CEASING 667 A1/EXT "SAB10/BSC13B/09"U 160218 1718
+RADIO X-CEIVER ADMINISTRATION
+BTS EXTERNAL FAULT
+
+MO                RSITE            CLASS
+RXOCF-82          2613             1
+
+EXTERNAL ALARM
+ALARMA DE RECT EATON DC +24VDC 2G                             
+
+END
+;
+072;2016-02-18;171802;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ABE4B)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{11240563-2882-ff58-df3a-74d4f976198c}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.201.2  
+	Source Port:	3375  
+;
+072;2016-02-18;171802;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ABE6A)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171802;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000537;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ABE6A)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{11240563-2882-ff58-df3a-74d4f976198c}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+072;2016-02-18;171802;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ABDCA)  
+	Logon Type:	3  
+;
+072;2016-02-18;171802;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ABE4B)  
+	Logon Type:	3  
+;
+072;2016-02-18;171802;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ABD53)  
+	Logon Type:	3  
+;
+067;2016-02-18;171804;sec;;SAB10D\SAB10A$;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AA400)  
+	Logon Type:	3  
+;
+080;2016-02-18;171805;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50A9C52)  
+	Logon Type:	3  
+;
+072;2016-02-18;171813;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ABE6A)  
+	Logon Type:	3  
+;
+080;2016-02-18;171815;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE64542)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171815;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE64542)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+080;2016-02-18;171820;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ACA5F)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171820;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000553;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ACA5F)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{37cc8568-9c5a-90c1-1adb-fb57768e5977}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	2330  
+;
+080;2016-02-18;171826;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE64542)  
+	Logon Type:	3  
+;
+080;2016-02-18;171836;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE65143)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171836;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000553;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE65143)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6370ad3a-7221-892e-93f4-d542231340be}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	3377  
+;
+080;2016-02-18;171847;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AD0D0)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171847;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AD0D0)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+080;2016-02-18;171858;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AD0D0)  
+	Logon Type:	3  
+;
+072;2016-02-18;171859;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AD6A4)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171859;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000537;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AD6A4)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{11240563-2882-ff58-df3a-74d4f976198c}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+072;2016-02-18;171859;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AD784)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171859;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AD784)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{11240563-2882-ff58-df3a-74d4f976198c}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	3380  
+;
+072;2016-02-18;171859;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AD7F4)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171859;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AD7F4)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{fdac4177-f1ef-6a05-ba06-b1740f3f3628}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	3380  
+;
+061;2016-02-18;171901;mp;35;.\;AD-41;1;513866;SAB10A;;0000000075;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1719  PAGE    1
+HB
+;
+072;2016-02-18;171910;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AD6A4)  
+	Logon Type:	3  
+;
+080;2016-02-18;171915;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE65F80)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171915;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE65F80)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+080;2016-02-18;171926;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE65F80)  
+	Logon Type:	3  
+;
+072;2016-02-18;171940;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000504;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	ossuser  
+	Target Domain:	SAB10D  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	4664  
+Source Network Address:	-  
+Source Port:	-  
+;
+067;2016-02-18;171940;sec;;SAB10D\ossuser;;1;511117;SAB10A;;0000000539;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	ossuser  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE66BE7)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 4664  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+067;2016-02-18;171940;sec;;SAB10D\ossuser;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	ossuser  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE66BE7)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+067;2016-02-18;171940;sec;;SAB10D\ossuser;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	ossuser  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE5E652)  
+	Logon Type:	2  
+;
+080;2016-02-18;171947;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AE1E4)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;171947;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AE1E4)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+072;2016-02-18;171950;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE67542)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;171950;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000533;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE67542)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{783a6979-6c84-d782-376a-c773466b6c56}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	127.0.0.1  
+	Source Port:	0  
+;
+080;2016-02-18;171950;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE65143)  
+	Logon Type:	3  
+;
+080;2016-02-18;171947;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50ACA5F)  
+	Logon Type:	3  
+;
+072;2016-02-18;171958;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE67542)  
+	Logon Type:	3  
+;
+067;2016-02-18;171955;sec;;SAB10D\SAB10A$;;1;192580;SAB10B;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AE84A)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{907f353a-0287-03b0-7f7d-a53124c01fc2}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	2421  
+;
+061;2016-02-18;172001;mp;35;.\;AD-41;1;513866;SAB10A;;0000000075;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1720  PAGE    1
+HB
+;
+072;2016-02-18;172000;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE60884)  
+	Logon Type:	3  
+;
+072;2016-02-18;172000;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE60922)  
+	Logon Type:	3  
+;
+072;2016-02-18;172002;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000475;Event ID: 520
+Source: Security
+Category: System Event
+Type: Success Audit
+Description:
+The system time was changed.  
+Process ID:		3820  
+Process Name:		C:\Program Files\AP\ACS\bin\ACS_CHB_ClockSyncService.exe  
+Primary User Name:	SAB10A$  
+Primary Domain:		SAB10D  
+Primary Logon ID:		(0x0,0x3E7)  
+Client User Name:		SAB10A$  
+Client Domain:		SAB10D  
+Client Logon ID:		(0x0,0x3E7)  
+Previous Time:		5:20:02 PM 2/18/2016  
+New Time:		5:20:02 PM 2/18/2016  
+;
+080;2016-02-18;171958;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AE1E4)  
+	Logon Type:	3  
+;
+085;2016-02-18;172009;mc;;SAB10D\OSSUSER;AD-600;1;1155998;SAB10A;10.170.14.79;0000000336;CACLP;
+
+
+TIME
+
+
+DATE     TIME     SUMMERTIME     DAY      DCAT
+160218   172008   NO             THU      0
+
+
+REFERENCE CLOCKS
+
+RC      DEV     STATE            URCTYPE  SERVICE   LOCATION
+
+RTU             NOT CONNECTED
+URC1            NOT CONNECTED
+URC2            NOT CONNECTED
+URC3            NOT CONNECTED
+
+END
+
+;
+080;2016-02-18;172015;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE68E38)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;172015;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE68E38)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+062;2016-02-18;172016;alp;42;.\;AD-41;1;513866;SAB10A;;0000000316;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1720  PAGE    1
+*** ALARM 673 A3/APT "SAB10/BSC13B/09"U 160218 1720
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                SCGR  SC         RSITE           ALARM SLOGAN
+RXOTRX-119-4                       4136            BTS INTERNAL
+
+END
+;
+080;2016-02-18;172021;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AF15E)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;172021;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000553;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AF15E)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{37cc8568-9c5a-90c1-1adb-fb57768e5977}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	2444  
+;
+080;2016-02-18;172026;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE68E38)  
+	Logon Type:	3  
+;
+072;2016-02-18;172029;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AD784)  
+	Logon Type:	3  
+;
+072;2016-02-18;172029;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AD7F4)  
+	Logon Type:	3  
+;
+080;2016-02-18;172037;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE69A08)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;172037;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000553;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE69A08)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6370ad3a-7221-892e-93f4-d542231340be}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	3382  
+;
+072;2016-02-18;172038;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;cmd.exe;
+062;2016-02-18;172041;alp;42;.\;AD-41;1;513866;SAB10A;;0000000235;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1720  PAGE    1
+*** ALARM CEASING 991 A3/APT "SAB10/BSC13B/09"U 160218 1720
+DIGITAL PATH QUALITY SUPERVISION
+
+SF
+DIP      DIPPART  SFL    QSV
+RBLT65            5      0
+END
+;
+072;2016-02-18;172041;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;cmd.exe;
+072;2016-02-18;172041;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;mml.exe;
+088;2016-02-18;172041;mc;;SAB10D\ADMINISTRATOR;AD-225;1;1157688;SAB10A;127.0.0.1;0000000831;SYELP;
+
+LIMITS FOR SOFTWARE ERROR INTENSITY
+
+DCAT TIME             LIMIT                  
+   0 0000 - 2359       1000 
+   1 0000 - 2359       1000 
+   2 0000 - 2359       1000 
+   3 0000 - 2359       1000 
+   4 0000 - 2359       1000 
+   5 0000 - 2359       1000 
+   6 0000 - 2359       1000 
+   7 0000 - 2359       1000 
+   8 0000 - 2359       1000 
+   9 0000 - 2359       1000 
+  10 0000 - 2359       1000 
+  11 0000 - 2359       1000 
+  12 0000 - 2359       1000 
+  13 0000 - 2359       1000 
+  14 0000 - 2359       1000 
+  15 0000 - 2359       1000 
+                          
+CURRENT ERROR LIMIT:        1000
+CURRENT ERROR INTENSITY:       0
+                                
+FORLOPP RELEASE DELAY LIMIT:      30
+DELAY FOR LAST FORLOPP RELEASE:    0
+
+NUMBER OF FORLOPPS DURING RELEASE: 0
+
+END
+
+;
+072;2016-02-18;172038;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000510;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	SAB10D  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	7280  
+Source Network Address:	-  
+Source Port:	-  
+;
+073;2016-02-18;172038;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000545;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE69F28)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 7280  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+073;2016-02-18;172038;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000484;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE69F28)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;172040;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000269;Event ID: 515
+Source: Security
+Category: System Event
+Type: Success Audit
+Description:
+A trusted logon process has registered with the Local Security Authority.
+This logon process will be trusted to submit logon requests.        
+Logon Process Name:	SSH Server
+;
+072;2016-02-18;172040;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000510;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	SAB10D  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	2292  
+Source Network Address:	-  
+Source Port:	-  
+;
+073;2016-02-18;172040;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000522;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6A4A0)  
+	Logon Type:	3  
+	Logon Process:	SSHSrv  
+	Authentication Package:	Kerberos  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 2292  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+073;2016-02-18;172040;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000484;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6A4A0)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;172041;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000547;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	administrator  
+	Target Domain:	SAB10D  
+	Target Logon GUID: {4a8ea58c-e018-86c4-cba3-a4bd1557b9ff}    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	2292  
+Source Network Address:	-  
+Source Port:	-  
+;
+073;2016-02-18;172041;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000554;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6A695)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	Negotiate  
+	Workstation Name:	SAB10A  
+	Logon GUID:	{4a8ea58c-e018-86c4-cba3-a4bd1557b9ff}  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 2292  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+073;2016-02-18;172041;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000484;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6A695)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+073;2016-02-18;172041;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000207;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE61C83)  
+	Logon Type:	2  
+;
+073;2016-02-18;172041;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000207;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6A4A0)  
+	Logon Type:	3  
+;
+080;2016-02-18;172047;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AFB3C)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;172047;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AFB3C)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+072;2016-02-18;172048;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000008;wmic.exe;
+062;2016-02-18;172051;alp;42;.\;AD-41;1;513866;SAB10A;;0000000324;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1720  PAGE    1
+*** ALARM CEASING 670 A3/APT "SAB10/BSC13B/09"U 160218 1720
+RADIO X-CEIVER ADMINISTRATION
+MANAGED OBJECT FAULT
+
+MO                SCGR  SC         RSITE           ALARM SLOGAN
+RXOTRX-91-2                        2176            BTS INTERNAL
+
+END
+;
+073;2016-02-18;172059;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000207;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE69F28)  
+	Logon Type:	2  
+;
+072;2016-02-18;172100;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;cmd.exe;
+080;2016-02-18;172058;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AFB3C)  
+	Logon Type:	3  
+;
+061;2016-02-18;172101;mp;35;.\;AD-41;1;513866;SAB10A;;0000000075;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1721  PAGE    1
+HB
+;
+072;2016-02-18;172100;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000510;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	SAB10D  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	6656  
+Source Network Address:	-  
+Source Port:	-  
+;
+073;2016-02-18;172100;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000545;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6CC48)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 6656  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+073;2016-02-18;172100;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000484;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6CC48)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;172101;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6CFB6)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;172101;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000525;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6CFB6)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6099ddeb-4699-73ef-c37c-15ea4e13b814}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+072;2016-02-18;172101;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6D02D)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;172101;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6D02D)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6099ddeb-4699-73ef-c37c-15ea4e13b814}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.201.1  
+	Source Port:	2482  
+;
+072;2016-02-18;172101;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6D0AF)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;172101;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6D0AF)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6099ddeb-4699-73ef-c37c-15ea4e13b814}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.201.1  
+	Source Port:	2483  
+;
+072;2016-02-18;172101;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6D0CB)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;172101;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000537;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6D0CB)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{6099ddeb-4699-73ef-c37c-15ea4e13b814}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+072;2016-02-18;172101;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6D02D)  
+	Logon Type:	3  
+;
+072;2016-02-18;172101;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6D0AF)  
+	Logon Type:	3  
+;
+072;2016-02-18;172101;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6CFB6)  
+	Logon Type:	3  
+;
+072;2016-02-18;172107;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000459;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50B03D1)  
+	Privileges:	SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+072;2016-02-18;172107;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000533;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50B03D1)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{a08e4c09-4260-1d36-c44b-e484a86247e2}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	127.0.0.1  
+	Source Port:	0  
+;
+073;2016-02-18;172110;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000207;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6A695)  
+	Logon Type:	2  
+;
+072;2016-02-18;172110;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;mml.exe;
+088;2016-02-18;172110;mc;;SAB10D\ADMINISTRATOR;AD-226;1;1157689;SAB10A;127.0.0.1;0000001113;RACLP;
+
+BSC CAPACITY LOCK ALARM DATA
+
+CLNAME           CLAL      CLSUP  CLEX  CLUSE  CLTHR  CLMAX  CLABSUSE
+ABISIPCL                          OFF   33            26624  8880
+AMRFRMAXTRAFFIC  ACTIVE    OFF    OFF   0      80     32760  272
+AMRHRMAXTRAFFIC  ACTIVE    OFF    OFF   1      80     65520  884
+AMRWBMAXTRAFFIC  ACTIVE    OFF    OFF   100    80     0      0
+AOIP             ACTIVE    OFF    OFF   14     80     8100   1209
+BTSPSCL                           OFF   42            26624  11248
+CRESLTECL                         OFF   39            26624  10568
+DTMCL                             OFF   0             26624  0
+EGPRSBPCLIMIT                     OFF   17            24570  4420
+MAXNUMPDCH       INACTIVE  OFF    OFF   50     100    5374   2734
+MAXNUMTRX                         OFF   42            3584   1508
+MCTRPWR40                         OFF   82            176    145
+MCTRPWR60                         OFF   82            169    139
+MCTRTRX                           OFF   79            691    549
+VAMOSMAXTRAFFIC  INACTIVE  OFF    OFF   0      0      3900   6
+
+END
+;
+072;2016-02-18;172112;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6D0CB)  
+	Logon Type:	3  
+;
+072;2016-02-18;172118;sec;;NT AUTHORITY\SYSTEM;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10B$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50B03D1)  
+	Logon Type:	3  
+;
+080;2016-02-18;172115;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6E382)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;172115;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6E382)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10B  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.2  
+	Source Port:	0  
+;
+080;2016-02-18;172115;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE69A08)  
+	Logon Type:	3  
+;
+072;2016-02-18;172124;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;cmd.exe;
+072;2016-02-18;172124;sec;;NT AUTHORITY\SYSTEM;;1;511117;SAB10A;;0000000510;Event ID: 552
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Logon attempt using explicit credentials:  
+Logged on user:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0x3E7)  
+	Logon GUID:	-  
+User whose credentials were used:  
+	Target User Name:	Administrator  
+	Target Domain:	SAB10D  
+	Target Logon GUID: -    
+Target Server Name:	localhost  
+Target Server Info:	localhost  
+Caller Process ID:	5756  
+Source Network Address:	-  
+Source Port:	-  
+;
+073;2016-02-18;172124;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000545;Event ID: 528
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6EC95)  
+	Logon Type:	2  
+	Logon Process:	Advapi    
+	Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	SAB10A$  
+	Caller Domain:	SAB10D  
+	Caller Logon ID:	(0x0,0x3E7)  
+	Caller Process ID: 5756  
+	Transited Services: -  
+	Source Network Address:	-  
+	Source Port:	-  
+;
+073;2016-02-18;172124;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000484;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6EC95)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;172129;sec;;SAB10D\b92WHHaYFSKpaEO7HIGP;;1;511117;SAB10A;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	b92WHHaYFSKpaEO7HIGP  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6E382)  
+	Logon Type:	3  
+;
+067;2016-02-18;172133;sec;;SAB10D\SAB10A$;;1;192580;SAB10B;;0000000201;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50AE84A)  
+	Logon Type:	3  
+;
+072;2016-02-18;172134;nc;;SAB10D\Administrator;;1;511119;SAB10A;;0000000007;mml.exe;
+073;2016-02-18;172134;sec;;SAB10D\Administrator;;1;511117;SAB10A;;0000000207;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	Administrator  
+	Domain:		SAB10D  
+	Logon ID:		(0x2,0x7FE6CC48)  
+	Logon Type:	2  
+;
+088;2016-02-18;172136;mc;;SAB10D\ADMINISTRATOR;AD-227;1;1157690;SAB10A;127.0.0.1;0000000030;AFTSI:TEST=104;
+
+ORDERED
+
+;
+089;2016-02-18;172136;mp;0;SAB10D\ADMINISTRATOR;AD-227;1;1157690;SAB10A;127.0.0.1;0000000317;WO      SAB10/BSC13B/09/00/00     AD-227  TIME 160218 1721  PAGE    1
+AUDIT FUNCTION THRESHOLD SUPERVISION MEMORY UTILIZATION
+
+TEST  STORE  FLAG  LIM1   HYST1 ACL1  LIM2   HYST2  ACL2  UTIL
+104   DS     0     90     5     A3    99     5      A2    48
+
+FA                 TA
+1102189176         0020480002
+END
+;
+067;2016-02-18;172139;sec;;SAB10D\SAB10A$;;1;192580;SAB10B;;0000000540;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	SAB10A$  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50B0F71)  
+	Logon Type:	3  
+	Logon Process:	Kerberos  
+	Authentication Package:	Kerberos  
+	Workstation Name:	  
+	Logon GUID:	{907f353a-0287-03b0-7f7d-a53124c01fc2}  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	2521  
+;
+080;2016-02-18;172147;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000491;Event ID: 576
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Special privileges assigned to new logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50B1276)  
+	Privileges:	SeTcbPrivilege
+			SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege
+;
+080;2016-02-18;172147;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000515;Event ID: 540
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+Successful Network Logon:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50B1276)  
+	Logon Type:	3  
+	Logon Process:	NtLmSsp   
+	Authentication Package:	NTLM  
+	Workstation Name:	SAB10A  
+	Logon GUID:	-  
+	Caller User Name:	-  
+	Caller Domain:	-  
+	Caller Logon ID:	-  
+	Caller Process ID: -  
+	Transited Services: -  
+	Source Network Address:	192.168.202.1  
+	Source Port:	0  
+;
+080;2016-02-18;172158;sec;;SAB10D\NQFEl6uPk3yTNAN4TjFE;;1;192580;SAB10B;;0000000214;Event ID: 538
+Source: Security
+Category: Logon/Logoff
+Type: Success Audit
+Description:
+User Logoff:  
+	User Name:	NQFEl6uPk3yTNAN4TjFE  
+	Domain:		SAB10D  
+	Logon ID:		(0x0,0xA50B1276)  
+	Logon Type:	3  
+;
+061;2016-02-18;172201;mp;35;.\;AD-41;1;513866;SAB10A;;0000000075;WO      SAB10/BSC13B/09/00/00     AD-41   TIME 160218 1722  PAGE    1
+HB
+;
