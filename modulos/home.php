@@ -53,13 +53,12 @@ endforeach;
             <div style="text-align: center"><label class="label label-success"><i class="fa fa-list"></i>&nbsp; Cargando...</label></div>
         </div>
 
-        <div class="col-lg-3" id="destino_tabla"></div>
+        <div class="col-lg-3 col-md-4 col-sm-12" id="destino_tabla"></div>
 
-        <div class="col-lg-9">
-
+        <div class="col-lg-9 hidden-md hidden-sm">
             <div class="ibox float-e-margins">
-                <div class="ibox-title">
-                    <h5>Alarmas electricas por regiones</h5><br>
+                <div class="ibox-title col-md-12">
+                    <h4>Alarmas electricas por regiones</h4>
                     <h6>De ultimos 60 minutos</h6>
                 </div>
                 <div class="ibox-content">
@@ -72,16 +71,22 @@ endforeach;
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div class="col-lg-9 col-md-8 col-sm-12">
             <div class="ibox float-e-margins">
-                <div class="ibox-title">
-                    <h5>Top Sitios con alarmas recurrentes</h5>
+                <div class="ibox-title col-md-12">
+                    <div class="pull-right">
+                        <button class="btn btn-xs btn-primary btn-outline">Exportar &nbsp;<i class="fa fa-file-excel-o"></i></button>
+                    </div>
+                    <h4>Top Sitios con alarmas recurrentes</h4>
                 </div>
                 <?php
                     vw_home::lista_top_recurrentes(50);
                 ?>
             </div>
         </div>
+
     </div>
 </div>
 
@@ -113,10 +118,6 @@ endforeach;
 
 <!-- jQuery UI -->
 <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
-
-<!-- Jvectormap -->
-<script src="js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
 
 <!-- Sparkline -->
 <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>

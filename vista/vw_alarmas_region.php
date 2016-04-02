@@ -17,11 +17,14 @@ class vw_alarmas_region {
         ?>
 
         <div class="ibox float-e-margins">
-            <div class="ibox-title">
-                <h5>Listado por comunas</h5>
+            <div class="ibox-title col-md-12">
+                <div class="pull-right">
+                    <button class="btn btn-xs btn-primary btn-outline">Exportar &nbsp;<i class="fa fa-file-excel-o"></i></button>
+                </div>
+                <h4>Listado por comunas</h4>
             </div>
             <div class="ibox-content">
-                <div class="table-responsive">
+                <div class="table-responsive project-list">
                     <table class="table table-hover table-striped" <?php echo $id; ?> >
                         <thead>
                             <tr>

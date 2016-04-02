@@ -73,7 +73,7 @@ $region = $mi_region->getRegion()." Región";
         <div class="col-lg-8">
             <div class="ibox float-e-margins animated fadeInDown">
                 <div class="ibox-title">
-                    <h5>Alarmas electricas de la <?php echo $region; ?></h5>
+                    <h4>Alarmas electricas de la <?php echo $region; ?></h4>
                     <div ibox-tools></div>
                 </div>
                 <div class="ibox-content" id="mapa" style="height: 623px">
@@ -92,7 +92,7 @@ $region = $mi_region->getRegion()." Región";
                         <p class="label label-danger">Alarmas</p>
                     </div>
                     <div>
-                        <canvas class="center-block" id="barChart" height="100"></canvas>
+                        <canvas class="center-block" id="barChart" height="50"></canvas>
                     </div>
                 </div>
             </div>

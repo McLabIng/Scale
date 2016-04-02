@@ -14,11 +14,14 @@ class vw_alarmas_comuna {
 
         ?>
         <div class="ibox float-e-margins">
-            <div class="ibox-title">
-                <h5>Listado por sitios</h5>
+            <div class="ibox-title col-md-12">
+                <div class="pull-right">
+                    <button class="btn btn-xs btn-primary btn-outline" >Exportar &nbsp;<i class="fa fa-file-excel-o"></i></button>
+                </div>
+                <h4>Listado por sitios</h4>
             </div>
             <div class="ibox-content">
-                <div class="table-responsive">
+                <div class="table-responsive project-list">
                     <table class="table table-hover table-striped" <?php echo $id; ?> >
                         <thead>
                             <tr>
@@ -44,7 +47,7 @@ class vw_alarmas_comuna {
                             echo ' <tr>';
                             echo ' <td>'.$resultados["cod_pop"].'</td>';
                             echo ' <td><a data-toggle="modal" href="#sitio'.$resultados['id'].'" >'.$resultados["nombre"].'</a></td>';
-                            echo ' <td class="" style="text-align: center; color: rgba(0,0,0,0)">'.$resultados["CELDAS_ALARMADAS"].'<i class="'.$bell.'"></i></td>';
+                            echo ' <td class="" style="text-align: center; color: rgba(0,0,0,0)"><a class="hide">'.$resultados["CELDAS_ALARMADAS"].'</a><i class="'.$bell.'"></i></td>';
                             if ($resultados['tipo_nodo']==1){
                                 echo ' <td style="text-align: center"><a data-toggle="modal" href="#sitio'.$resultados['id'].'"><label class="label label-success">Mínima</label></a></td>';
                             }

@@ -12,7 +12,7 @@ $mi_rol = $mi_usuario->getCod_rol();
 
 $alarmas = vm_grafico_alarmas::traer_alarmas_nacional();
 foreach($alarmas as $rows):
-    $data_alarmas[] = array($rows['region'],$rows['sitios'],$rows['alarmas']);
+    $data_alarmas[] = array($rows['region'],$rows['sitios'],$rows['alarmas'],$rows['id_region']);
 endforeach;
 
 ?>
@@ -41,18 +41,18 @@ endforeach;
 
         <div class="ibox col-md-12">
 
-            <div class="col-md-2 animated fadeInLeft">
+            <div class="col-lg-2 col-md-3 hidden-sm p-xxs animated fadeIn">
                 <!-- Mapa -->
-                <div id="chartdiv" style="width: 90%; height: 730px; font-size: 11px;"></div>
+                <div id="chartdiv" style="width: 100%; height: 730px; font-size: 11px;"></div>
             </div>
 
-            <div class="col-md-4 animated fadeInDown">
+            <div class="col-lg-4 col-md-9 col-sm-12 p-xs animated fadeIn">
                 <?php
                 vw_scale_tv::alarmas_regiones($alarmas);
                 ?>
             </div>
 
-            <div class="col-md-6 animated fadeInRight">
+            <div class="col-lg-6 col-sm-12 p-xs m-b-md animated fadeIn">
                 <?php
                 vw_scale_tv::lista_top_recurrentes(9);
                 ?>
@@ -92,12 +92,24 @@ endforeach;
     var map = AmCharts.makeChart( "chartdiv", {
         "type": "map",              //ok
         "theme": "light",           //ok
-        "colorSteps": 3,            //ok
         "dataProvider": {
             "mapURL": "js/plugins/ammap/maps/svg/chileLow.svg",   //ok
             "getAreasFromMap": true,
             "zoomLevel": 1.0,         //ok
-            "areas": []
+            "areas": [
+                <?php foreach ($data_alarmas as $datos): ?>
+                <?php if ($datos[2] >= 10):; ?>
+                <?php $color = '#ed5565'; ?>
+                <?php elseif ($datos[2] == 0):; ?>
+                <?php $color = '#1c84c6'; ?>
+                <?php else :; ?>
+                <?php $color = '#f8ac59'; ?>
+                <?php endif; ?>
+
+                <?php echo '{ "id": "'.$datos[3].'", "color": "'.$color.'" },'; ?>
+                <?php endforeach; ?>
+
+            ]
         },
         "areasSettings": {
             "autoZoom": true,

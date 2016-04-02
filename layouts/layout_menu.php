@@ -23,14 +23,11 @@ require_once 'clases/datos_empresa.php';
     <link rel="shortcut icon" href="img/favicon.ico">
 
     <!-- Data Tables -->
-    <link href="css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
-    <link href="css/plugins/dataTables/dataTables.responsive.css" rel="stylesheet">
-    <link href="css/plugins/dataTables/dataTables.tableTools.min.css" rel="stylesheet">
-
     <link href="css/plugins/dataTables/datatables.min.css" rel="stylesheet">
 
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/style_alarm.css" rel="stylesheet">
 
     <script type="text/javascript">
 
@@ -169,7 +166,7 @@ if  (isset($_SESSION["username"])){
 }
 ?>
 
-    <div id="load" style="display:none;position:absolute;top:0;bottom:0%;left:0;right:0%;z-index:99;height:300px;width:300px;background-image:url(../img/big-ajax-loader.gif);"></div>
+    <div id="load" style="display:none;position:absolute;top:0;bottom:0%;left:0;right:0%;z-index:99;height:300px;width:300px;background-image:url(img/big-ajax-loader.gif);"></div>
 
     <div id="page-wrapper" class="gray-bg">
         <div class="row border-bottom">

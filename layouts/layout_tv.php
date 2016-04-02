@@ -24,7 +24,7 @@ require_once 'clases/datos_empresa.php';
     <link rel="shortcut icon" href="img/favicon.ico">
 
     <!-- Mapa -->
-    <link rel="stylesheet" href="ammap/ammap.css" type="text/css" media="all">
+    <link rel="stylesheet" href="js/plugins/ammap/ammap.css" type="text/css" media="all">
 
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">

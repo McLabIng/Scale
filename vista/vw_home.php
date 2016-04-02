@@ -6,17 +6,17 @@ class vw_home {
         ?>
         <div class="ibox float-e-margins">
             <div class="ibox-title">
-                <h5>Listado por regiones</h5>
+                <h4>Listado por regiones</h4>
             </div>
             <div class="ibox-content">
-                <div class="table-responsive">
+                <div class="table-responsive project-list">
                     <table class="table table-hover table-striped">
                         <thead>
                         <tr>
-                            <th style="text-align: center">Región</th>
-                            <th style="text-align: right">Sitios</th>
-                            <th style="text-align: right">Alarmas</th>
-                            <th></th>
+                            <th class="col-sm-3" style="text-align: center">Región</th>
+                            <th class="col-sm-3" style="text-align: right">Sitios</th>
+                            <th class="col-sm-3" style="text-align: right">Alarmas</th>
+                            <th class="col-sm-3"></th>
                         </tr>
                         </thead>
                         <tbody>
@@ -25,17 +25,17 @@ class vw_home {
                         foreach($lista_alarmas as $resultados):
 
                             if ($resultados["alarmas"]>0) {
-                                $text = 'class="text-danger"';
+                                $text = 'text-danger';
                             }
                             else {
                                 $text = "";
                             }
                             
                             echo ' <tr>';
-                            echo ' <td style="text-align: center">'.$resultados["region"].'</td>';
-                            echo ' <td style="text-align: right">'.$resultados["sitios"].'</td>';
-                            echo ' <td style="text-align: right" '.$text.'>'.$resultados["alarmas"].'</td>';
-                            echo ' <td style="text-align: center"><a class="btn btn-success btn-outline btn-xs" href="?mod=alarmas_region&region='.$resultados['cod_region'].'"><i class="fa fa-search"></i>&nbsp;Ver</a></td>';
+                            echo ' <td class="col-sm-3" style="text-align: center">'.$resultados["region"].'</td>';
+                            echo ' <td class="col-sm-3" style="text-align: right">'.$resultados["sitios"].'</td>';
+                            echo ' <td style="text-align: right" class="'.$text.' col-sm-3">'.$resultados["alarmas"].'</td>';
+                            echo ' <td class="col-sm-3" style="text-align: center"><a class="btn btn-success btn-outline btn-xs" href="?mod=alarmas_region&region='.$resultados['cod_region'].'"><i class="fa fa-search"></i>&nbsp;Ver</a></td>';
                             echo ' </tr>';
                         endforeach;
                         ?>
@@ -51,7 +51,7 @@ class vw_home {
         $lista_top_recurrentes = vm_grafico_alarmas::traer_top_alarmas_recurrentes($cantidad);
         ?>
         <div class="ibox-content">
-            <div class="table-responsive">
+            <div class="table-responsive project-list">
                 <table class="table table-hover table-striped" id="editable" data-sort="false">
                     <thead>
                     <tr>
@@ -141,7 +141,7 @@ class vw_home {
         ?>
 
         <div class="ibox float-e-margins">
-            <a class="btn btn-warning btn-bitbucket btn-outline" href="?mod=tv">Vista TV &nbsp;
+            <a class="btn btn-sm btn-warning btn-bitbucket btn-outline" href="?mod=tv">Vista TV &nbsp;
                 <i class="fa fa-desktop"></i>
             </a>
         </div>

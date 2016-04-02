@@ -17,7 +17,8 @@ table.dataTable{
 	max-width:none !important
 	}
 
-table.dataTable td,table.dataTable th{
+table.dataTable td,
+table.dataTable th{
 	-webkit-box-sizing:content-box;
 	-moz-box-sizing:content-box;
 	box-sizing:content-box
@@ -102,12 +103,12 @@ table.dataTable thead .sorting:after,table.dataTable thead .sorting_asc:after,ta
 	right:8px;
 	display:block;
 	font-family:'Glyphicons Halflings';
-	opacity:0.5
+	opacity:0.2
 	}
 
 table.dataTable thead .sorting:after{
 	opacity:0.15;
-	content:"\e150"
+	content:""
 	}
 
 table.dataTable thead .sorting_asc:after{

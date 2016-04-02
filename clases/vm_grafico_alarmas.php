@@ -20,7 +20,7 @@ class vm_grafico_alarmas {
         $conexion = new Conexion();
 
         $consulta = $conexion->prepare(' SELECT
-                    R.cod_region, P.region, COUNT(DISTINCT(P.id)) AS sitios, COUNT(DISTINCT(A.TEXTO)) AS alarmas
+                    R.cod_region, R.id_region, R.nombre, P.region, COUNT(DISTINCT(P.id)) AS sitios, COUNT(DISTINCT(A.TEXTO)) AS alarmas
                     FROM ' . self::TABLA_1 .' R, ' . self::TABLA_5 .' P, ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S
                     LEFT JOIN ' . self::TABLA_3 .' A ON S.RSITE = A.RSITE AND A.CLASE = "A1"
                     AND A.INICIO >= "2016-02-04"
