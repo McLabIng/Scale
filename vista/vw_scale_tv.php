@@ -15,19 +15,22 @@ class vw_scale_tv {
 
                 ### Condicional Colores Alarmas ###
                 if ($resultados["alarmas"] >= 10) {
-                    $background= 'neon red-bg';
+                    $background= 'red-bg';
+                    $neon = 'neon';
                     $font_color = '#fff';
                     $font_color_alarma = '#fff';
                     $icon = 'fa-bell';
                 }
                 elseif ($resultados["alarmas"] > 0) {
                     $background = 'yellow-bg';
+                    $neon = '';
                     $font_color = '#fff';
                     $font_color_alarma = '#fff';
                     $icon = 'fa-bell';
                 }
                 else {
                     $background = 'blue-bg';
+                    $neon = '';
                     $font_color = '#2664cc';
                     $font_color_alarma ='#676a6c';
                     $icon = 'fa-thumbs-o-up';
@@ -42,8 +45,8 @@ class vw_scale_tv {
                 }
 
                 ### CONTENIDO ###
-                echo '  <div class="col-sm-4">
-						<a href="#'.$resultados["id_region"].'"><div class="ui-widget-content ui-state-hover ui-state-focus '.$background.' p-sm m-l-n m-r-n text-center">
+                echo '  <div class="col-sm-4 '.$neon.'">
+						<a onclick="#"><div class="ui-widget-content ui-state-hover ui-state-focus '.$background.' p-sm m-l-n m-r-n text-center">
 							<div class="row">
 								<div class="col-xs-12 text-center">
 									<h3>'.$region.'</h3>

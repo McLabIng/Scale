@@ -231,10 +231,9 @@ endforeach;
         barShowStroke: true,
         barStrokeWidth: 1,
         barValueSpacing: 5,
-        barDatasetSpacing: 1,
+        barDatasetSpacing: -20,
         responsive: true,
     }
-
 
     var ctx = document.getElementById("barChart").getContext("2d");
     var myNewChart = new Chart(ctx).Bar(barData, barOptions);

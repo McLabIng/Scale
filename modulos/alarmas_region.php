@@ -76,12 +76,12 @@ $region = $mi_region->getRegion()." Región";
                     <h4>Alarmas electricas de la <?php echo $region; ?></h4>
                     <div ibox-tools></div>
                 </div>
-                <div class="ibox-content" id="mapa" style="height: 623px">
+                <div class="ibox-content" id="mapa" style="height: 665px">
                 </div>
             </div>
         </div>
 
-        <div class="col-lg-12">
+        <div class="col-md-12 hidden-sm">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
                     <h5>Alarmas eléctricas por comuna</h5>
@@ -148,11 +148,7 @@ $region = $mi_region->getRegion()." Región";
 <!-- Toastr script -->
 <script src="js/plugins/toastr/toastr.min.js"></script>
 
-<!-- Data Tables >
-<script src="js/plugins/dataTables/jquery.dataTables.js"></script>
-<script src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
-<script src="js/plugins/dataTables/dataTables.responsive.js"></script>
-<script src="js/plugins/dataTables/dataTables.tableTools.min.js"></script-->
+<!-- Data Tables -->
 <script src="js/plugins/dataTables/datatables.min.js"></script>
 
 <script>
@@ -224,7 +220,7 @@ $region = $mi_region->getRegion()." Región";
         barShowStroke: true,
         barStrokeWidth: 1,
         barValueSpacing: 5,
-        barDatasetSpacing: 1,
+        barDatasetSpacing: -10,
         responsive: true,
     }
 

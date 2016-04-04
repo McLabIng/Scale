@@ -27,7 +27,6 @@ require_once 'clases/datos_empresa.php';
 
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/style_alarm.css" rel="stylesheet">
 
     <script type="text/javascript">
 

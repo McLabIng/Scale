@@ -23,7 +23,7 @@ class vm_grafico_alarmas {
                     R.cod_region, R.id_region, R.nombre, P.region, COUNT(DISTINCT(P.id)) AS sitios, COUNT(DISTINCT(A.TEXTO)) AS alarmas
                     FROM ' . self::TABLA_1 .' R, ' . self::TABLA_5 .' P, ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S
                     LEFT JOIN ' . self::TABLA_3 .' A ON S.RSITE = A.RSITE AND A.CLASE = "A1"
-                    AND A.INICIO >= "2016-02-04"
+                    AND A.INICIO >= "2016-02-14"
                     WHERE
                     R.region = P.region AND
                     S.ESTADO = "OPERATIVO" AND
@@ -45,7 +45,7 @@ class vm_grafico_alarmas {
                     R.cod_region, P.region, P.comuna, COUNT(DISTINCT(P.id)) AS sitios, COUNT(DISTINCT(A.TEXTO)) AS alarmas
                     FROM ' . self::TABLA_1 .' R, ' . self::TABLA_5 .' P, ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S
                     LEFT JOIN ' . self::TABLA_3 .' A ON S.RSITE = A.RSITE AND A.CLASE = "A1"
-                    AND A.INICIO >= "2016-02-04"
+                    AND A.INICIO >= "2016-02-14"
                     WHERE
                     R.cod_region = :cod_region AND
                     R.region = P.region AND
@@ -71,7 +71,7 @@ class vm_grafico_alarmas {
                     SUM(IF(A.TEXTO <> "",1,0)) AS CELDAS_ALARMADAS
                     FROM ' . self::TABLA_1 .' R, ' . self::TABLA_5 .' P, ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S
                     LEFT JOIN ' . self::TABLA_3 .' A ON S.RSITE = A.RSITE AND A.CLASE = "A1"
-                    AND A.INICIO >= "2016-02-04"
+                    AND A.INICIO >= "2016-02-14"
                     WHERE
                     R.region = P.region AND
                     S.ESTADO = "OPERATIVO" AND
@@ -98,7 +98,7 @@ class vm_grafico_alarmas {
                     SUM(IF(A.TEXTO <> "",1,0)) AS CELDAS_ALARMADAS
                     FROM ' . self::TABLA_1 .' R, ' . self::TABLA_5 .' P, ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S
                     LEFT JOIN ' . self::TABLA_3 .' A ON S.RSITE = A.RSITE AND A.CLASE = "A1"
-                    AND A.INICIO >= "2016-02-04"
+                    AND A.INICIO >= "2016-02-14"
                     WHERE
                     R.region = P.region AND
                     S.ESTADO = "OPERATIVO" AND
@@ -122,7 +122,7 @@ class vm_grafico_alarmas {
                     AVG(DISTINCT P.lat_google) AS lat, AVG(DISTINCT P.lon_google) AS lon
                     FROM ' . self::TABLA_1 .' R, ' . self::TABLA_5 .' P, ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S
                     LEFT JOIN ' . self::TABLA_3 .' A ON S.RSITE = A.RSITE AND A.CLASE = "A1"
-                    AND A.INICIO >= "2016-02-04"
+                    AND A.INICIO >= "2016-02-14"
                     WHERE
                     R.region = P.region AND
                     S.ESTADO = "OPERATIVO" AND
@@ -145,7 +145,7 @@ class vm_grafico_alarmas {
                     AVG(DISTINCT P.lat_google) AS lat, AVG(DISTINCT P.lon_google) AS lon
                     FROM ' . self::TABLA_1 .' R, ' . self::TABLA_5 .' P, ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S
                     LEFT JOIN ' . self::TABLA_3 .' A ON S.RSITE = A.RSITE AND A.CLASE = "A1"
-                    AND A.INICIO >= "2016-02-04"
+                    AND A.INICIO >= "2016-02-14"
                     WHERE
                     R.region = P.region AND
                     S.ESTADO = "OPERATIVO" AND
@@ -170,7 +170,7 @@ class vm_grafico_alarmas {
                     P.id, P.cod_pop, SP.cod_sitio, SP.tecnologia, IF (A.TEXTO<>"",1,0)  AS alarma
                     FROM ' . self::TABLA_1 .' R, ' . self::TABLA_5 .' P, ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S
                     LEFT JOIN ' . self::TABLA_3 .' A ON S.RSITE = A.RSITE AND A.CLASE = "A1"
-                    AND A.INICIO >= "2016-02-04"
+                    AND A.INICIO >= "2016-02-14"
                     WHERE
                     R.region = P.region AND
                     S.ESTADO NOT IN ("ELIMINADO") AND
@@ -199,7 +199,7 @@ class vm_grafico_alarmas {
                     SP.cod_sitio, SP.tecnologia, A.INICIO as fecha, A.TEXTO AS alarma
                     FROM ' . self::TABLA_1 .' R, ' . self::TABLA_5 .' P, ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S
                     LEFT JOIN ' . self::TABLA_3 .' A ON S.RSITE = A.RSITE AND A.CLASE = "A1"
-                    AND A.INICIO >= "2016-02-04"
+                    AND A.INICIO >= "2016-02-14"
                     WHERE
                     R.region = P.region AND
                     S.ESTADO NOT IN ("ELIMINADO") AND
@@ -230,7 +230,7 @@ class vm_grafico_alarmas {
                                             A.CLASE = "A1" and
                                             S.ESTADO NOT IN ("ELIMINADO") AND
                                             S.SITIO = SP.cod_sitio AND
-                                            A.INICIO >= "2016-02-04"
+                                            A.INICIO >= "2016-02-14"
                                             group by
                                             S.REGION,
                                             S.COMUNA,
@@ -259,7 +259,7 @@ class vm_grafico_alarmas {
                                             S.SITIO = SP.cod_sitio AND
                                             SP.cod_pop = P.cod_pop AND
                                             P.tipo_nodo = 1 AND
-                                            A.INICIO >= "2016-02-04"
+                                            A.INICIO >= "2016-02-14"
                                             GROUP BY
                                             S.REGION,
                                             S.COMUNA,

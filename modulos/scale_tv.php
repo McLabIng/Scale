@@ -106,14 +106,14 @@ endforeach;
                 <?php $color = '#f8ac59'; ?>
                 <?php endif; ?>
 
-                <?php echo '{ "id": "'.$datos[3].'", "color": "'.$color.'" },'; ?>
+                <?php echo '{ "id": "'.$datos[3].'", "color": "'.$color.'", "value": "'.$datos[2].'" },'; ?>
                 <?php endforeach; ?>
 
             ]
         },
         "areasSettings": {
             "autoZoom": true,
-            "balloonText": "[[title]]: <strong>[[value]]</strong>"
+            "balloonText": "[[title]]: <strong>[[value]]</strong>" //muestra cantidad de habitantes
         },
         /*
          "valueLegend": {
@@ -132,15 +132,15 @@ endforeach;
 
     function updateHeatmap(event) {
         var map = event.chart;
-        if ( map.dataGenerated )
-            return;
-        if ( map.dataProvider.areas.length === 0 ) {
-            setTimeout( updateHeatmap, 100 );
-            return;
-        }
-        for ( var i = 0; i < map.dataProvider.areas.length; i++ ) {
-            map.dataProvider.areas[ i ].value = Math.round( Math.random() * 10000 );
-        }
+        //if ( map.dataGenerated )
+        //    return;
+        //if ( map.dataProvider.areas.length === 0 ) {
+        //    setTimeout( updateHeatmap, 100 );
+        //    return;
+        //}
+        //for ( var i = 0; i < map.dataProvider.areas.length; i++ ) {
+        //    map.dataProvider.areas[ i ].value = Math.round( Math.random() * 10000 );
+        //}
         map.dataGenerated = true;
         map.validateNow();
     }
