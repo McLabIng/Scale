@@ -4148,7 +4148,7 @@ table.table-mail tr td {
   color: #ffffff;
 }
 .yellow-bg {
-  background-color: #f8ac59;
+  background-color: #ff8000;
   color: #ffffff;
 }
 .red-bg {
@@ -8528,5 +8528,47 @@ body.md-skin {
   }
   #page-wrapper {
     margin: 0;
+  }
+}
+
+.coloralarm {
+  box-sizing: content-box;
+  background-color: #ff8000;
+  color:#fff;
+  -webkit-animation: colormorph 3s linear infinite;
+          animation: colormorph 3s linear infinite;
+}
+@-webkit-keyframes colormorph {
+  0% {
+    background: #ff8000;
+  }
+  25% {
+    background: #fe5500;
+  }
+  50% {
+    background: #fe2b00;
+  }
+  75% {
+    background: #fe5500;
+  }
+  100% {
+    background: #ff8000;
+  }
+}
+@keyframes colormorph {
+  0% {
+    background: #ff8000;
+  }
+  25% {
+    background: #fe5500;
+  }
+  50% {
+    background: #fe2b00;
+  }
+  75% {
+    background: #fe5500;
+  }
+  100% {
+    background: #ff8000;
   }
 }

@@ -15,22 +15,19 @@ class vw_scale_tv {
 
                 ### Condicional Colores Alarmas ###
                 if ($resultados["alarmas"] >= 10) {
-                    $background= 'red-bg';
-                    $neon = 'neon';
+                    $background= 'coloralarm';
                     $font_color = '#fff';
                     $font_color_alarma = '#fff';
                     $icon = 'fa-bell';
                 }
                 elseif ($resultados["alarmas"] > 0) {
                     $background = 'yellow-bg';
-                    $neon = '';
                     $font_color = '#fff';
                     $font_color_alarma = '#fff';
                     $icon = 'fa-bell';
                 }
                 else {
                     $background = 'blue-bg';
-                    $neon = '';
                     $font_color = '#2664cc';
                     $font_color_alarma ='#676a6c';
                     $icon = 'fa-thumbs-o-up';

@@ -99,11 +99,11 @@ endforeach;
             "areas": [
                 <?php foreach ($data_alarmas as $datos): ?>
                 <?php if ($datos[2] >= 10):; ?>
-                <?php $color = '#ed5565'; ?>
+                <?php $color = '#fe2b00'; ?>
                 <?php elseif ($datos[2] == 0):; ?>
                 <?php $color = '#1c84c6'; ?>
                 <?php else :; ?>
-                <?php $color = '#f8ac59'; ?>
+                <?php $color = '#ff8000'; ?>
                 <?php endif; ?>
 
                 <?php echo '{ "id": "'.$datos[3].'", "color": "'.$color.'", "value": "'.$datos[2].'" },'; ?>
