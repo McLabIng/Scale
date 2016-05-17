@@ -79,7 +79,7 @@ endforeach;
                     <div class="pull-right">
                         <button class="btn btn-xs btn-primary btn-outline">Exportar &nbsp;<i class="fa fa-file-excel-o"></i></button>
                     </div>
-                    <h4>Top Sitios con alarmas recurrentes</h4>
+                    <h4>Sitios con alarmas recurrentes</h4>
                 </div>
                 <?php
                     vw_home::lista_top_recurrentes(50);
