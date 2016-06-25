@@ -2,6 +2,7 @@
 session_start();
 require_once 'clases/usuario.php';
 require_once 'clases/region.php';
+require_once 'vista/vw_home.php';
 require_once 'clases/vm_grafico_alarmas.php';
 require_once 'vista/vw_alarmas_comuna.php';
 
@@ -41,8 +42,14 @@ $region = $mi_region->getRegion()." Región";
 
 ?>
 <div class="row wrapper border-bottom white-bg page-heading">
-    <div class="col-lg-6">
-        <h2>Alarma eléctrica a nivel comunal - <?php echo $comuna; ?></h2>
+    <div class="col-lg-12">
+        <h2>Alarma eléctrica a nivel comunal - <?php echo $comuna; ?>
+        <div class="pull-right">
+        <?php
+        // Vista de tabla por regiones
+        vw_home::botonera_tv();
+        ?>
+        </div></h2>
         <ol class="breadcrumb">
 
             <li>
@@ -72,11 +79,11 @@ $region = $mi_region->getRegion()." Región";
         <!-- Mapa -->
         <div class="col-lg-7">
             <div class="ibox float-e-margins animated fadeInDown">
-                <div class="ibox-title">
-                    <h4>Alarmas electricas de la <?php echo $region; ?>, comuna de <?php echo $comuna; ?></h4>
+                <div class="ibox-title ui-widget-header blue-bg">
+                    <h4 class="p-xxs">Alarmas electricas de la <?php echo $region; ?>, comuna de <?php echo $comuna; ?></h4>
                     <div ibox-tools></div>
                 </div>
-                <div class="ibox-content" id="mapa" style="height: 623px">
+                <div class="ibox-content" id="mapa" style="height: 654px">
                 </div>
             </div>
         </div>
@@ -131,6 +138,31 @@ $region = $mi_region->getRegion()." Región";
 
 <!-- Data Tables -->
 <script src="js/plugins/dataTables/datatables.min.js"></script>
+
+
+<!-- Exportar Excel -->
+<script src="js/plugins/excel/jquery.table2excel.js"></script>
+
+<!-- Script para exportar a Excel -->
+<script>
+    $("button").click(function(){
+        $("#comuna_table").table2excel({
+            // exclude CSS class
+            exclude: ".noExl",
+            name: "Alarmas Comuna",
+            filename: "Alarmas_Comuna"
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.scroll_content').slimscroll({
+            height: '617px',
+            opacity: 0.1,
+            wheelStep : 10,
+            })});
+</script>
 
 <script>
     var mapa;
@@ -201,19 +233,6 @@ $region = $mi_region->getRegion()." Región";
     // inicializa el mapa cuando la ventana se haya cargado:
     google.maps.event.addDomListener(window, "load", initialize);
 
-</script>
-
-<!-- Script para exportar a Excel -->
-<script>
-    $("button").click(function(){
-        $("#editable").table2excel({
-            // exclude CSS class
-            exclude: ".noExl",
-            name: "Busqueda OT",
-            filename: "Busqueda de OT"
-
-        });
-    });
 </script>
 
 <!-- Page-Level Scripts -->

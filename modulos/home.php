@@ -19,6 +19,8 @@ foreach($alarmas as $rows):
     $data_alarmas[] = array($rows['region'],$rows['sitios'],$rows['alarmas']);
 endforeach;
 
+$cantidad = vw_home::cantidad_alarmas_nacional();
+
 ?>
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-12">
@@ -41,23 +43,29 @@ endforeach;
 <div class="wrapper wrapper-content animated fadeInDown">
 
     <div class="row">
-        <div class="spiner-example col-lg-3" id="cargando_tabla">
-            <div class="sk-spinner sk-spinner-wave">
-                <div class="sk-rect1"></div>
-                <div class="sk-rect2"></div>
-                <div class="sk-rect3"></div>
-                <div class="sk-rect4"></div>
-                <div class="sk-rect5"></div>
-            </div>
-            <br><br>
-            <div style="text-align: center"><label class="label label-success"><i class="fa fa-list"></i>&nbsp; Cargando...</label></div>
+
+
+        <div class="col-lg-3 col-md-5 col-sm-12 animated fadeIn">
+            <?php
+            vw_home::alarmas_regiones($alarmas);
+            ?>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-12" id="destino_tabla"></div>
-
-        <div class="col-lg-9 hidden-md hidden-sm">
+        <div class="col-lg-9 col-md-7 hidden-sm">
             <div class="ibox float-e-margins">
-                <div class="ibox-title col-md-12">
+                <div class="ibox-title col-md-12 ui-widget-header blue-bg">
+                    <button class="pull-right btn btn-md btn-primary"><i class="fa fa-file-excel-o"></i></button>
+                    <h4 class="p-xxs">Sitios Alarmados (<?php echo $cantidad; ?>)</h4>
+                </div>
+                <?php
+                    vw_home::lista_top_recurrentes();
+                ?>
+            </div>
+        </div>
+
+        <!-- <div class="col-lg-9 hidden-md hidden-sm">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title col-md-12 ui-widget-header blue-bg">
                     <h4>Alarmas electricas por regiones</h4>
                     <h6>De ultimos 60 minutos</h6>
                 </div>
@@ -67,25 +75,11 @@ endforeach;
                         <p class="label label-danger">Alarmas</p>
                     </div>
                     <div id="destino_grafico">
-                        <canvas class="center-block" id="barChart" height="50"></canvas>
+                        <canvas class="center-block" id="barChart" height="30"></canvas>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="col-lg-9 col-md-8 col-sm-12">
-            <div class="ibox float-e-margins">
-                <div class="ibox-title col-md-12">
-                    <div class="pull-right">
-                        <button class="btn btn-xs btn-primary btn-outline">Exportar &nbsp;<i class="fa fa-file-excel-o"></i></button>
-                    </div>
-                    <h4>Sitios con alarmas recurrentes</h4>
-                </div>
-                <?php
-                    vw_home::lista_top_recurrentes(50);
-                ?>
-            </div>
-        </div>
+        </div> -->
 
     </div>
 </div>
@@ -135,6 +129,31 @@ endforeach;
 <script src="js/plugins/dataTables/datatables.min.js"></script>
 
 <script src="js/plugins/masonary/masonry.pkgd.min.js"></script>
+
+<!-- Exportar Excel -->
+<script src="js/plugins/excel/jquery.table2excel.js"></script>
+
+<!-- Script para exportar a Excel -->
+<script>
+    $("button").click(function(){
+        $("#top_table").table2excel({
+            // exclude CSS class
+            exclude: ".noExl",
+            name: "Sitios recurrentes",
+            filename: "Sitios recurrentes"
+
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.scroll_content').slimscroll({
+            height: '581px',
+            opacity: 0.1,
+            wheelStep : 10,
+            })});
+</script>
 
 <style>
 

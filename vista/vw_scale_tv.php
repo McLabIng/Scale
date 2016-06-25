@@ -42,8 +42,8 @@ class vw_scale_tv {
                 }
 
                 ### CONTENIDO ###
-                echo '  <div class="col-sm-4 '.$neon.'">
-						<a onclick="#"><div class="ui-widget-content ui-state-hover ui-state-focus '.$background.' p-sm m-l-n m-r-n text-center">
+                echo '  <div class="col-sm-4">
+						<a href="?mod=alarmas_region&region='.$resultados['cod_region'].'"><div class="ui-widget-content ui-state-hover ui-state-focus '.$background.' p-sm m-l-n m-r-n text-center">
 							<div class="row">
 								<div class="col-xs-12 text-center">
 									<h3>'.$region.'</h3>
@@ -59,7 +59,7 @@ class vw_scale_tv {
     }
 
     public static function lista_top_recurrentes($cantidad) {
-        $lista_top_recurrentes = vm_grafico_alarmas::traer_top_alarmas_recurrentes($cantidad);
+        $lista_top_recurrentes = vm_grafico_alarmas::traer_top_alarmas_recurrentes_tv($cantidad);
         ?>
         <div class="ui-widget-header blue-bg p-xs">
             <h3 class="p-xs">TOP SITIOS CON ALARMAS RECURRENTES</h3>

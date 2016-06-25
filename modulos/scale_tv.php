@@ -103,7 +103,7 @@ endforeach;
                 <?php elseif ($datos[2] == 0):; ?>
                 <?php $color = '#1c84c6'; ?>
                 <?php else :; ?>
-                <?php $color = '#ff8000'; ?>
+                <?php $color = '#ffb70a'; ?>
                 <?php endif; ?>
 
                 <?php echo '{ "id": "'.$datos[3].'", "color": "'.$color.'", "value": "'.$datos[2].'" },'; ?>

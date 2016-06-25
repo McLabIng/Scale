@@ -3631,7 +3631,7 @@ video {
 }
 .modal-content {
   background-clip: padding-box;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.97);
   border: 3px solid rgba(235, 235, 235, 0.7);
   border-radius: 15px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
@@ -4148,7 +4148,7 @@ table.table-mail tr td {
   color: #ffffff;
 }
 .yellow-bg {
-  background-color: #ff8000;
+  background-color: #ffb70a;
   color: #ffffff;
 }
 .red-bg {
@@ -4356,8 +4356,14 @@ a.close-canvas-menu:hover {
   padding-top: 70px;
 }
 /* MARGINS & PADDINGS */
+.p-xs-n {
+  padding: -5px;
+}
+.p-xxxs {
+  padding: 8px;
+}
 .p-xxs {
-  padding: 5px;
+  padding: 7px;
 }
 .p-xs {
   padding: 10px;
@@ -8540,35 +8546,35 @@ body.md-skin {
 }
 @-webkit-keyframes colormorph {
   0% {
-    background: #ff8000;
+    background: #ffb70a;
   }
   25% {
-    background: #fe5500;
+    background: #ff8000;
   }
   50% {
     background: #fe2b00;
   }
   75% {
-    background: #fe5500;
+    background: #ff8000;
   }
   100% {
-    background: #ff8000;
+    background: #ffb70a;
   }
 }
 @keyframes colormorph {
   0% {
-    background: #ff8000;
+    background: #ffb70a;
   }
   25% {
-    background: #fe5500;
+    background: #ff8000;
   }
   50% {
     background: #fe2b00;
   }
   75% {
-    background: #fe5500;
+    background: #ff8000;
   }
   100% {
-    background: #ff8000;
+    background: #ffb70a;
   }
 }

@@ -2,6 +2,7 @@
 session_start();
 require_once 'clases/usuario.php';
 require_once 'clases/region.php';
+require_once 'vista/vw_home.php';
 require_once 'clases/vm_grafico_alarmas.php';
 require_once 'vista/vw_alarmas_region.php';
 require_once 'vista/modal/modal_informativo.php';
@@ -46,8 +47,14 @@ $region = $mi_region->getRegion()." Región";
 
 ?>
 <div class="row wrapper border-bottom white-bg page-heading">
-    <div class="col-lg-6">
-        <h2>Alarma eléctrica a nivel regional - <?php echo $region; ?></h2>
+    <div class="col-lg-12">
+        <h2>Alarma eléctrica a nivel regional - <?php echo $region; ?>
+        <div class="pull-right">
+        <?php
+        // Vista de tabla por regiones
+        vw_home::botonera_tv();
+        ?>
+        </div></h2>
         <ol class="breadcrumb">
 
             <?php
@@ -72,19 +79,19 @@ $region = $mi_region->getRegion()." Región";
         <!-- Mapa -->
         <div class="col-lg-8">
             <div class="ibox float-e-margins animated fadeInDown">
-                <div class="ibox-title">
-                    <h4>Alarmas electricas de la <?php echo $region; ?></h4>
+                <div class="ibox-title ui-widget-header blue-bg">
+                    <h4 class="p-xxs">Alarmas electricas de la <?php echo $region; ?></h4>
                     <div ibox-tools></div>
                 </div>
-                <div class="ibox-content" id="mapa" style="height: 665px">
+                <div class="ibox-content" id="mapa" style="height: 654px">
                 </div>
             </div>
         </div>
 
-        <div class="col-md-12 hidden-sm">
+        <!-- <div class="col-md-12 hidden-sm">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>Alarmas eléctricas por comuna</h5>
+                    <h4>Alarmas eléctricas por comuna</h4>
                 </div>
                 <div class="ibox-content">
                     <div style="text-align: center">
@@ -96,9 +103,7 @@ $region = $mi_region->getRegion()." Región";
                     </div>
                 </div>
             </div>
-        </div>
-
-        
+        </div> --> 
 
     </div>
 
@@ -150,6 +155,32 @@ $region = $mi_region->getRegion()." Región";
 
 <!-- Data Tables -->
 <script src="js/plugins/dataTables/datatables.min.js"></script>
+
+
+<!-- Exportar Excel -->
+<script src="js/plugins/excel/jquery.table2excel.js"></script>
+
+<!-- Script para exportar a Excel -->
+<script>
+    $("button").click(function(){
+        $("#region_table").table2excel({
+            // exclude CSS class
+            exclude: ".noExl",
+            name: "Alarmas Región",
+            filename: "Alarmas_Region"
+
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.scroll_content').slimscroll({
+            height: '617px',
+            opacity: 0.1,
+            wheelStep : 10,
+            })});
+</script>
 
 <script>
     var barData = {
@@ -300,43 +331,24 @@ $region = $mi_region->getRegion()." Región";
 
 </script>
 
-<!-- Script para exportar a Excel -->
-<script>
-    $("button").click(function(){
-        $("#editable").table2excel({
-            // exclude CSS class
-            exclude: ".noExl",
-            name: "Busqueda OT",
-            filename: "Busqueda de OT"
-
-        });
-    });
-</script>
-
 <!-- Page-Level Scripts -->
 <script>
     $(document).ready(function(){
         $('.dataTables-example').DataTable({
             dom: '<"html5buttons"B>lTfgitp',
             buttons: [
-            {extend: 'copy'},
-            {extend: 'csv'},
-            {extend: 'excel', title: 'ExampleFile'},
-            {extend: 'pdf', title: 'ExampleFile'},
-
             {extend: 'print',
-            customize: function (win){
-                $(win.document.body).addClass('white-bg');
-                $(win.document.body).css('font-size', '10px');
 
-                $(win.document.body).find('table')
-                .addClass('compact')
-                .css('font-size', 'inherit');
+                customize: function (win){
+                    $(win.document.body).addClass('white-bg');
+                    $(win.document.body).css('font-size', '10px');
+                    $(win.document.body).find('table')
+                    .addClass('compact')
+                    .css('font-size', 'inherit');
+                }
             }
-        }
-        ]
-
-    });
+            ]
+        });
 
         /* Init DataTables */
         var oTable = $('#editable').DataTable();

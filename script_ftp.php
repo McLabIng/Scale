@@ -4,9 +4,9 @@ error_reporting(~E_NOTICE);
 session_start();
 
 // Primero incluimos las clases de procesamiento
-require_once 'c:/xampp/htdocs/scale/clases/procesador_texto.php';
-require_once 'c:/xampp/htdocs/scale/clases/conexion_ftp.php';
-require_once 'c:/xampp/htdocs/scale/clases/server_ftp.php';
+require_once 'cd /Users/Blackbird/Sites/scale/clases/procesador_texto.php';
+require_once 'cd /Users/Blackbird/Sites/scale/clases/conexion_ftp.php';
+require_once 'cd /Users/Blackbird/Sites/scale/clases/server_ftp.php';
 
 // Vista de conexion FTP
 ini_set('max_execution_time', 300); //300 seconds = 5 minutes

@@ -56,7 +56,8 @@ class vm_grafico_alarmas {
                     P.region,
                     P.comuna
                     ORDER BY
-                    R.cod_region ');
+                    alarmas DESC,
+                    P.comuna ');
         $consulta->bindParam(':cod_region', $cod_region, PDO::PARAM_INT);
         $consulta->execute();
         $registros = $consulta->fetchAll();
@@ -82,7 +83,10 @@ class vm_grafico_alarmas {
                     P.lat_google <> 0 AND
                     P.lon_google <> 0
                     GROUP BY
-                    P.id ');
+                    P.id
+                    ORDER BY
+                    CELDAS_ALARMADAS DESC,
+                    P.nombre');
         $consulta->bindParam(':cod_region', $cod_region, PDO::PARAM_INT);
         $consulta->bindParam(':comuna', $comuna, PDO::PARAM_STR);
         $consulta->execute();
@@ -219,56 +223,80 @@ class vm_grafico_alarmas {
         return $registros;
     }
 
-    public static function traer_top_alarmas_recurrentes($cantidad){
+    public static function traer_top_alarmas_recurrentes(){
         $conexion = new Conexion();
 
         $consulta = $conexion->prepare(' SELECT
-                                            S.REGION, S.NOMBRE, SP.cod_sitio, count(A.TEXTO) AS cantidad, A.TEXTO
-                                            FROM ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S, ' . self::TABLA_3 .' A
-                                            WHERE
-                                            S.RSITE = A.RSITE AND
-                                            A.CLASE = "A1" and
-                                            S.ESTADO NOT IN ("ELIMINADO") AND
-                                            S.SITIO = SP.cod_sitio AND
-                                            A.INICIO >= "2016-02-14"
-                                            group by
-                                            S.REGION,
-                                            S.COMUNA,
-                                            SP.cod_sitio,
-                                            A.TEXTO
-                                            order by
-                                            count(A.TEXTO) desc
-                                            limit :cantidad
+                    S.REGION, S.NOMBRE, SP.cod_sitio, count(A.TEXTO) AS cantidad, A.TEXTO
+                    FROM ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S, ' . self::TABLA_3 .' A
+                    WHERE
+                    S.RSITE = A.RSITE AND
+                    A.CLASE = "A1" and
+                    S.ESTADO NOT IN ("ELIMINADO") AND
+                    S.SITIO = SP.cod_sitio AND
+                    A.INICIO >= "2016-02-14"
+                    group by
+                    S.REGION,
+                    S.COMUNA,
+                    SP.cod_sitio,
+                    A.TEXTO
+                    order by
+                    count(A.TEXTO) desc
+                                            
                      ');
-        $consulta->bindParam(':cantidad', $cantidad, PDO::PARAM_INT);
         $consulta->execute();
         $registros = $consulta->fetchAll();
         return $registros;
     }
 
-    public static function traer_top_alarmas_minimas($cantidad){
+    public static function traer_top_alarmas_minimas(){
         $conexion = new Conexion();
 
         $consulta = $conexion->prepare(' SELECT
-                                            S.REGION, S.NOMBRE, SP.cod_sitio, COUNT(A.TEXTO) AS cantidad, A.TEXTO
-                                            FROM ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S, ' . self::TABLA_3 .' A , ' . self::TABLA_5 .' P
-                                            WHERE
-                                            S.RSITE = A.RSITE AND
-                                            A.CLASE = "A1" AND
-                                            S.ESTADO NOT IN ("ELIMINADO") AND
-                                            S.SITIO = SP.cod_sitio AND
-                                            SP.cod_pop = P.cod_pop AND
-                                            P.tipo_nodo = 1 AND
-                                            A.INICIO >= "2016-02-14"
-                                            GROUP BY
-                                            S.REGION,
-                                            S.COMUNA,
-                                            SP.cod_sitio,
-                                            A.TEXTO
-                                            ORDER BY
-                                            COUNT(A.TEXTO) DESC
-                                            limit :cantidad
+                    S.REGION, S.NOMBRE, SP.cod_sitio, COUNT(A.TEXTO) AS cantidad, A.TEXTO
+                    FROM ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S, ' . self::TABLA_3 .' A , ' . self::TABLA_5 .' P
+                    WHERE
+                    S.RSITE = A.RSITE AND
+                    A.CLASE = "A1" AND
+                    S.ESTADO NOT IN ("ELIMINADO") AND
+                    S.SITIO = SP.cod_sitio AND
+                    SP.cod_pop = P.cod_pop AND
+                    P.tipo_nodo = 1 AND
+                    A.INICIO >= "2016-02-14"
+                    GROUP BY
+                    S.REGION,
+                    S.COMUNA,
+                    SP.cod_sitio,
+                    A.TEXTO
+                    ORDER BY
+                    COUNT(A.TEXTO) DESC
                      ');
+        $consulta->execute();
+        $registros = $consulta->fetchAll();
+        return $registros;
+    }
+
+    public static function traer_top_alarmas_recurrentes_tv($cantidad){
+        $conexion = new Conexion();
+
+        $consulta = $conexion->prepare(' SELECT
+                    S.REGION, S.NOMBRE, SP.cod_sitio, count(A.TEXTO) AS cantidad, A.TEXTO
+                    FROM ' . self::TABLA_6 .' SP, ' . self::TABLA_2 .' S, ' . self::TABLA_3 .' A
+                    WHERE
+                    S.RSITE = A.RSITE AND
+                    A.CLASE = "A1" and
+                    S.ESTADO NOT IN ("ELIMINADO") AND
+                    S.SITIO = SP.cod_sitio AND
+                    A.INICIO >= "2016-02-14"
+                    group by
+                    S.REGION,
+                    S.COMUNA,
+                    SP.cod_sitio,
+                    A.TEXTO
+                    order by
+                    count(A.TEXTO) desc
+                    limit :cantidad
+                    ');
         $consulta->bindParam(':cantidad', $cantidad, PDO::PARAM_INT);
         $consulta->execute();
         $registros = $consulta->fetchAll();

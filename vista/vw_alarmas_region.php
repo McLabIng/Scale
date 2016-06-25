@@ -7,54 +7,54 @@ class vw_alarmas_region {
 
     public static function lista_regional($lista_alarmas){
         
-        if (count($lista_alarmas)>15) {
-            $id = 'id="editable"';
-        }
-        else {
-            $id = "";
-        }
+        // if (count($lista_alarmas)>15) {
+        //     $id = 'id="editable"';
+        // }
+        // else {
+        //     $id = "";
+        // }
 
         ?>
 
         <div class="ibox float-e-margins">
-            <div class="ibox-title col-md-12">
-                <div class="pull-right">
-                    <button class="btn btn-xs btn-primary btn-outline">Exportar &nbsp;<i class="fa fa-file-excel-o"></i></button>
-                </div>
-                <h4>Listado por comunas</h4>
+            <div class="ibox-title col-md-12 ui-widget-header blue-bg">
+                <button class="pull-right btn btn-md btn-primary"><i class="fa fa-file-excel-o"></i></button>
+                <h4 class="p-xxs">Listado por comunas</h4>
             </div>
             <div class="ibox-content">
-                <div class="table-responsive project-list">
-                    <table class="table table-hover table-striped" <?php echo $id; ?> >
-                        <thead>
-                            <tr>
-                                <th>Comuna</th>
-                                <th style="text-align: center">Sitios</th>
-                                <th style="text-align: center">Alarmas</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php
-                            foreach($lista_alarmas as $resultados):
+                <div class="scroll_content">
+                    <div class="table-responsive project-list">
+                        <table class="table table-hover" id="region_table" data-sort="false">
+                            <thead>
+                                <tr>
+                                    <th>Comuna</th>
+                                    <th style="text-align: center">Sitios</th>
+                                    <th style="text-align: center">Alarmas</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                foreach($lista_alarmas as $resultados):
 
-                                if ($resultados["alarmas"]>0) {
-                                    $text = 'class="text-danger"';
-                                }
-                                else {
-                                    $text = '';
-                                }
+                                    if ($resultados["alarmas"]>0) {
+                                        $text = 'class="text-danger"';
+                                    }
+                                    else {
+                                        $text = '';
+                                    }
 
-                                echo ' <tr>';
-                                echo ' <td>'.$resultados["comuna"].'</td>';
-                                echo ' <td style="text-align: center">'.$resultados["sitios"].'</td>';
-                                echo ' <td style="text-align: center" '.$text.'>'.$resultados["alarmas"].'</td>';
-                                echo ' <td style="text-align: center"><a class="btn btn-success btn-outline btn-xs"  href="?mod=alarmas_comuna&region='.$resultados['cod_region'].'&comuna='.$resultados['comuna'].'"><i class="fa fa-search"></i>&nbsp;Ver</a></td>';
-                                echo ' </tr>';
-                                endforeach;
-                                ?>
-                            </tbody>
-                        </table>
+                                    echo ' <tr>';
+                                    echo ' <td>'.$resultados["comuna"].'</td>';
+                                    echo ' <td style="text-align: center">'.$resultados["sitios"].'</td>';
+                                    echo ' <td style="text-align: center" '.$text.'>'.$resultados["alarmas"].'</td>';
+                                    echo ' <td style="text-align: center"><a class="btn btn-success btn-outline btn-xs"  href="?mod=alarmas_comuna&region='.$resultados['cod_region'].'&comuna='.$resultados['comuna'].'"><i class="fa fa-search"></i>&nbsp;Ver</a></td>';
+                                    echo ' </tr>';
+                                    endforeach;
+                                    ?>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>

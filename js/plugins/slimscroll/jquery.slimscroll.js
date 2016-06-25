@@ -76,7 +76,10 @@
         borderRadius: '7px',
 
         // sets border radius of the rail
-        railBorderRadius : '7px'
+        railBorderRadius : '7px',
+
+        // maxheight in pixels of the visible scroll area
+        maxHeight       : '',
       };
 
       var o = $.extend(defaults, options);
@@ -109,12 +112,35 @@
           if ($.isPlainObject(options))
           {
             // Pass height: auto to an existing slimscroll object to force a resize after contents have changed
-            if ( 'height' in options && options.height == 'auto' ) {
+            if ( 'height' in options && options.height == 'auto' || options.height !== '') {
+              // optionally set height to the parent's height
+              o.height = (o.height == 'auto') ? me.parent().height() : o.height;
               me.parent().css('height', 'auto');
               me.css('height', 'auto');
               var height = me.parent().parent().height();
               me.parent().css('height', height);
               me.css('height', height);
+              wrapper.css({
+                    height: o.height
+                });
+                // update style for the div
+                me.css({
+                    height: o.height
+                });
+            }
+
+            if ('maxHeight' in options && options.maxHeight !== '') {
+
+                me.parent().css('max-height', options.maxHeight.substring(0, options.maxHeight.length - 2));
+                me.css('max-height', options.maxHeight.substring(0, options.maxHeight.length - 2));
+                wrapper.css({
+                    maxHeight: o.maxHeight
+                });
+
+                // update style for the div
+                me.css({
+                    maxHeight: o.maxHeight
+                });
             }
 
             if ('scrollTo' in options)
@@ -160,14 +186,12 @@
               position: 'relative',
               overflow: 'hidden',
               width: o.width,
-              height: o.height
             });
 
         // update style for the div
         me.css({
           overflow: 'hidden',
           width: o.width,
-          height: o.height
         });
 
         // create scrollbar rail
