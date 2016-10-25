@@ -33,8 +33,9 @@ endforeach;
 
 $centro_mapa = vm_grafico_alarmas::traer_centro_mapa_region($cod_region);
 foreach ($centro_mapa as $rows_centro):
-    $lat = $rows_centro['lat'];
-    $lon = $rows_centro['lon'];
+    $lat = $rows_centro['latitud_centro'];
+    $lon = $rows_centro['longitud_centro'];
+    $zoom = $rows_centro['zoom'];
 endforeach;
 
 // Condicional mejora nombre de Región
@@ -48,11 +49,12 @@ $region = $mi_region->getRegion()." Región";
 ?>
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-12">
+        <h2 class="pull-right">Sub Gerencia O&M Infraestructura</h2>
         <h2>Alarma eléctrica a nivel regional - <?php echo $region; ?>
         <div class="pull-right">
         <?php
         // Vista de tabla por regiones
-        vw_home::botonera_tv();
+        // vw_home::botonera_tv();
         ?>
         </div></h2>
         <ol class="breadcrumb">
@@ -69,7 +71,7 @@ $region = $mi_region->getRegion()." Región";
 <div class="wrapper wrapper-content animated fadeInDown">
     <div class="row">
 
-        <div class="col-lg-4">
+        <div class="col-md-4 m-t-n">
             <?php
             // Vista de tabla por regiones
             vw_alarmas_region::lista_regional($alarmas);
@@ -77,14 +79,26 @@ $region = $mi_region->getRegion()." Región";
         </div>
 
         <!-- Mapa -->
-        <div class="col-lg-8">
+        <div class="col-md-8 hidden-sm m-t-n">
             <div class="ibox float-e-margins animated fadeInDown">
                 <div class="ibox-title ui-widget-header blue-bg">
                     <h4 class="p-xxs">Alarmas electricas de la <?php echo $region; ?></h4>
-                    <div ibox-tools></div>
                 </div>
-                <div class="ibox-content" id="mapa" style="height: 654px">
+                <div class="ibox-content" style="height: 654px">
+                    <div class="google-map" id="mapa"></div>
                 </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 hidden-xs m-t-n m-b-sm">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title col-md-12 ui-widget-header blue-bg">
+                    <button class="pull-right btn btn-md btn-primary"><i class="fa fa-file-excel-o"></i></button>
+                    <h4 class="p-xxs">Sitios Alarmados Ultima hora</h4>
+                </div>
+                <?php
+                    vw_alarmas_region::lista_top_recurrentes($cod_region);
+                ?>
             </div>
         </div>
 
@@ -171,6 +185,16 @@ $region = $mi_region->getRegion()." Región";
 
         });
     });
+
+    $("button").click(function(){
+        $("#region_table_hours").table2excel({
+            // exclude CSS class
+            exclude: ".noExl",
+            name: "Alarmas Región",
+            filename: "Alarmas_Region"
+
+        });
+    });
 </script>
 
 <script>
@@ -179,23 +203,33 @@ $region = $mi_region->getRegion()." Región";
             height: '617px',
             opacity: 0.1,
             wheelStep : 10,
-            })});
+        })
+    });
+
+    $(document).ready(function () {
+        $('.scroll_content_2').slimscroll({
+            height: '617px',
+            opacity: 0.1,
+            wheelStep : 10,
+        })
+    });
 </script>
 
-<script>
+<!-- <script>
     var barData = {
         labels: [
-            <?php $i=0;
-                foreach($data_alarmas as $datos){ $i++;
-            ?>
-            <?php echo "'$datos[0]'"; ?> ,
             <?php
-                if(count($data_alarmas) == $i-1){
+            // $i=0;
+            //     foreach($data_alarmas as $datos){ $i++;
+            
+            // echo "'$datos[0]'";
+            
+                // if(count($data_alarmas) == $i-1){
+            
+            // echo "'$datos[0]'";
+            
+                // }}
             ?>
-            <?php echo "'$datos[0]'"; ?>
-            <?php
-                }
-            } ?>
         ],
         datasets: [
             {
@@ -206,16 +240,16 @@ $region = $mi_region->getRegion()." Región";
                 highlightStroke: "rgba(220,220,220,1)",
                 data: [
                     <?php
-                    $i=0;
-                    foreach($data_alarmas as $datos)
-                    {
-                        $i++;
-                        echo $datos[1]; ?> ,
-                    <?php
-                        if(count($data_alarmas) == $i-1){
-                            echo $datos[1];
-                        }
-                    }
+                    // $i=0;
+                    // foreach($data_alarmas as $datos)
+                    // {
+                    //     $i++;
+                    //     echo $datos[1];
+
+                    //     if(count($data_alarmas) == $i-1){
+                    //         echo $datos[1];
+                    //     }
+                    // }
                 ?>
                 ]
             },
@@ -227,16 +261,15 @@ $region = $mi_region->getRegion()." Región";
                 highlightStroke: "rgba(236, 71, 88,1)",
                 data: [
                     <?php
-                    $i=0;
-                    foreach($data_alarmas as $datos)
-                    {
-                        $i++;
-                        echo $datos[2]; ?> ,
-                    <?php
-                        if(count($data_alarmas) == $i-1){
-                            echo $datos[2];
-                        }
-                    }
+                    // $i=0;
+                    // foreach($data_alarmas as $datos)
+                    // {
+                    //     $i++;
+                    //     echo $datos[2]; 
+                    //     if(count($data_alarmas) == $i-1){
+                    //         echo $datos[2];
+                    //     }
+                    // }
                 ?>
                 ]
             }
@@ -258,12 +291,15 @@ $region = $mi_region->getRegion()." Región";
 
     var ctx = document.getElementById("barChart").getContext("2d");
     var myNewChart = new Chart(ctx).Bar(barData, barOptions);
-</script>
+</script> -->
 
-<script>
-    var mapa;
-    function initialize() {
-        // las coordenadas
+
+
+<script type="text/javascript">
+    // When the window has finished loading google map
+    google.maps.event.addDomListener(window, 'load', init);
+
+    function init() {
 
         var sitios = [
             <?php $i=0;
@@ -293,22 +329,73 @@ $region = $mi_region->getRegion()." Región";
                  echo "'$pin'"; ?> , lat:<?php echo $datos[2]; ?> , lng:<?php echo $datos[3]; ?>, sigla:<?php echo "'$datos[4]'"; ?>
             <?php
             }
-        }
-    ?>
+            }
+            ?>
         ];
 
-        var centroMapa = new google.maps.LatLng(<?php echo $lat; ?>, <?php echo $lon; ?>);
-
-        var opcionesDeMapa = {
-            zoom: 8,
-            center: centroMapa,
-            mapTypeId: google.maps.MapTypeId.ROADMAP //SATELITE, HYBRID, ROADMAP, TERRAIN
+        // Options for Google map
+        // More info see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+        var mapOptions0 = {
+            zoom: <?php echo $zoom; ?>,
+            center: new google.maps.LatLng(<?php echo $lat; ?>, <?php echo $lon; ?>),
+            // Style for Google Maps
+            mapTypeId: google.maps.MapTypeId.ROADMAP
         };
-        // instancia un nuevo objeto Map
-        mapa = new google.maps.Map(document.getElementById("mapa"), opcionesDeMapa);
+
+        var mapOptions1 = {
+            zoom: <?php echo $zoom; ?>,
+            center: new google.maps.LatLng(<?php echo $lat; ?>, <?php echo $lon; ?>),
+            // Style for Google Maps
+            styles: [{"featureType":"water","stylers":[{"saturation":43},{"lightness":-11},{"hue":"#0088ff"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":99}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"color":"#808080"},{"lightness":54}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#ece2d9"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#ccdca1"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#767676"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#b8cb93"}]},{"featureType":"poi.park","stylers":[{"visibility":"on"}]},{"featureType":"poi.sports_complex","stylers":[{"visibility":"on"}]},{"featureType":"poi.medical","stylers":[{"visibility":"on"}]},{"featureType":"poi.business","stylers":[{"visibility":"simplified"}]}]
+        };
+
+        var mapOptions2 = {
+            zoom: <?php echo $zoom; ?>,
+            center: new google.maps.LatLng(<?php echo $lat; ?>, <?php echo $lon; ?>),
+            // Style for Google Maps
+            styles: [{"featureType":"all","elementType":"all","stylers":[{"invert_lightness":true},{"saturation":10},{"lightness":30},{"gamma":0.5},{"hue":"#435158"}]}]
+        };
+
+        var mapOptions3 = {
+            center: new google.maps.LatLng(<?php echo $lat; ?>, <?php echo $lon; ?>),
+            zoom: <?php echo $zoom; ?>,
+            mapTypeId: google.maps.MapTypeId.SATELLITE,
+            // Style for Google Maps
+            styles: [{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#fffffa"}]},{"featureType":"water","stylers":[{"lightness":50}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"lightness":40}]}]
+        };
+
+        var mapOptions4 = {
+            zoom: <?php echo $zoom; ?>,
+            center: new google.maps.LatLng(<?php echo $lat; ?>, <?php echo $lon; ?>),
+            // Style for Google Maps
+            styles: [{"stylers":[{"hue":"#18a689"},{"visibility":"on"},{"invert_lightness":true},{"saturation":40},{"lightness":10}]}]
+        };
+
+        var fenway = new google.maps.LatLng(<?php echo $lat; ?>, <?php echo $lon; ?>);
+        var mapOptions5 = {
+            zoom: <?php echo $zoom; ?>,
+            center: fenway,
+            // Style for Google Maps
+            styles: [{featureType:"landscape",stylers:[{saturation:-100},{lightness:65},{visibility:"on"}]},{featureType:"poi",stylers:[{saturation:-100},{lightness:51},{visibility:"simplified"}]},{featureType:"road.highway",stylers:[{saturation:-100},{visibility:"simplified"}]},{featureType:"road.arterial",stylers:[{saturation:-100},{lightness:30},{visibility:"on"}]},{featureType:"road.local",stylers:[{saturation:-100},{lightness:40},{visibility:"on"}]},{featureType:"transit",stylers:[{saturation:-100},{visibility:"simplified"}]},{featureType:"administrative.province",stylers:[{visibility:"off"}]/**/},{featureType:"administrative.locality",stylers:[{visibility:"off"}]},{featureType:"administrative.neighborhood",stylers:[{visibility:"on"}]/**/},{featureType:"water",elementType:"labels",stylers:[{visibility:"on"},{lightness:-25},{saturation:-100}]},{featureType:"water",elementType:"geometry",stylers:[{hue:"#ffff00"},{lightness:-25},{saturation:-97}]}]
+        };
+
+        var panoramaOptions = {
+            position: fenway,
+            pov: {
+                heading: 10,
+                pitch: 10
+            }
+        };
+        var panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'), panoramaOptions);
+
+        // Get all html elements for map
+        var mapElement1 = document.getElementById('mapa');
+
+        // Create the Google Map using elements
+        var mapa = new google.maps.Map(mapElement1, mapOptions0);
 
         // instancia unos nuevos marcadores ( chinchetas )
-        var marcador, pin	;
+        var marcador, pin;
 
         var url = "http:\/\/maps.google.com/mapfiles/ms/micons/";
         for( var i = 0; i < sitios.length; i++){
@@ -326,15 +413,12 @@ $region = $mi_region->getRegion()." Región";
             }(marcador,i));
         }
     }
-    // inicializa el mapa cuando la ventana se haya cargado:
-    google.maps.event.addDomListener(window, "load", initialize);
-
 </script>
 
 <!-- Page-Level Scripts -->
 <script>
     $(document).ready(function(){
-        $('.dataTables-example').DataTable({
+        $('.region_table_hours').DataTable({
             dom: '<"html5buttons"B>lTfgitp',
             buttons: [
             {extend: 'print',
@@ -349,40 +433,26 @@ $region = $mi_region->getRegion()." Región";
             }
             ]
         });
-
-        /* Init DataTables */
-        var oTable = $('#editable').DataTable();
-
-        /* Apply the jEditable handlers to the table */
-        oTable.$('td').editable( '../example_ajax.php', {
-            "callback": function( sValue, y ) {
-                var aPos = oTable.fnGetPosition( this );
-                oTable.fnUpdate( sValue, aPos[0], aPos[1] );
-            },
-            "submitdata": function ( value, settings ) {
-                return {
-                    "row_id": this.parentNode.getAttribute('id'),
-                    "column": oTable.fnGetPosition( this )[2]
-                };
-            },
-
-            "width": "90%",
-            "height": "100%"
-        } );
-
-
     });
-
-    function fnClickAddRow() {
-        $('#editable').dataTable().fnAddData( [
-            "Custom row",
-            "New row",
-            "New row",
-            "New row",
-            "New row" ] );
-
-    }
 </script>
+
+<script>
+     var time = new Date().getTime();
+     $(document.body).bind("mousemove keypress", function(e) {
+         time = new Date().getTime();
+     });
+
+     function refresh() {
+         if(new Date().getTime() - time >= 180000) 
+             // window.location.reload(true);
+         window.location = "index.php?mod=tv";
+         else 
+             setTimeout(refresh, 10000);
+     }
+
+     setTimeout(refresh, 10000);
+</script>
+
 
 
 <!-- Page-Level Scripts -->
@@ -397,7 +467,7 @@ $region = $mi_region->getRegion()." Región";
     </script-->
 
 
-<style>
+<!-- <style>
     body.DTTT_Print {
         background: #fff;
 
@@ -426,4 +496,4 @@ $region = $mi_region->getRegion()." Región";
         margin-right: 5px;
 
     }
-</style>
+</style> -->

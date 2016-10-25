@@ -2,6 +2,7 @@
 session_start();
 require_once 'clases/vm_grafico_alarmas.php';
 require_once 'vista/vw_scale_tv.php';
+require_once 'clases/vm_admin.php';
 
 $Fecha=getdate();
 $Anio=$Fecha["year"];
@@ -11,21 +12,23 @@ $mi_area = $mi_usuario->getCod_area();
 $mi_rol = $mi_usuario->getCod_rol();
 
 $alarmas = vm_grafico_alarmas::traer_alarmas_nacional();
+$alarmas_sin_conexion = vm_grafico_alarmas::traer_sin_conexion_nacional();
 foreach($alarmas as $rows):
     $data_alarmas[] = array($rows['region'],$rows['sitios'],$rows['alarmas'],$rows['id_region']);
 endforeach;
-
+$lista_nodos = vm_admin::conexion_nodos();
 ?>
 
 <script type="text/javascript">
     setTimeout(function(){
-        location = ''
-    },180000)
+        location = '';
+    },25000);
 </script>
 
 <!-- ######## BARRA TITULO ######## -->
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-12">
+        <h2 class="pull-right">Sub Gerencia O&M Infraestructura</h2>
         <h2>SCALE - Sistema de Conocimiento de Alarmas Eléctricas.</h2>
         <ol class="breadcrumb">
             <li class="active">
@@ -39,20 +42,20 @@ endforeach;
 <div class="wrapper wrapper-content">
     <div class="row">
 
-        <div class="ibox col-md-12">
+        <div class="ibox col-md-12 m-t-n">
 
-            <div class="col-lg-2 col-md-3 hidden-sm p-xxs animated fadeIn">
+            <div class="col-lg-2 col-md-3 hidden-sm p-xxs ">
                 <!-- Mapa -->
                 <div id="chartdiv" style="width: 100%; height: 730px; font-size: 11px;"></div>
             </div>
 
-            <div class="col-lg-4 col-md-9 col-sm-12 p-xs animated fadeIn">
+            <div class="col-lg-4 col-md-9 col-sm-12 p-xs ">
                 <?php
-                vw_scale_tv::alarmas_regiones($alarmas);
+                vw_scale_tv::alarmas_regiones($alarmas,$alarmas_sin_conexion);
                 ?>
             </div>
 
-            <div class="col-lg-6 col-sm-12 p-xs m-b-md animated fadeIn">
+            <div class="col-lg-6 col-sm-12 p-xs m-b-md ">
                 <?php
                 vw_scale_tv::lista_top_recurrentes(9);
                 ?>
@@ -60,6 +63,21 @@ endforeach;
 
         </div>
 
+    </div>
+    <div class="row">
+        <div class="col-md-12 m-t-n">
+
+            <div class="widget blue-bg col-md-12 m-t-n m-b-xxs">
+                <!-- <div class="ibox-title "> -->
+                    <h4 class="">ESTADO CONEXION DE NODOS</h4>
+                <!-- </div> -->
+                <br/>
+                <?php
+                    vw_scale_tv::estado_llamado_sitio($lista_nodos);
+                ?>
+            </div>
+
+        </div>
     </div>
 </div>
 </div>
@@ -73,6 +91,9 @@ endforeach;
 <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
 <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
+<!-- Data Tables -->
+<script src="js/plugins/dataTables/datatables.min.js"></script>
+
 <!-- JS Mapa -->
 <script src="js/plugins/ammap/ammap.js"></script>
 <!-- Skins Mapa -->
@@ -84,8 +105,8 @@ endforeach;
 <script src="js/plugins/ammap/themes/none.js"></script>
 <script src="js/plugins/ammap/themes/scale.js"></script>
 <!-- Adicional al mapa -->
-<script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
-
+<!-- <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+ -->
 
 <script>
 
@@ -97,18 +118,17 @@ endforeach;
             "getAreasFromMap": true,
             "zoomLevel": 1.0,         //ok
             "areas": [
-                <?php foreach ($data_alarmas as $datos): ?>
-                <?php if ($datos[2] >= 10):; ?>
-                <?php $color = '#fe2b00'; ?>
-                <?php elseif ($datos[2] == 0):; ?>
-                <?php $color = '#1c84c6'; ?>
-                <?php else :; ?>
-                <?php $color = '#ffb70a'; ?>
-                <?php endif; ?>
+                <?php 
+                foreach ($data_alarmas as $datos): 
+                    if ($datos[2] >= 10){
+                        $color = '#fe2b00';}
+                    elseif ($datos[2] == 0){;
+                        $color = '#1c84c6';}
+                    else {
+                        $color = '#ffb70a';}
 
-                <?php echo '{ "id": "'.$datos[3].'", "color": "'.$color.'", "value": "'.$datos[2].'" },'; ?>
-                <?php endforeach; ?>
-
+                echo '{ "id": "'.$datos[3].'", "color": "'.$color.'", "value": "'.$datos[2].'" },';
+                endforeach; ?>
             ]
         },
         "areasSettings": {
@@ -143,5 +163,57 @@ endforeach;
         //}
         map.dataGenerated = true;
         map.validateNow();
+    }
+</script>
+<!-- <script>
+    $(document).ready(function(){
+        /* Init DataTables */
+        var oTable = $('#editable').DataTable({
+        "paging":   false,
+        "ordering": false,
+        "info": false,
+        "filter": false,
+
+        // "scrollY": "544px",
+        // "scrollX": false,
+        // "scrollCollapse": true,
+        // "autoWidth": false,
+
+        // "order": [[ 1, "desc" ]],
+        // "aoColumns": [
+        //     null,
+        //     { "orderSequence": [ "desc", "asc" ] },
+        // ],
+        // "dom": "<'row'<'col-sm-6'l><'col-sm-6'f>>t<'row'<'col-sm-6'i><'col-sm-6'p>>",
+        // "lengthMenu": [ [6, 25, 50, -1], [6, 25, 50, "All"] ],
+        // "iDisplayLength": 2,
+        });
+    });
+</script> -->
+
+<script>
+    var my_time;
+    var delay = 1000 * 3;
+    
+    $(document).ready(function() {
+        setTimeout(function(){
+            pageScroll();
+        }, delay); 
+        $("#contain").mouseover(function() {
+            clearTimeout(my_time);
+        }).mouseout(function() {
+            pageScroll();
+        });
+    });
+    
+    function pageScroll() {
+        var objDiv = document.getElementById("contain");
+        objDiv.scrollTop = objDiv.scrollTop + 1;  
+        if ((objDiv.scrollTop + 631) == objDiv.scrollHeight) {
+            setTimeout(function(){
+                objDiv.scrollTop = 0;
+            }, delay);
+        }
+        my_time = setTimeout('pageScroll()', 35);
     }
 </script>

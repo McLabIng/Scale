@@ -36,22 +36,37 @@ class vw_alarmas_comuna {
                                 foreach($lista_alarmas as $resultados):
                                     modal_informativo::ver_sitio($cod_region, $comuna, $resultados["id"]);
 
-                                if ($resultados['CELDAS_ALARMADAS']<>0) {
-                                    $bell = 'text-danger fa fa-bell';
+                                if ($resultados["alarmados"] == 0) {
+                                    if ($resultados['CELDAS_ALARMADAS']<>0) {
+                                        $bell = 'text-danger fa fa-bell';
+                                    } else {
+                                        $bell = 'text-info fa fa-check';
+                                    }
                                 }
                                 else {
-                                    $bell = 'text-info fa fa-check';
+                                    $bell = 'text-danger fa fa-unlink';
                                 }
 
-                                echo ' <tr>';
+                                // if ($resultados["alarmado"] == 0) {
+                                //         if ($resultados['CELDAS_ALARMADAS']<>0) {
+                                //             $bell = 'text-danger fa fa-bell';
+                                //         } else {
+                                //             $bell = 'text-info fa fa-check';
+                                //         }
+                                //     }
+                                //     else {
+                                //         $bell = 'text-danger fa fa-unlink';
+                                //     }
+
+                                echo ' <tr data-toggle="modal" href="#sitio'.$resultados['id'].'">';
                                 echo ' <td>'.$resultados["cod_pop"].'</td>';
-                                echo ' <td><a data-toggle="modal" href="#sitio'.$resultados['id'].'">'.$resultados["nombre"].'</a></td>';
+                                echo ' <td><a>'.$resultados["nombre"].'</a></td>';
                                 echo ' <td class="" style="text-align: center; color: rgba(0,0,0,0)"><a class="hide">'.$resultados["CELDAS_ALARMADAS"].'</a><i class="'.$bell.'"></i></td>';
                                 if ($resultados['tipo_nodo']==1){
-                                    echo ' <td style="text-align: center"><a data-toggle="modal" href="#sitio'.$resultados['id'].'"><label class="label label-success">Mínima</label></a></td>';
+                                    echo ' <td style="text-align: center"><a><label class="label label-success">Mínima</label></a></td>';
                                 }
                                 else {
-                                    echo ' <td style="text-align: center"><a data-toggle="modal" href="#sitio'.$resultados['id'].'"><label class="label label-default">Normal</label></a></td>';
+                                    echo ' <td style="text-align: center"><a><label class="label label-default">Normal</label></a></td>';
                                 }
 
                                 echo ' </tr>';
@@ -79,35 +94,20 @@ class vw_alarmas_comuna {
         $comuna = $_GET['comuna'];
 
         // Condicional mejora nombre de Región
-        if ($mi_region->getRegion() == "RM") {
-            $region = 'Región Metropolitana';
-        }
-        else {
-            $region = $mi_region->getRegion()." Región";
-        }
-
+        if ($mi_region->getRegion() == "RM") {$region = 'Región Metropolitana';}
+        else {$region = $mi_region->getRegion()." Región";}
         ?>
 
-        <li>
-            <a href="javascript:history.go(-2)">Alarmas</a>
-        </li>
-
-        <li class="active">
-            <a href="javascript:history.back()"><?php echo $region; ?></a>
-        </li>
-
+        <li><a href="javascript:history.go(-2)">Alarmas</a></li>
+        <li class="active"><a href="javascript:history.back()"><?php echo $region; ?></a></li>
         <li class="btn-group active">
             <label data-toggle="dropdown"><strong><?php echo $comuna; ?> </strong><span class="caret"></span></label>
             <ul class="dropdown-menu">
-
                 <?php
                 foreach($lista_alarmas as $resultados):
-
                     echo '<li><a href="?mod=alarmas_comuna&region='.$resultados['cod_region'].'&comuna='.$resultados['comuna'].'">'.$resultados["comuna"].'</a></li>';
-
                 endforeach;
                 ?>
-
             </ul>
         </li>
 

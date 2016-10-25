@@ -43,11 +43,12 @@ $region = $mi_region->getRegion()." Región";
 ?>
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-12">
+        <h2 class="pull-right">Sub Gerencia O&M Infraestructura</h2>
         <h2>Alarma eléctrica a nivel comunal - <?php echo $comuna; ?>
         <div class="pull-right">
         <?php
         // Vista de tabla por regiones
-        vw_home::botonera_tv();
+        // vw_home::botonera_tv();
         ?>
         </div></h2>
         <ol class="breadcrumb">
@@ -69,7 +70,7 @@ $region = $mi_region->getRegion()." Región";
 <div class="wrapper wrapper-content animated fadeInDown">
     <div class="row">
 
-        <div class="col-lg-5">
+        <div class="col-lg-5 m-t-n">
             <?php
             // Vista de tabla por regiones
             vw_alarmas_comuna::lista_comunal($alarmas,$cod_region,$comuna);
@@ -77,13 +78,13 @@ $region = $mi_region->getRegion()." Región";
         </div>
 
         <!-- Mapa -->
-        <div class="col-lg-7">
+        <div class="col-lg-7 m-t-n">
             <div class="ibox float-e-margins animated fadeInDown">
                 <div class="ibox-title ui-widget-header blue-bg">
                     <h4 class="p-xxs">Alarmas electricas de la <?php echo $region; ?>, comuna de <?php echo $comuna; ?></h4>
-                    <div ibox-tools></div>
                 </div>
-                <div class="ibox-content" id="mapa" style="height: 654px">
+                <div class="ibox-content" style="height: 654px">
+                    <div class="google-map" id="mapa"></div>
                 </div>
             </div>
         </div>
@@ -204,7 +205,7 @@ $region = $mi_region->getRegion()." Región";
         var centroMapa = new google.maps.LatLng(<?php echo $lat; ?>, <?php echo $lon; ?>);
 
         var opcionesDeMapa = {
-            zoom: 9,
+            zoom: 11,
             center: centroMapa,
             mapTypeId: google.maps.MapTypeId.ROADMAP //SATELITE, HYBRID, ROADMAP, TERRAIN
         };
@@ -294,33 +295,20 @@ $region = $mi_region->getRegion()." Región";
     }
 </script>
 
-<style>
-    body.DTTT_Print {
-        background: #fff;
+<script>
+     var time = new Date().getTime();
+     $(document.body).bind("mousemove keypress", function(e) {
+         time = new Date().getTime();
+     });
 
-    }
-    .DTTT_Print #page-wrapper {
-        margin: 0;
-        background:#fff;
-    }
+     function refresh() {
+         if(new Date().getTime() - time >= 180000) 
+             // window.location.reload(true);
+         window.location = "index.php?mod=tv";
+         else 
+             setTimeout(refresh, 10000);
+     }
 
-    button.DTTT_button, div.DTTT_button, a.DTTT_button {
-        border: 1px solid #e7eaec;
-        background: #fff;
-        color: #676a6c;
-        box-shadow: none;
-        padding: 6px 8px;
-    }
-    button.DTTT_button:hover, div.DTTT_button:hover, a.DTTT_button:hover {
-        border: 1px solid #d2d2d2;
-        background: #fff;
-        color: #676a6c;
-        box-shadow: none;
-        padding: 6px 8px;
-    }
+     setTimeout(refresh, 10000);
+</script>
 
-    .dataTables_filter label {
-        margin-right: 5px;
-
-    }
-</style>

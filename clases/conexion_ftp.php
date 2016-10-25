@@ -1,4 +1,6 @@
 <?php
+date_default_timezone_set('America/Santiago');
+require_once 'server_ftp.php';
 
 class FTPClient {
     private $connectionId;
@@ -92,10 +94,12 @@ class FTPClient {
             $nombre = $this->Nombre_archivo($servidor,$user,$password,$carpeta);
             if (!$this->downloadFile($carpeta."/".$nombre,"archivos/".$nodo.".txt")){
                 $this->logMessage("Archivo sin traer!!. Nodo: ".$nodo." \n");
+                server_ftp::conexion_error($nodo,0);
                 return false;
             }
             else {
                 $this->logMessage("Archivo traspasado!!. Nodo: ".$nodo." \n");
+                server_ftp::conexion_error($nodo,1);
                 return true;
             }
         }

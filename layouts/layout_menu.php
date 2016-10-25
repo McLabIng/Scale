@@ -5,6 +5,7 @@ require_once 'clases/cl_menu.php';
 require_once 'clases/usuario.php';
 require_once 'clases/area.php';
 require_once 'clases/datos_empresa.php';
+require_once 'vista/vw_home.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -28,63 +29,22 @@ require_once 'clases/datos_empresa.php';
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <script type="text/javascript">
-
-        ajax = function()
-        {
-            var objetoAjax=false;
-            try {
-                objetoAjax = new ActiveXObject('Msxml2.XMLHTTP');
-            }
-            catch (e)
-            {
-                try {
-                    objetoAjax = new ActiveXObject('Microsoft.XMLHTTP');
-                }
-                catch (E)
-                {
-                    objetoAjax = false;
-                }
-            }
-
-            if (!objetoAjax && typeof XMLHttpRequest != 'undefined')
-            {
-                objetoAjax = new XMLHttpRequest();
-            }
-            return objetoAjax;
-        }
 
 
-        function load()
-        {
-            var ajax = ajax();
-            var divContenedor =  document.getElementById("load");
-            var divContenedorDatos =  document.getElementById("page_wrapper");
 
-            //ajax.open("GET","");
+    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
+    <!-- <link href="css/plugins/datapicker/datepicker3.css" rel="stylesheet"> -->
 
-            ajax.onreadystatechange = function()
-            {
-                if(ajax.readyState <= 3)
-                {
-                    divContenedor.style.display = 'block';
-                }
+    <link href="css/plugins/chosen/chosen.css" rel="stylesheet">
 
-                if(ajax.readyState == 4)
-                {
-                    divContenedorDatos.innerHTML = ajax.responseText; //respuesta del server con los datos
-                    divContenedor.style.display = 'none'
+    <!-- <link href="css/plugins/switchery/switchery.css" rel="stylesheet"> -->
 
-                }
-            }
-            ajax.send(null);
-        }
-
-        window.onload = function()
-        {
-            load();
-        }
-    </script>
+    <!-- <link href="css/plugins/dropzone/basic.css" rel="stylesheet"> -->
+    <!-- <link href="css/plugins/dropzone/dropzone.css" rel="stylesheet"> -->
+    <link href="css/plugins/steps/jquery.steps.css" rel="stylesheet">
+    <link href="css/plugins/cropper/cropper.min.css" rel="stylesheet">
+    <link href="css/plugins/blueimp/css/blueimp-gallery.min.css" rel="stylesheet">
 
 </head>
 
@@ -111,6 +71,7 @@ if  (isset($_SESSION["username"])){
                     <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">'.$usuario->getNombre().' '.$usuario->getApellido().'</strong>
                      </span> <span class="text-muted text-xs block">'.$area->getArea().'<b class="caret"></b></span> </span> </a>
                     <ul class="dropdown-menu animated fadeInDown m-t-xs">
+                        <li><a target="_blank" href="?mod=ver_perfil"><i class"fa fa-wrench"></i>Perfil</a></li>
                         <li><a href="?mod=logout">Logout</a></li>
                     </ul>
                 </div>
@@ -172,6 +133,7 @@ if  (isset($_SESSION["username"])){
             <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
                 <div class="navbar-header">
                     <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i> </a>
+                    <a class="btn btn-sm btn-warning btn-bitbucket" style="margin-top: 14px" href="?mod=tv">Vista TV &nbsp;<i class="fa fa-desktop"></i></a>
                 </div>
                 <ul class="nav navbar-top-links navbar-right">
                     <li>
@@ -193,9 +155,9 @@ if  (isset($_SESSION["username"])){
     <!--</div>-->
 
         <div class="footer">
-            <div class="pull-right"></div>
-            <div>
+            <div class="col-md-6">
                 <strong>Copyright</strong> McLab Ingenieria SpA&copy; 2015-2016
+                <a href="http://www.mclab.cl" target="blank"><img alt="image" class="img-container pull-right" src="img/logo-mclabSPA.png" style="width: 100px"/></a>
             </div>
         </div>
 

@@ -37,18 +37,30 @@ class vw_alarmas_region {
                                 <?php
                                 foreach($lista_alarmas as $resultados):
 
-                                    if ($resultados["alarmas"]>0) {
-                                        $text = 'class="text-danger"';
+                                    if ($resultados["alarmados"] == 0) {
+                                        $button_color = 'btn-success';
+                                        $fa = 'fa-search';
+                                        if ($resultados["alarmas"]>0) {
+                                            $text = 'class="text-danger"';
+                                        } else {
+                                            $text = '';
+                                        }
                                     }
                                     else {
-                                        $text = '';
+                                        $button_color = 'btn-danger';
+                                        $fa = 'fa-unlink';
+                                        if ($resultados["alarmas"]>0) {
+                                            $text = 'class="text-danger"';
+                                        } else {
+                                            $text = '';
+                                        }
                                     }
 
                                     echo ' <tr>';
                                     echo ' <td>'.$resultados["comuna"].'</td>';
                                     echo ' <td style="text-align: center">'.$resultados["sitios"].'</td>';
                                     echo ' <td style="text-align: center" '.$text.'>'.$resultados["alarmas"].'</td>';
-                                    echo ' <td style="text-align: center"><a class="btn btn-success btn-outline btn-xs"  href="?mod=alarmas_comuna&region='.$resultados['cod_region'].'&comuna='.$resultados['comuna'].'"><i class="fa fa-search"></i>&nbsp;Ver</a></td>';
+                                    echo ' <td style="text-align: center"><a class="btn '.$button_color.' btn-outline btn-xs"  href="?mod=alarmas_comuna&region='.$resultados['cod_region'].'&comuna='.$resultados['comuna'].'"><i class="fa '.$fa.'"></i>&nbsp;Ver</a></td>';
                                     echo ' </tr>';
                                     endforeach;
                                     ?>
@@ -99,6 +111,72 @@ class vw_alarmas_region {
         </li>
 
         <?php
+    }
+
+    public static function lista_top_recurrentes($cod_region){
+        $lista_top_recurrentes = vm_grafico_alarmas::traer_top_alarmas_recurrentes_region($cod_region);
+        $lista_sin_conexion = vm_grafico_alarmas::traer_sin_conexion();
+        $cantidad_alarmados = count($lista_top_recurrentes);
+        $cantidad_sin_conexion = count($lista_sin_conexion);
+        ?>
+        <div class="ibox-content">
+            <div class="scroll_content_2">
+                <div class="table-responsive project-list">
+                    <table class="table table-hover" id="region_table_hours" data-sort="false">
+                        <thead>
+                        <tr>
+                            <th class="col-sm-1 text-center">Sitio</th>
+                            <th class="col-sm-2">Nombre</th>
+                            <th class="col-sm-1">Comuna</th>
+                            <th class="col-sm-1 text-center">Cantidad</th>
+                            <th class="col-sm-2">Fecha</th>
+                            <th class="col-sm-4">Alarma</th>
+                            <th class="col-sm-1 text-center">Estado</th>
+                            <th class="col-sm-1 text-center">Tecnología</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <?php
+                        // foreach($lista_sin_conexion as $lista):
+                        //     if ($lista['alarmado'] = 1) {
+                        //     echo ' <tr>';
+                        //     echo ' <td class="col-sm-1" style="text-align: center">'.$lista["REGION"].'</td>';
+                        //     echo ' <td class="col-sm-1">'.$lista['cod_sitio'].'</td>';
+                        //     echo ' <td class="col-sm-2"><a data-toggle="modal" href="" >'.$lista["NOMBRE"].'</a></td>';
+                        //     echo ' <td class="col-sm-1 text-danger" style="text-align: center"><i class="fa fa-unlink text-danger"></td>';
+                        //     echo ' <td class="col-sm-7">SITIO CAIDO</td>';
+                        //     echo ' </tr>';
+                        // }
+                        // endforeach;
+                        foreach($lista_top_recurrentes as $resultados):
+
+                            if ($resultados["ESTADO"] == 0) {
+                                $boton = 'text-navy';
+                            } else {
+                                $boton = 'text-danger';
+                            }
+
+                            echo ' <tr>';
+                            echo ' <td class="col-sm-1 text-center">'.$resultados['cod_sitio'].'</td>';
+                            echo ' <td class="col-sm-2"><a data-toggle="modal" href="" >'.$resultados["NOMBRE"].'</a></td>';
+                            echo ' <td class="col-sm-1">'.$resultados["COMUNA"].'</td>';
+                            echo ' <td class="col-sm-1 text-danger" style="text-align: center">'.$resultados["cantidad"].'</td>';
+                            echo ' <td class="col-sm-2">'.$resultados["INICIO"].'</td>';
+                            echo ' <td class="col-sm-4">'.$resultados["TEXTO"].'</td>';
+                            echo ' <td class="col-sm-1 text-center"><i class="fa fa-circle '.$boton.'"></i></td>';
+                            echo ' <td class="col-sm-1 text-center">'.$resultados["tecnologia"].'</td>';
+                        endforeach;
+                        ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="ibox-content">
+            <p style="margin-bottom: -15px; margin-top: -8px"><?php if ($lista_sin_conexion['alarmado'] =! 0) { echo 'Total sitios caidos: '.$cantidad_sin_conexion.' - ';}?>Total sitios alarmados: <?php echo $cantidad_alarmados; ?></p>
+        </div>
+    <?php
     }
 
 }

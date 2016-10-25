@@ -2,6 +2,7 @@
 session_start();
 require_once 'clases/usuario.php';
 require_once 'clases/vm_grafico_alarmas.php';
+require_once 'clases/vm_admin.php';
 require_once 'vista/vw_home.php';
 require_once 'clases/procesador_texto.php';
 require_once 'clases/conexion_ftp.php';
@@ -15,21 +16,24 @@ $mi_area = $mi_usuario->getCod_area();
 $mi_rol = $mi_usuario->getCod_rol();
 
 $alarmas = vm_grafico_alarmas::traer_alarmas_nacional();
+$alarmas_sin_conexion = vm_grafico_alarmas::traer_sin_conexion_nacional();
 foreach($alarmas as $rows):
     $data_alarmas[] = array($rows['region'],$rows['sitios'],$rows['alarmas']);
 endforeach;
 
 $cantidad = vw_home::cantidad_alarmas_nacional();
 
+$lista_nodos = vm_admin::conexion_nodos();
+
 ?>
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-12">
-
-        <h2>SCALE - Sistema de Conocimiento de Alarmas Eléctricas.
-        <div class="pull-right">
+        <h2 class="pull-right">Sub Gerencia O&M Infraestructura</h2>
+        <h2>SCALE - Sistema de Conocimiento de Alarmas Eléctricas
+        <div class="pull-right hidden-sm hidden-xs">
         <?php
         // Vista de tabla por regiones
-        vw_home::botonera_tv();
+        // vw_home::botonera_tv();
         ?>
         </div></h2>
         <ol class="breadcrumb">
@@ -45,17 +49,17 @@ $cantidad = vw_home::cantidad_alarmas_nacional();
     <div class="row">
 
 
-        <div class="col-lg-3 col-md-5 col-sm-12 animated fadeIn">
+        <div class="col-lg-3 col-md-5 col-sm-12 animated fadeIn m-t-n">
             <?php
-            vw_home::alarmas_regiones($alarmas);
+            vw_home::alarmas_regiones($alarmas,$alarmas_sin_conexion);
             ?>
         </div>
 
-        <div class="col-lg-9 col-md-7 hidden-sm">
+        <div class="col-lg-9 col-md-7 hidden-sm hidden-xs m-t-n">
             <div class="ibox float-e-margins">
                 <div class="ibox-title col-md-12 ui-widget-header blue-bg">
                     <button class="pull-right btn btn-md btn-primary"><i class="fa fa-file-excel-o"></i></button>
-                    <h4 class="p-xxs">Sitios Alarmados (<?php echo $cantidad; ?>)</h4>
+                    <h4 class="p-xxs">Sitios Alarmados</h4>
                 </div>
                 <?php
                     vw_home::lista_top_recurrentes();
@@ -82,6 +86,19 @@ $cantidad = vw_home::cantidad_alarmas_nacional();
         </div> -->
 
     </div>
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="widget blue-bg col-md-12 m-t-n m-b-md">
+                <h4 class="">ESTADO CONEXION DE NODOS</h4>
+                <br/>
+                <?php
+                    vw_home::estado_llamado_sitio($lista_nodos);
+                ?>
+            </div>
+
+        </div>
+    </div>
 </div>
 
 <!-- Mainly scripts -->
@@ -89,15 +106,6 @@ $cantidad = vw_home::cantidad_alarmas_nacional();
 <script src="js/bootstrap.min.js"></script>
 <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
 <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-
-<!-- Flot -->
-<script src="js/plugins/flot/jquery.flot.js"></script>
-<script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
-<script src="js/plugins/flot/jquery.flot.spline.js"></script>
-<script src="js/plugins/flot/jquery.flot.resize.js"></script>
-<script src="js/plugins/flot/jquery.flot.pie.js"></script>
-<script src="js/plugins/flot/jquery.flot.symbol.js"></script>
-<script src="js/plugins/flot/curvedLines.js"></script>
 
 <!-- Peity -->
 <script src="js/plugins/peity/jquery.peity.min.js"></script>
@@ -180,95 +188,8 @@ $cantidad = vw_home::cantidad_alarmas_nacional();
     });
 </script>
 
-
-<script>
-    var barData = {
-        labels: [
-            <?php $i=0;
-                foreach($data_alarmas as $datos){ $i++;
-            ?>
-            <?php echo "'$datos[0]'"; ?> ,
-            <?php
-                if(count($data_alarmas) == $i-1){
-            ?>
-            <?php echo "'$datos[0]'"; ?>
-            <?php
-                }
-            } ?>
-        ],
-        datasets: [
-            {
-                label: "Sitios",
-                fillColor: "rgba(220,220,220,0.5)",
-                strokeColor: "rgba(220,220,220,0.8)",
-                highlightFill: "rgba(220,220,220,0.75)",
-                highlightStroke: "rgba(220,220,220,1)",
-                data: [
-                    <?php
-                    $i=0;
-                    foreach($data_alarmas as $datos)
-                    {
-                        $i++;
-                        echo $datos[1]; ?> ,
-                    <?php
-                        if(count($data_alarmas) == $i-1){
-                            echo $datos[1];
-                        }
-                    }
-                ?>
-                ]
-            },
-            {
-                label: "Alarmas",
-                fillColor: "rgba(236, 71, 88,0.5)",
-                strokeColor: "rgba(236, 71, 88,0.8)",
-                highlightFill: "rgba(236, 71, 88,0.75)",
-                highlightStroke: "rgba(236, 71, 88,1)",
-                data: [
-                    <?php
-                    $i=0;
-                    foreach($data_alarmas as $datos)
-                    {
-                        $i++;
-                        echo $datos[2]; ?> ,
-                    <?php
-                        if(count($data_alarmas) == $i-1){
-                            echo $datos[2];
-                        }
-                    }
-                ?>
-                ]
-            }
-        ]
-    };
-
-    var barOptions = {
-        scaleBeginAtZero: true,
-        scaleShowGridLines: true,
-        scaleGridLineColor: "rgba(0,0,0,.05)",
-        scaleGridLineWidth: 1,
-        barShowStroke: true,
-        barStrokeWidth: 1,
-        barValueSpacing: 5,
-        barDatasetSpacing: -20,
-        responsive: true,
-    }
-
-    var ctx = document.getElementById("barChart").getContext("2d");
-    var myNewChart = new Chart(ctx).Bar(barData, barOptions);
-</script>
-
-<script>
-    $(document).ready(function(){
-        $("#cargando_tabla").css("display", "inline");
-        $("#destino_tabla").load("modulos/transicion_tabla_home.php", function(){
-            $("#cargando_tabla").css("display", "none");
-        });
-    })
-</script>
-
 <!-- Page-Level Scripts -->
-<script>
+<!-- <script>
     $(document).ready(function() {
         $('.dataTables-example').dataTable({
             responsive: true,
@@ -298,8 +219,6 @@ $cantidad = vw_home::cantidad_alarmas_nacional();
             "width": "90%",
             "height": "100%"
         } );
-
-
     });
 
     function fnClickAddRow() {
@@ -309,36 +228,23 @@ $cantidad = vw_home::cantidad_alarmas_nacional();
             "New row",
             "New row",
             "New row" ] );
-
     }
+</script>  -->  
+
+<script>
+     var time = new Date().getTime();
+     $(document.body).bind("mousemove keypress", function(e) {
+         time = new Date().getTime();
+     });
+
+     function refresh() {
+         if(new Date().getTime() - time >= 180000) 
+             // window.location.reload(true);
+         window.location = "index.php?mod=tv";
+         else 
+             setTimeout(refresh, 10000);
+     }
+
+     setTimeout(refresh, 10000);
 </script>
-<style>
-    body.DTTT_Print {
-        background: #fff;
 
-    }
-    .DTTT_Print #page-wrapper {
-        margin: 0;
-        background:#fff;
-    }
-
-    button.DTTT_button, div.DTTT_button, a.DTTT_button {
-        border: 1px solid #e7eaec;
-        background: #fff;
-        color: #676a6c;
-        box-shadow: none;
-        padding: 6px 8px;
-    }
-    button.DTTT_button:hover, div.DTTT_button:hover, a.DTTT_button:hover {
-        border: 1px solid #d2d2d2;
-        background: #fff;
-        color: #676a6c;
-        box-shadow: none;
-        padding: 6px 8px;
-    }
-
-    .dataTables_filter label {
-        margin-right: 5px;
-
-    }
-</style>

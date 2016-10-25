@@ -25,7 +25,7 @@ else die('Error al cargar el módulo <b>'.$modulo.'</b>. No existe el archivo <b
 ?>
 <br>
 <div class="row">
-<div class="text-center ">Revisar el <a title="Manual SCALE" class="aalmanual manual" target="_blank" href="img/Manual_SCALE_v1.0.pdf">Manual SCALE</a><div>
+<div class="text-center ">Revisar el <a title="Manual SCALE" class="aalmanual manual" target="_blank" href="img/Manual_SCALE_v2.0.pdf">Manual SCALE v2.0<br/><br/><i class="fa fa-file-pdf-o text-danger fa-2x"></i></a><div>
 </div>
 <!-- Mainly scripts -->
 <script src="js/jquery-2.1.1.js"></script>

@@ -99,9 +99,9 @@ require_once 'clases/datos_empresa.php';
 
             <!-- ######## BARRA INFERIOR ######## -->
             <div class="footer fixed">
-                <div class="pull-right"></div>
-                <div>
+                <div class="col-md-6">
                     <strong>Copyright</strong> McLab Ingenieria SpA&copy; 2015-2016
+                    <a href="http://www.mclab.cl" target="blank"><img alt="image" class="img-container pull-right" src="img/logo-mclabSPA.png" style="width: 100px"/></a>
                 </div>
             </div>
 

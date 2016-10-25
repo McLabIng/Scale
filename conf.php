@@ -29,6 +29,16 @@ $conf['home'] = array(
 $conf['tv'] = array(
 	'archivo' => 'scale_tv.php',
 	'layout' => 'layout_tv.php' );
+$conf['historial'] = array(
+	'archivo' => 'historial.php',
+	'layout' => LAYOUT_DEFECTO );
+$conf['reportes'] = array(
+	'archivo' => 'reportes.php',
+	'layout' => LAYOUT_DEFECTO );
+$conf['admin'] = array(
+	'archivo' => 'admin.php',
+	'layout' => LAYOUT_DEFECTO );
+
 //Alarmas
 $conf['alarma'] = array(
 	'archivo' => 'alarmas.php' );
@@ -46,6 +56,14 @@ $conf['users'] = array(
 		'archivo' => 'users.php' );
 $conf['buscar_user'] = array(
 	'archivo' => 'buscar_user.php' );
+$conf['editar_usuario'] = array(
+		'archivo' => 'editar_usuario.php',
+		'layout' => 'layout_menu.php' );
+$conf['ver_perfil'] = array(
+	'archivo' => 'ver_perfil.php',
+	'layout' => 'layout_menu.php' );
+$conf['crear_usuario'] = array(
+		'archivo' => 'crear_usuario.php' );
 //Salir
 $conf['logout'] = array(
 		'archivo' => 'logout.php' );

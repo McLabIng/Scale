@@ -2243,6 +2243,11 @@ div.dt-button-info {
   margin-top: 5px;
   margin-bottom: 10px;
 }
+@media (max-width: 500px) {
+  .ui-widget-content h1 {
+    font-size: 30px;
+  }
+}
 .ui-widget-content h2 {
   font-family: Helvetica;
   font-size: 20px;
@@ -2254,6 +2259,16 @@ div.dt-button-info {
   font-size: 16px;
   margin-top: 5px;
   margin-bottom: 10px;
+}
+@media (max-width: 1500px) {
+  .ui-widget-content h3 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .ui-widget-content h3 {
+    font-size: 10px;
+  }
 }
 .ui-widget-content h4 {
   font-family: Helvetica;
@@ -2579,7 +2594,7 @@ div.dt-button-info {
 }
 /* Google Maps */
 .google-map {
-  height: 300px;
+  height: 620px;
 }
 /* Validation */
 label.error {
@@ -4135,12 +4150,28 @@ table.table-mail tr td {
 .white-bg {
   background-color: #ffffff;
 }
+.blue-white-bg {
+  background-color: #ffffff;
+  color: #1c84c6;
+}
+.yellow-white-bg {
+  background-color: #ffffff;
+  color: #ffb70a;
+}
 .navy-bg {
   background-color: #1ab394;
   color: #ffffff;
 }
 .blue-bg {
   background-color: #1c84c6;
+  color: #ffffff;
+}
+.dark-blue-bg {
+  background-color: #0154a1;
+  color: #ffffff;
+}
+.dark-bg {
+  background-color: #293846;
   color: #ffffff;
 }
 .lazur-bg {
@@ -4244,6 +4275,9 @@ table.table-mail tr td {
 }
 .text-primary {
   color: inherit;
+}
+.text-primary-2 {
+  color: #1ab394;
 }
 .text-success {
   color: #1c84c6;
@@ -4356,6 +4390,9 @@ a.close-canvas-menu:hover {
   padding-top: 70px;
 }
 /* MARGINS & PADDINGS */
+.p-xxs-n {
+  padding: -10px;
+}
 .p-xs-n {
   padding: -5px;
 }
@@ -8578,3 +8615,64 @@ body.md-skin {
     background: #ffb70a;
   }
 }
+
+
+.coloralarm-white {
+  box-sizing: content-box;
+  background-color: #ff8000;
+  color:#fff;
+  -webkit-animation: whitemorph 3s linear infinite;
+          animation: whitemorph 3s linear infinite;
+}
+@-webkit-keyframes whitemorph {
+  0% {
+    background: #fff;
+    color:#fe2b00;
+  }
+  25% {
+    background: #ff8000;
+    color:#fff;
+  }
+  50% {
+    background: #fe2b00;
+    color:#fff;
+  }
+  75% {
+    background: #ff8000;
+    color:#fff;
+  }
+  100% {
+    background: #fff;
+    color:#fe2b00;
+  }
+}
+@keyframes whitemorph {
+  0% {
+    background: #fff;
+    color:#fe2b00;
+  }
+  25% {
+    background: #ff8000;
+    color:#fff;
+  }
+  50% {
+    background: #fe2b00;
+    color:#fff;
+  }
+  75% {
+    background: #ff8000;
+    color:#fff;
+  }
+  100% {
+    background: #fff;
+    color:#fe2b00;
+  }
+}
+
+#contain {
+  height: 631px;  
+  overflow-y: scroll;
+  /*font-family: 'open sans';*/
+}
+
+
