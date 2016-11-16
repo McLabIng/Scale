@@ -48,8 +48,7 @@ $lista_nodos = vm_admin::conexion_nodos();
 
     <div class="row">
 
-
-        <div class="col-lg-3 col-md-5 col-sm-12 animated fadeIn m-t-n">
+        <div class="col-lg-3 col-md-5 col-sm-12 animated fadeIn m-t-n m-b-xl">
             <?php
             vw_home::alarmas_regiones($alarmas,$alarmas_sin_conexion);
             ?>
@@ -89,7 +88,7 @@ $lista_nodos = vm_admin::conexion_nodos();
     <div class="row">
         <div class="col-md-12">
 
-            <div class="widget blue-bg col-md-12 m-t-n m-b-md">
+            <div class="widget blue-bg col-md-12 col-sm-12 hidden-xs m-t-n m-b-xl">
                 <h4 class="">ESTADO CONEXION DE NODOS</h4>
                 <br/>
                 <?php
@@ -160,7 +159,8 @@ $lista_nodos = vm_admin::conexion_nodos();
             height: '581px',
             opacity: 0.1,
             wheelStep : 10,
-            })});
+        })
+    });
 </script>
 
 <style>
@@ -187,49 +187,7 @@ $lista_nodos = vm_admin::conexion_nodos();
 
     });
 </script>
-
-<!-- Page-Level Scripts -->
-<!-- <script>
-    $(document).ready(function() {
-        $('.dataTables-example').dataTable({
-            responsive: true,
-            "dom": 'T<"clear">lfrtip',
-            "tableTools": {
-                "sSwfPath": "js/plugins/dataTables/swf/copy_csv_xls_pdf.swf"
-            }
-        });
-
-        /* Init DataTables */
-        var oTable = $('#editable').dataTable();
-        oTable.order([1, 'desc']).draw();
-
-        /* Apply the jEditable handlers to the table */
-        oTable.$('td').editable( '../example_ajax.php', {
-            "callback": function( sValue, y ) {
-                var aPos = oTable.fnGetPosition( this );
-                oTable.fnUpdate( sValue, aPos[0], aPos[1] );
-            },
-            "submitdata": function ( value, settings ) {
-                return {
-                    "row_id": this.parentNode.getAttribute('id'),
-                    "column": oTable.fnGetPosition( this )[2]
-                };
-            },
-
-            "width": "90%",
-            "height": "100%"
-        } );
-    });
-
-    function fnClickAddRow() {
-        $('#editable').dataTable().fnAddData( [
-            "Custom row",
-            "New row",
-            "New row",
-            "New row",
-            "New row" ] );
-    }
-</script>  -->  
+ 
 
 <script>
      var time = new Date().getTime();
