@@ -50,7 +50,7 @@ require_once 'vista/vw_home.php';
 
 <body class="skin-1 mini-navbar">
 
-<div id="wrapper navbar-default navbar-static-side navbar-static-top"><!-- DIV PRINCIPAL -->
+<div id="wrapper"><!-- DIV PRINCIPAL -->
 <?php
 
 if  (isset($_SESSION["username"])){

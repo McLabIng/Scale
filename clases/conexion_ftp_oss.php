@@ -6,10 +6,11 @@ class FTPClient_OSS {
     private $messageArray = array();
 
     const SERVER_FTP_OSS_13 = "10.170.15.39";
-    const USER_FTP = "excsleiv";
-    const PASS_FTP_OSS_13 = "solutis2016";
+    const USER_FTP_13 = "excslei1";
+	const USER_FTP_14 = "excsleiv";
+    const PASS_FTP_OSS_13 = "2016chile";
     const SERVER_FTP_OSS_14 = "172.18.220.202";
-    const PASS_FTP_OSS_14 = "mclab2016";
+    const PASS_FTP_OSS_14 = "solutis201610";
 
     public function __construct() {
     }
@@ -22,7 +23,7 @@ class FTPClient_OSS {
         return $this->messageArray;
     }
 
-    public function connect_OSS_13 ($server = self::SERVER_FTP_OSS_13, $ftpUser = self::USER_FTP, $ftpPassword = self::PASS_FTP_OSS_13, $isPassive = true){
+    public function connect_OSS_13 ($server = self::SERVER_FTP_OSS_13, $ftpUser = self::USER_FTP_13, $ftpPassword = self::PASS_FTP_OSS_13, $isPassive = true){
         // *** Creamos una conexión básica
         $this->connectionId = ftp_connect($server);
         $this->logMessage("Funcion connect.- connectionId.: ".$this->connectionId. "\r\n");
@@ -49,7 +50,7 @@ class FTPClient_OSS {
         }
     }
 
-    public function connect_OSS_14 ($server = self::SERVER_FTP_OSS_14, $ftpUser = self::USER_FTP, $ftpPassword = self::PASS_FTP_OSS_14, $isPassive = true){
+    public function connect_OSS_14 ($server = self::SERVER_FTP_OSS_14, $ftpUser = self::USER_FTP_14, $ftpPassword = self::PASS_FTP_OSS_14, $isPassive = true){
         // *** Creamos una conexión básica
         $this->connectionId = ftp_connect($server);
         $this->logMessage("Funcion connect.- connectionId.: ".$this->connectionId. "\r\n");
@@ -104,7 +105,7 @@ class FTPClient_OSS {
 
     public function Traer_archivo_alarmas_OSS_13_3G(){
         if ($this->connect_OSS_13()){
-            if (!$this->downloadFile("/home/excsleiv/Documents/alarmas_3g_oss13.csv","archivos/alarmas_3g_oss13.csv")){
+            if (!$this->downloadFile("/home/excslei1/Documents/alarmas_3g_oss13.csv","archivos/alarmas_3g_oss13.csv")){
                 $this->logMessage("Archivo alarmas_oss_13_3g sin traer!!. \r\n");
                 return false;
             }
@@ -121,7 +122,7 @@ class FTPClient_OSS {
 
     public function Traer_archivo_alarmas_OSS_13_4G(){
         if ($this->connect_OSS_13()){
-            if (!$this->downloadFile("/home/excsleiv/Documents/alarmas_4g_oss13.csv","archivos/alarmas_4g_oss13.csv")){
+            if (!$this->downloadFile("/home/excslei1/Documents/alarmas_4g_oss13.csv","archivos/alarmas_4g_oss13.csv")){
                 $this->logMessage("Archivo alarmas_oss_13_4g sin traer!!. \r\n");
                 return false;
             }

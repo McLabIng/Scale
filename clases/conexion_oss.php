@@ -10,10 +10,10 @@ class conexion_oss {
         if ($OSS == "OSS13") {
             $credenciales_oss = new credenciales_OSS13();
             if ($tecnologia == "3G"){
-                $formula = ' rm  /home/excsleiv/Documents/alarmas_3g_oss13.csv; /home/cecmigz/bin/list_alarms_3g.sh >  /home/excsleiv/Documents/alarmas_3g_oss13.csv ';
+                $formula = ' rm  /home/excslei1/Documents/alarmas_3g_oss13.csv; /home/cecmigz/bin/list_alarms_3g.sh >  /home/excslei1/Documents/alarmas_3g_oss13.csv ';
             }
             else {
-                $formula = ' rm  /home/excsleiv/Documents/alarmas_4g_oss13.csv; /home/cecmigz/bin/list_alarms_4g.sh >  /home/excsleiv/Documents/alarmas_4g_oss13.csv ';
+                $formula = ' rm  /home/excslei1/Documents/alarmas_4g_oss13.csv; /home/cecmigz/bin/list_alarms_4g.sh >  /home/excslei1/Documents/alarmas_4g_oss13.csv ';
             }
 
         } else {

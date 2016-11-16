@@ -95,7 +95,7 @@ class sitio {
             return new self($registro['SITE_ID'],$registro['BSC'], $registro['SITIO'], $registro['RSITE'], $registro['INSITE'],
                 $registro['NOMBRE'],$registro['DIRECCION'],$registro['COMUNA'], $registro['REGION'],$registro['ESTADO'], $registro['FECHA_INTEGRACION'],
                 $registro['LAT_GOOGLE'], $registro['LON_GOOGLE'], $registro['COTA']);
-        } else {
+        }else{
             return false;
         }
     }

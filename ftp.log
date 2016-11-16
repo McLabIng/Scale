@@ -18317,3 +18317,717 @@
  
  20-10-16 10:33:01: DATOS: Servidor:172.18.135.134, User:administrador, Password:Administrador1@,
 		Carpeta:/ALOG, Nodo:SAB15, No se trae el archivo!!.
+26-10-16 13:01:05: Connected to 172.16.46.104, for user administrator 
+ 26-10-16 13:01:05: Connected to 172.16.46.104, for user administrator 
+ 26-10-16 13:01:05:  File archivos/COB03.txt successfully downloaded  
+ 26-10-16 13:01:05: Archivo traspasado!!. Nodo: COB03 
+ 
+ 26-10-16 13:01:05: Connected to 172.16.46.90, for user administrator 
+ 26-10-16 13:01:05: Connected to 172.16.46.90, for user administrator 
+ 26-10-16 13:01:05:  File archivos/COB04.txt successfully downloaded  
+ 26-10-16 13:01:05: Archivo traspasado!!. Nodo: COB04 
+ 
+ 26-10-16 13:01:05: Connected to 172.16.51.203, for user administrator 
+ 26-10-16 13:01:06: Connected to 172.16.51.203, for user administrator 
+ 26-10-16 13:01:06:  File archivos/CPB02.txt successfully downloaded  
+ 26-10-16 13:01:06: Archivo traspasado!!. Nodo: CPB02 
+ 
+ 26-10-16 13:01:06: Connected to 172.29.103.115, for user administrator 
+ 26-10-16 13:01:07: Connected to 172.29.103.115, for user administrator 
+ 26-10-16 13:01:08:  File archivos/CYB02.txt successfully downloaded  
+ 26-10-16 13:01:08: Archivo traspasado!!. Nodo: CYB02 
+ 
+ 26-10-16 13:01:08: Connected to 172.16.51.52, for user administrator 
+ 26-10-16 13:01:08: Connected to 172.16.51.52, for user administrator 
+ 26-10-16 13:01:09:  File archivos/IQB03.txt successfully downloaded  
+ 26-10-16 13:01:09: Archivo traspasado!!. Nodo: IQB03 
+ 
+ 26-10-16 13:01:09: Connected to 172.16.43.32, for user administrator 
+ 26-10-16 13:01:09: Connected to 172.16.43.32, for user administrator 
+ 26-10-16 13:01:09:  File archivos/LSB03.txt successfully downloaded  
+ 26-10-16 13:01:09: Archivo traspasado!!. Nodo: LSB03 
+ 
+ 26-10-16 13:01:10: Connected to 172.16.48.100, for user administrator 
+ 26-10-16 13:01:10: Connected to 172.16.48.100, for user administrator 
+ 26-10-16 13:01:10:  File archivos/PMB03.txt successfully downloaded  
+ 26-10-16 13:01:10: Archivo traspasado!!. Nodo: PMB03 
+ 
+ 26-10-16 13:01:11: Connected to 172.16.48.105, for user administrator 
+ 26-10-16 13:01:11: Connected to 172.16.48.105, for user administrator 
+ 26-10-16 13:01:11:  File archivos/PMB04.txt successfully downloaded  
+ 26-10-16 13:01:11: Archivo traspasado!!. Nodo: PMB04 
+ 
+ 26-10-16 13:01:11: Connected to 172.16.45.64, for user administrator 
+ 26-10-16 13:01:11: Connected to 172.16.45.64, for user administrator 
+ 26-10-16 13:01:11:  File archivos/RAB03.txt successfully downloaded  
+ 26-10-16 13:01:11: Archivo traspasado!!. Nodo: RAB03 
+ 
+ 26-10-16 13:01:11: Connected to 172.29.152.65, for user administrator 
+ 26-10-16 13:01:12: Connected to 172.29.152.65, for user administrator 
+ 26-10-16 13:01:12:  File archivos/SAB05.txt successfully downloaded  
+ 26-10-16 13:01:12: Archivo traspasado!!. Nodo: SAB05 
+ 
+ 26-10-16 13:01:58: Connected to 172.16.46.104, for user administrator 
+ 26-10-16 13:01:58: Connected to 172.16.46.104, for user administrator 
+ 26-10-16 13:01:59:  File archivos/COB03.txt successfully downloaded  
+ 26-10-16 13:01:59: Archivo traspasado!!. Nodo: COB03 
+ 
+ 26-10-16 13:01:59: Connected to 172.16.46.90, for user administrator 
+ 26-10-16 13:01:59: Connected to 172.16.46.90, for user administrator 
+ 26-10-16 13:01:59:  File archivos/COB04.txt successfully downloaded  
+ 26-10-16 13:01:59: Archivo traspasado!!. Nodo: COB04 
+ 
+ 26-10-16 13:01:59: Connected to 172.16.51.203, for user administrator 
+ 26-10-16 13:02:00: Connected to 172.16.51.203, for user administrator 
+ 26-10-16 13:02:00:  File archivos/CPB02.txt successfully downloaded  
+ 26-10-16 13:02:00: Archivo traspasado!!. Nodo: CPB02 
+ 
+ 26-10-16 13:02:00: Connected to 172.29.103.115, for user administrator 
+ 26-10-16 13:02:01: Connected to 172.29.103.115, for user administrator 
+ 26-10-16 13:02:01:  File archivos/CYB02.txt successfully downloaded  
+ 26-10-16 13:02:01: Archivo traspasado!!. Nodo: CYB02 
+ 
+ 26-10-16 13:02:01: Connected to 172.16.51.52, for user administrator 
+ 26-10-16 13:02:02: Connected to 172.16.51.52, for user administrator 
+ 26-10-16 13:02:03:  File archivos/IQB03.txt successfully downloaded  
+ 26-10-16 13:02:03: Archivo traspasado!!. Nodo: IQB03 
+ 
+ 26-10-16 13:02:03: Connected to 172.16.43.32, for user administrator 
+ 26-10-16 13:02:03: Connected to 172.16.43.32, for user administrator 
+ 26-10-16 13:02:03:  File archivos/LSB03.txt successfully downloaded  
+ 26-10-16 13:02:03: Archivo traspasado!!. Nodo: LSB03 
+ 
+ 26-10-16 13:02:04: Connected to 172.16.48.100, for user administrator 
+ 26-10-16 13:02:05: Connected to 172.16.48.100, for user administrator 
+ 26-10-16 13:02:06:  File archivos/PMB03.txt successfully downloaded  
+ 26-10-16 13:02:06: Archivo traspasado!!. Nodo: PMB03 
+ 
+ 26-10-16 13:02:06: Connected to 172.16.48.105, for user administrator 
+ 26-10-16 13:02:06: Connected to 172.16.48.105, for user administrator 
+ 26-10-16 13:02:06:  File archivos/PMB04.txt successfully downloaded  
+ 26-10-16 13:02:06: Archivo traspasado!!. Nodo: PMB04 
+ 
+ 26-10-16 13:02:06: Connected to 172.16.45.64, for user administrator 
+ 26-10-16 13:02:06: Connected to 172.16.45.64, for user administrator 
+ 26-10-16 13:02:07:  File archivos/RAB03.txt successfully downloaded  
+ 26-10-16 13:02:07: Archivo traspasado!!. Nodo: RAB03 
+ 
+ 26-10-16 13:02:07: Connected to 172.29.152.65, for user administrator 
+ 26-10-16 13:02:07: Connected to 172.29.152.65, for user administrator 
+ 26-10-16 13:02:07:  File archivos/SAB05.txt successfully downloaded  
+ 26-10-16 13:02:07: Archivo traspasado!!. Nodo: SAB05 
+ 
+ 26-10-16 13:03:22: FTP connection has failed!. 
+ 
+ 26-10-16 13:03:22: Attempted to connect to 192.168.109.113 for user administrator
+ 
+ 26-10-16 13:03:22: DATOS: Servidor:192.168.109.113, User:administrator, Password:Administrator1@,
+		Carpeta:/ALOG, Nodo:SAB07, No se trae el archivo!!.
+26-10-16 13:03:22: Connected to 192.168.109.116, for user administrator 
+ 26-10-16 13:03:22: Connected to 192.168.109.116, for user administrator 
+ 26-10-16 13:03:22:  File archivos/SAB08.txt successfully downloaded  
+ 26-10-16 13:03:22: Archivo traspasado!!. Nodo: SAB08 
+ 
+ 26-10-16 13:03:22: Connected to 192.168.109.216, for user administrator 
+ 26-10-16 13:03:22: Connected to 192.168.109.216, for user administrator 
+ 26-10-16 13:03:22:  File archivos/SAB09.txt successfully downloaded  
+ 26-10-16 13:03:22: Archivo traspasado!!. Nodo: SAB09 
+ 
+ 26-10-16 13:03:22: Connected to 192.168.109.187, for user administrator 
+ 26-10-16 13:03:22: Connected to 192.168.109.187, for user administrator 
+ 26-10-16 13:03:22:  File archivos/SAB10.txt successfully downloaded  
+ 26-10-16 13:03:22: Archivo traspasado!!. Nodo: SAB10 
+ 
+ 26-10-16 13:03:22: Connected to 192.168.109.109, for user administrator 
+ 26-10-16 13:03:22: Connected to 192.168.109.109, for user administrator 
+ 26-10-16 13:03:22:  File archivos/SAB11.txt successfully downloaded  
+ 26-10-16 13:03:22: Archivo traspasado!!. Nodo: SAB11 
+ 
+ 26-10-16 13:03:23: Connected to 192.168.109.37, for user administrator 
+ 26-10-16 13:03:23: Connected to 192.168.109.37, for user administrator 
+ 26-10-16 13:03:23:  File archivos/SAB12.txt successfully downloaded  
+ 26-10-16 13:03:23: Archivo traspasado!!. Nodo: SAB12 
+ 
+ 26-10-16 13:03:23: Connected to 192.168.109.143, for user administrator 
+ 26-10-16 13:03:23: Connected to 192.168.109.143, for user administrator 
+ 26-10-16 13:03:26:  File archivos/SAB13.txt successfully downloaded  
+ 26-10-16 13:03:26: Archivo traspasado!!. Nodo: SAB13 
+ 
+ 26-10-16 13:03:26: Connected to 172.18.146.37, for user administrator 
+ 26-10-16 13:03:26: Connected to 172.18.146.37, for user administrator 
+ 26-10-16 13:03:27:  File archivos/SAB14.txt successfully downloaded  
+ 26-10-16 13:03:27: Archivo traspasado!!. Nodo: SAB14 
+ 
+ 26-10-16 13:03:27: Connected to 172.18.145.34, for user administrator 
+ 26-10-16 13:03:29: Connected to 172.18.145.34, for user administrator 
+ 26-10-16 13:03:37:  File archivos/SAB16.txt successfully downloaded  
+ 26-10-16 13:03:37: Archivo traspasado!!. Nodo: SAB16 
+ 
+ 26-10-16 13:03:37: Connected to 172.29.101.150, for user administrator 
+ 26-10-16 13:03:37: Connected to 172.29.101.150, for user administrator 
+ 26-10-16 13:03:37:  File archivos/TAB01.txt successfully downloaded  
+ 26-10-16 13:03:37: Archivo traspasado!!. Nodo: TAB01 
+ 
+ 26-10-16 13:03:37: Connected to 172.16.47.107, for user administrator 
+ 26-10-16 13:03:37: Connected to 172.16.47.107, for user administrator 
+ 26-10-16 13:03:38:  File archivos/TEB02.txt successfully downloaded  
+ 26-10-16 13:03:38: Archivo traspasado!!. Nodo: TEB02 
+ 
+ 26-10-16 13:03:38: Connected to 172.18.133.6, for user administrator 
+ 26-10-16 13:03:38: Connected to 172.18.133.6, for user administrator 
+ 26-10-16 13:03:39:  File archivos/VAB06.txt successfully downloaded  
+ 26-10-16 13:03:39: Archivo traspasado!!. Nodo: VAB06 
+ 
+ 26-10-16 13:03:39: Connected to 172.29.145.11, for user administrator 
+ 26-10-16 13:03:40: Connected to 172.29.145.11, for user administrator 
+ 26-10-16 13:03:42:  File archivos/VAB07.txt successfully downloaded  
+ 26-10-16 13:03:42: Archivo traspasado!!. Nodo: VAB07 
+ 
+ 26-10-16 13:03:43: Connected to 172.29.102.135, for user administrator 
+ 26-10-16 13:03:43: Connected to 172.29.102.135, for user administrator 
+ 26-10-16 13:03:45:  File archivos/VDB01.txt successfully downloaded  
+ 26-10-16 13:03:45: Archivo traspasado!!. Nodo: VDB01 
+ 
+ 26-10-16 13:03:45: Connected to 172.29.102.60, for user administrator 
+ 26-10-16 13:03:45: Connected to 172.29.102.60, for user administrator 
+ 26-10-16 13:03:45:  File archivos/CHB01.txt successfully downloaded  
+ 26-10-16 13:03:45: Archivo traspasado!!. Nodo: CHB01 
+ 
+ 26-10-16 13:03:46: Connected to 172.29.103.150, for user administrator 
+ 26-10-16 13:03:47: Connected to 172.29.103.150, for user administrator 
+ 26-10-16 13:03:48:  File archivos/CUB01.txt successfully downloaded  
+ 26-10-16 13:03:48: Archivo traspasado!!. Nodo: CUB01 
+ 
+ 26-10-16 13:03:48: Connected to 172.16.29.123, for user administrator 
+ 26-10-16 13:03:49: Connected to 172.16.29.123, for user administrator 
+ 26-10-16 13:03:51:  File archivos/PAB02.txt successfully downloaded  
+ 26-10-16 13:03:51: Archivo traspasado!!. Nodo: PAB02 
+ 
+ 26-10-16 13:03:51: Connected to 172.29.101.31, for user administrator 
+ 26-10-16 13:03:51: Connected to 172.29.101.31, for user administrator 
+ 26-10-16 13:03:52:  File archivos/SNB02.txt successfully downloaded  
+ 26-10-16 13:03:52: Archivo traspasado!!. Nodo: SNB02 
+ 
+ 26-10-16 13:03:52: Connected to 172.16.51.175, for user administrator 
+ 26-10-16 13:03:52: Connected to 172.16.51.175, for user administrator 
+ 26-10-16 13:04:01:  File archivos/ANB06.txt successfully downloaded  
+ 26-10-16 13:04:01: Archivo traspasado!!. Nodo: ANB06 
+ 
+ 26-10-16 13:04:01: FTP connection has failed!. 
+ 
+ 26-10-16 13:04:01: Attempted to connect to 172.18.135.134 for user administrador
+ 
+ 26-10-16 13:04:01: DATOS: Servidor:172.18.135.134, User:administrador, Password:Administrador1@,
+		Carpeta:/ALOG, Nodo:SAB15, No se trae el archivo!!.
+26-10-16 13:52:54: Connected to 172.16.46.104, for user administrator 
+ 26-10-16 13:52:55: Connected to 172.16.46.104, for user administrator 
+ 26-10-16 13:52:59:  File archivos/COB03.txt successfully downloaded  
+ 26-10-16 13:52:59: Archivo traspasado!!. Nodo: COB03 
+ 
+ 26-10-16 13:52:59: Connected to 172.16.46.90, for user administrator 
+ 26-10-16 13:52:59: Connected to 172.16.46.90, for user administrator 
+ 26-10-16 13:52:59:  File archivos/COB04.txt successfully downloaded  
+ 26-10-16 13:52:59: Archivo traspasado!!. Nodo: COB04 
+ 
+ 26-10-16 13:52:59: Connected to 172.16.51.203, for user administrator 
+ 26-10-16 13:53:00: Connected to 172.16.51.203, for user administrator 
+ 26-10-16 13:53:00:  File archivos/CPB02.txt successfully downloaded  
+ 26-10-16 13:53:00: Archivo traspasado!!. Nodo: CPB02 
+ 
+ 26-10-16 13:53:00: Connected to 172.29.103.115, for user administrator 
+ 26-10-16 13:53:00: Connected to 172.29.103.115, for user administrator 
+ 26-10-16 13:53:01:  File archivos/CYB02.txt successfully downloaded  
+ 26-10-16 13:53:01: Archivo traspasado!!. Nodo: CYB02 
+ 
+ 26-10-16 13:53:01: Connected to 172.16.51.52, for user administrator 
+ 26-10-16 13:53:02: Connected to 172.16.51.52, for user administrator 
+ 26-10-16 13:53:02:  File archivos/IQB03.txt successfully downloaded  
+ 26-10-16 13:53:02: Archivo traspasado!!. Nodo: IQB03 
+ 
+ 26-10-16 13:53:02: Connected to 172.16.43.32, for user administrator 
+ 26-10-16 13:53:03: Connected to 172.16.43.32, for user administrator 
+ 26-10-16 13:53:03:  File archivos/LSB03.txt successfully downloaded  
+ 26-10-16 13:53:03: Archivo traspasado!!. Nodo: LSB03 
+ 
+ 26-10-16 13:53:03: Connected to 172.16.48.100, for user administrator 
+ 26-10-16 13:53:03: Connected to 172.16.48.100, for user administrator 
+ 26-10-16 13:53:04:  File archivos/PMB03.txt successfully downloaded  
+ 26-10-16 13:53:04: Archivo traspasado!!. Nodo: PMB03 
+ 
+ 26-10-16 13:53:04: Connected to 172.16.48.105, for user administrator 
+ 26-10-16 13:53:04: Connected to 172.16.48.105, for user administrator 
+ 26-10-16 13:53:04:  File archivos/PMB04.txt successfully downloaded  
+ 26-10-16 13:53:04: Archivo traspasado!!. Nodo: PMB04 
+ 
+ 26-10-16 13:53:04: Connected to 172.16.45.64, for user administrator 
+ 26-10-16 13:53:04: Connected to 172.16.45.64, for user administrator 
+ 26-10-16 13:53:04:  File archivos/RAB03.txt successfully downloaded  
+ 26-10-16 13:53:04: Archivo traspasado!!. Nodo: RAB03 
+ 
+ 26-10-16 13:53:04: Connected to 172.29.152.65, for user administrator 
+ 26-10-16 13:53:04: Connected to 172.29.152.65, for user administrator 
+ 26-10-16 13:53:05:  File archivos/SAB05.txt successfully downloaded  
+ 26-10-16 13:53:05: Archivo traspasado!!. Nodo: SAB05 
+ 
+ 26-10-16 13:54:20: FTP connection has failed!. 
+ 
+ 26-10-16 13:54:20: Attempted to connect to 192.168.109.113 for user administrator
+ 
+ 26-10-16 13:54:20: DATOS: Servidor:192.168.109.113, User:administrator, Password:Administrator1@,
+		Carpeta:/ALOG, Nodo:SAB07, No se trae el archivo!!.
+26-10-16 13:54:20: Connected to 192.168.109.116, for user administrator 
+ 26-10-16 13:54:20: Connected to 192.168.109.116, for user administrator 
+ 26-10-16 13:54:20:  File archivos/SAB08.txt successfully downloaded  
+ 26-10-16 13:54:20: Archivo traspasado!!. Nodo: SAB08 
+ 
+ 26-10-16 13:54:20: Connected to 192.168.109.216, for user administrator 
+ 26-10-16 13:54:20: Connected to 192.168.109.216, for user administrator 
+ 26-10-16 13:54:20:  File archivos/SAB09.txt successfully downloaded  
+ 26-10-16 13:54:20: Archivo traspasado!!. Nodo: SAB09 
+ 
+ 26-10-16 13:54:20: Connected to 192.168.109.187, for user administrator 
+ 26-10-16 13:54:20: Connected to 192.168.109.187, for user administrator 
+ 26-10-16 13:54:20:  File archivos/SAB10.txt successfully downloaded  
+ 26-10-16 13:54:20: Archivo traspasado!!. Nodo: SAB10 
+ 
+ 26-10-16 13:54:20: Connected to 192.168.109.109, for user administrator 
+ 26-10-16 13:54:20: Connected to 192.168.109.109, for user administrator 
+ 26-10-16 13:54:20:  File archivos/SAB11.txt successfully downloaded  
+ 26-10-16 13:54:20: Archivo traspasado!!. Nodo: SAB11 
+ 
+ 26-10-16 13:54:20: Connected to 192.168.109.37, for user administrator 
+ 26-10-16 13:54:20: Connected to 192.168.109.37, for user administrator 
+ 26-10-16 13:54:20:  File archivos/SAB12.txt successfully downloaded  
+ 26-10-16 13:54:20: Archivo traspasado!!. Nodo: SAB12 
+ 
+ 26-10-16 13:54:20: Connected to 192.168.109.143, for user administrator 
+ 26-10-16 13:54:20: Connected to 192.168.109.143, for user administrator 
+ 26-10-16 13:54:21:  File archivos/SAB13.txt successfully downloaded  
+ 26-10-16 13:54:21: Archivo traspasado!!. Nodo: SAB13 
+ 
+ 26-10-16 13:54:21: Connected to 172.18.146.37, for user administrator 
+ 26-10-16 13:54:21: Connected to 172.18.146.37, for user administrator 
+ 26-10-16 13:54:21:  File archivos/SAB14.txt successfully downloaded  
+ 26-10-16 13:54:21: Archivo traspasado!!. Nodo: SAB14 
+ 
+ 26-10-16 13:54:21: Connected to 172.18.145.34, for user administrator 
+ 26-10-16 13:54:21: Connected to 172.18.145.34, for user administrator 
+ 26-10-16 13:54:23:  File archivos/SAB16.txt successfully downloaded  
+ 26-10-16 13:54:23: Archivo traspasado!!. Nodo: SAB16 
+ 
+ 26-10-16 13:54:23: Connected to 172.29.101.150, for user administrator 
+ 26-10-16 13:54:24: Connected to 172.29.101.150, for user administrator 
+ 26-10-16 13:54:24:  File archivos/TAB01.txt successfully downloaded  
+ 26-10-16 13:54:24: Archivo traspasado!!. Nodo: TAB01 
+ 
+ 26-10-16 13:54:24: Connected to 172.16.47.107, for user administrator 
+ 26-10-16 13:54:24: Connected to 172.16.47.107, for user administrator 
+ 26-10-16 13:54:24:  File archivos/TEB02.txt successfully downloaded  
+ 26-10-16 13:54:24: Archivo traspasado!!. Nodo: TEB02 
+ 
+ 26-10-16 13:54:25: Connected to 172.18.133.6, for user administrator 
+ 26-10-16 13:54:25: Connected to 172.18.133.6, for user administrator 
+ 26-10-16 13:54:27:  File archivos/VAB06.txt successfully downloaded  
+ 26-10-16 13:54:27: Archivo traspasado!!. Nodo: VAB06 
+ 
+ 26-10-16 13:54:27: Connected to 172.29.145.11, for user administrator 
+ 26-10-16 13:54:27: Connected to 172.29.145.11, for user administrator 
+ 26-10-16 13:54:29:  File archivos/VAB07.txt successfully downloaded  
+ 26-10-16 13:54:29: Archivo traspasado!!. Nodo: VAB07 
+ 
+ 26-10-16 13:54:30: Connected to 172.29.102.135, for user administrator 
+ 26-10-16 13:54:30: Connected to 172.29.102.135, for user administrator 
+ 26-10-16 13:54:36:  File archivos/VDB01.txt successfully downloaded  
+ 26-10-16 13:54:36: Archivo traspasado!!. Nodo: VDB01 
+ 
+ 26-10-16 13:54:36: Connected to 172.29.102.60, for user administrator 
+ 26-10-16 13:54:36: Connected to 172.29.102.60, for user administrator 
+ 26-10-16 13:54:37:  File archivos/CHB01.txt successfully downloaded  
+ 26-10-16 13:54:37: Archivo traspasado!!. Nodo: CHB01 
+ 
+ 26-10-16 13:54:37: Connected to 172.29.103.150, for user administrator 
+ 26-10-16 13:54:37: Connected to 172.29.103.150, for user administrator 
+ 26-10-16 13:54:37:  File archivos/CUB01.txt successfully downloaded  
+ 26-10-16 13:54:37: Archivo traspasado!!. Nodo: CUB01 
+ 
+ 26-10-16 13:54:37: Connected to 172.16.29.123, for user administrator 
+ 26-10-16 13:54:38: Connected to 172.16.29.123, for user administrator 
+ 26-10-16 13:54:40:  File archivos/PAB02.txt successfully downloaded  
+ 26-10-16 13:54:40: Archivo traspasado!!. Nodo: PAB02 
+ 
+ 26-10-16 13:54:40: Connected to 172.29.101.31, for user administrator 
+ 26-10-16 13:54:40: Connected to 172.29.101.31, for user administrator 
+ 26-10-16 13:54:41:  File archivos/SNB02.txt successfully downloaded  
+ 26-10-16 13:54:41: Archivo traspasado!!. Nodo: SNB02 
+ 
+ 26-10-16 13:54:42: Connected to 172.16.51.175, for user administrator 
+ 26-10-16 13:54:42: Connected to 172.16.51.175, for user administrator 
+ 26-10-16 13:54:50:  File archivos/ANB06.txt successfully downloaded  
+ 26-10-16 13:54:50: Archivo traspasado!!. Nodo: ANB06 
+ 
+ 26-10-16 13:54:50: FTP connection has failed!. 
+ 
+ 26-10-16 13:54:50: Attempted to connect to 172.18.135.134 for user administrador
+ 
+ 26-10-16 13:54:50: DATOS: Servidor:172.18.135.134, User:administrador, Password:Administrador1@,
+		Carpeta:/ALOG, Nodo:SAB15, No se trae el archivo!!.
+26-10-16 14:36:04: Connected to 172.16.46.104, for user administrator 
+ 26-10-16 14:36:04: Connected to 172.16.46.104, for user administrator 
+ 26-10-16 14:36:11:  File archivos/COB03.txt successfully downloaded  
+ 26-10-16 14:36:11: Archivo traspasado!!. Nodo: COB03 
+ 
+ 26-10-16 14:36:11: Connected to 172.16.46.90, for user administrator 
+ 26-10-16 14:36:11: Connected to 172.16.46.90, for user administrator 
+ 26-10-16 14:36:11:  File archivos/COB04.txt successfully downloaded  
+ 26-10-16 14:36:11: Archivo traspasado!!. Nodo: COB04 
+ 
+ 26-10-16 14:36:11: Connected to 172.16.51.203, for user administrator 
+ 26-10-16 14:36:11: Connected to 172.16.51.203, for user administrator 
+ 26-10-16 14:36:12:  File archivos/CPB02.txt successfully downloaded  
+ 26-10-16 14:36:12: Archivo traspasado!!. Nodo: CPB02 
+ 
+ 26-10-16 14:36:12: Connected to 172.29.103.115, for user administrator 
+ 26-10-16 14:36:12: Connected to 172.29.103.115, for user administrator 
+ 26-10-16 14:36:13:  File archivos/CYB02.txt successfully downloaded  
+ 26-10-16 14:36:13: Archivo traspasado!!. Nodo: CYB02 
+ 
+ 26-10-16 14:36:13: Connected to 172.16.51.52, for user administrator 
+ 26-10-16 14:36:13: Connected to 172.16.51.52, for user administrator 
+ 26-10-16 14:36:14:  File archivos/IQB03.txt successfully downloaded  
+ 26-10-16 14:36:14: Archivo traspasado!!. Nodo: IQB03 
+ 
+ 26-10-16 14:36:14: Connected to 172.16.43.32, for user administrator 
+ 26-10-16 14:36:14: Connected to 172.16.43.32, for user administrator 
+ 26-10-16 14:36:14:  File archivos/LSB03.txt successfully downloaded  
+ 26-10-16 14:36:14: Archivo traspasado!!. Nodo: LSB03 
+ 
+ 26-10-16 14:36:14: Connected to 172.16.48.100, for user administrator 
+ 26-10-16 14:36:15: Connected to 172.16.48.100, for user administrator 
+ 26-10-16 14:36:15:  File archivos/PMB03.txt successfully downloaded  
+ 26-10-16 14:36:15: Archivo traspasado!!. Nodo: PMB03 
+ 
+ 26-10-16 14:36:15: Connected to 172.16.48.105, for user administrator 
+ 26-10-16 14:36:15: Connected to 172.16.48.105, for user administrator 
+ 26-10-16 14:36:16:  File archivos/PMB04.txt successfully downloaded  
+ 26-10-16 14:36:16: Archivo traspasado!!. Nodo: PMB04 
+ 
+ 26-10-16 14:36:16: Connected to 172.16.45.64, for user administrator 
+ 26-10-16 14:36:16: Connected to 172.16.45.64, for user administrator 
+ 26-10-16 14:36:16:  File archivos/RAB03.txt successfully downloaded  
+ 26-10-16 14:36:16: Archivo traspasado!!. Nodo: RAB03 
+ 
+ 26-10-16 14:36:16: Connected to 172.29.152.65, for user administrator 
+ 26-10-16 14:36:16: Connected to 172.29.152.65, for user administrator 
+ 26-10-16 14:36:16:  File archivos/SAB05.txt successfully downloaded  
+ 26-10-16 14:36:16: Archivo traspasado!!. Nodo: SAB05 
+ 
+ 26-10-16 14:37:31: FTP connection has failed!. 
+ 
+ 26-10-16 14:37:31: Attempted to connect to 192.168.109.113 for user administrator
+ 
+ 26-10-16 14:37:31: DATOS: Servidor:192.168.109.113, User:administrator, Password:Administrator1@,
+		Carpeta:/ALOG, Nodo:SAB07, No se trae el archivo!!.
+26-10-16 14:37:31: Connected to 192.168.109.116, for user administrator 
+ 26-10-16 14:37:31: Connected to 192.168.109.116, for user administrator 
+ 26-10-16 14:37:31:  File archivos/SAB08.txt successfully downloaded  
+ 26-10-16 14:37:31: Archivo traspasado!!. Nodo: SAB08 
+ 
+ 26-10-16 14:37:31: Connected to 192.168.109.216, for user administrator 
+ 26-10-16 14:37:31: Connected to 192.168.109.216, for user administrator 
+ 26-10-16 14:37:31:  File archivos/SAB09.txt successfully downloaded  
+ 26-10-16 14:37:31: Archivo traspasado!!. Nodo: SAB09 
+ 
+ 26-10-16 14:37:31: Connected to 192.168.109.187, for user administrator 
+ 26-10-16 14:37:31: Connected to 192.168.109.187, for user administrator 
+ 26-10-16 14:37:31:  File archivos/SAB10.txt successfully downloaded  
+ 26-10-16 14:37:31: Archivo traspasado!!. Nodo: SAB10 
+ 
+ 26-10-16 14:37:31: Connected to 192.168.109.109, for user administrator 
+ 26-10-16 14:37:31: Connected to 192.168.109.109, for user administrator 
+ 26-10-16 14:37:32:  File archivos/SAB11.txt successfully downloaded  
+ 26-10-16 14:37:32: Archivo traspasado!!. Nodo: SAB11 
+ 
+ 26-10-16 14:37:32: Connected to 192.168.109.37, for user administrator 
+ 26-10-16 14:37:32: Connected to 192.168.109.37, for user administrator 
+ 26-10-16 14:37:32:  File archivos/SAB12.txt successfully downloaded  
+ 26-10-16 14:37:32: Archivo traspasado!!. Nodo: SAB12 
+ 
+ 26-10-16 14:37:32: Connected to 192.168.109.143, for user administrator 
+ 26-10-16 14:37:32: Connected to 192.168.109.143, for user administrator 
+ 26-10-16 14:37:37:  File archivos/SAB13.txt successfully downloaded  
+ 26-10-16 14:37:37: Archivo traspasado!!. Nodo: SAB13 
+ 
+ 26-10-16 14:37:37: Connected to 172.18.146.37, for user administrator 
+ 26-10-16 14:37:37: Connected to 172.18.146.37, for user administrator 
+ 26-10-16 14:37:38:  File archivos/SAB14.txt successfully downloaded  
+ 26-10-16 14:37:38: Archivo traspasado!!. Nodo: SAB14 
+ 
+ 26-10-16 14:37:38: Connected to 172.18.145.34, for user administrator 
+ 26-10-16 14:37:38: Connected to 172.18.145.34, for user administrator 
+ 26-10-16 14:37:41:  File archivos/SAB16.txt successfully downloaded  
+ 26-10-16 14:37:41: Archivo traspasado!!. Nodo: SAB16 
+ 
+ 26-10-16 14:37:41: Connected to 172.29.101.150, for user administrator 
+ 26-10-16 14:37:41: Connected to 172.29.101.150, for user administrator 
+ 26-10-16 14:37:42:  File archivos/TAB01.txt successfully downloaded  
+ 26-10-16 14:37:42: Archivo traspasado!!. Nodo: TAB01 
+ 
+ 26-10-16 14:37:42: Connected to 172.16.47.107, for user administrator 
+ 26-10-16 14:37:42: Connected to 172.16.47.107, for user administrator 
+ 26-10-16 14:37:43:  File archivos/TEB02.txt successfully downloaded  
+ 26-10-16 14:37:43: Archivo traspasado!!. Nodo: TEB02 
+ 
+ 26-10-16 14:37:44: Connected to 172.18.133.6, for user administrator 
+ 26-10-16 14:37:44: Connected to 172.18.133.6, for user administrator 
+ 26-10-16 14:37:46:  File archivos/VAB06.txt successfully downloaded  
+ 26-10-16 14:37:46: Archivo traspasado!!. Nodo: VAB06 
+ 
+ 26-10-16 14:37:46: Connected to 172.29.145.11, for user administrator 
+ 26-10-16 14:37:46: Connected to 172.29.145.11, for user administrator 
+ 26-10-16 14:37:46:  File archivos/VAB07.txt successfully downloaded  
+ 26-10-16 14:37:46: Archivo traspasado!!. Nodo: VAB07 
+ 
+ 26-10-16 14:37:46: Connected to 172.29.102.135, for user administrator 
+ 26-10-16 14:37:47: Connected to 172.29.102.135, for user administrator 
+ 26-10-16 14:37:49:  File archivos/VDB01.txt successfully downloaded  
+ 26-10-16 14:37:49: Archivo traspasado!!. Nodo: VDB01 
+ 
+ 26-10-16 14:37:50: Connected to 172.29.102.60, for user administrator 
+ 26-10-16 14:37:50: Connected to 172.29.102.60, for user administrator 
+ 26-10-16 14:37:50:  File archivos/CHB01.txt successfully downloaded  
+ 26-10-16 14:37:50: Archivo traspasado!!. Nodo: CHB01 
+ 
+ 26-10-16 14:37:50: Connected to 172.29.103.150, for user administrator 
+ 26-10-16 14:37:50: Connected to 172.29.103.150, for user administrator 
+ 26-10-16 14:37:51:  File archivos/CUB01.txt successfully downloaded  
+ 26-10-16 14:37:51: Archivo traspasado!!. Nodo: CUB01 
+ 
+ 26-10-16 14:37:51: Connected to 172.16.29.123, for user administrator 
+ 26-10-16 14:37:52: Connected to 172.16.29.123, for user administrator 
+ 26-10-16 14:37:54:  File archivos/PAB02.txt successfully downloaded  
+ 26-10-16 14:37:54: Archivo traspasado!!. Nodo: PAB02 
+ 
+ 26-10-16 14:37:54: Connected to 172.29.101.31, for user administrator 
+ 26-10-16 14:37:54: Connected to 172.29.101.31, for user administrator 
+ 26-10-16 14:37:59:  File archivos/SNB02.txt successfully downloaded  
+ 26-10-16 14:37:59: Archivo traspasado!!. Nodo: SNB02 
+ 
+ 26-10-16 14:38:02: Connected to 172.16.51.175, for user administrator 
+ 26-10-16 14:38:02: Connected to 172.16.51.175, for user administrator 
+ 26-10-16 14:38:04:  File archivos/ANB06.txt successfully downloaded  
+ 26-10-16 14:38:04: Archivo traspasado!!. Nodo: ANB06 
+ 
+ 26-10-16 14:38:04: FTP connection has failed!. 
+ 
+ 26-10-16 14:38:04: Attempted to connect to 172.18.135.134 for user administrador
+ 
+ 26-10-16 14:38:04: DATOS: Servidor:172.18.135.134, User:administrador, Password:Administrador1@,
+		Carpeta:/ALOG, Nodo:SAB15, No se trae el archivo!!.
+26-10-16 14:38:05: Error de generacion de archivo 3G_OSS13!!.
+26-10-16 14:38:05: Error de generacion de archivo 4G_OSS13!!.
+26-10-16 14:38:08: Error de generacion de archivo 3G_OSS14!!.
+26-10-16 14:38:09: Error de generacion de archivo 4G_OSS14!!.
+26-10-16 14:38:09: Funcion connect.- connectionId.: Resource id #370
+26-10-16 14:38:09: Funcion connect.- ftp_login.- ConectionId: Resource id #370, User: excslei1, Passw: 2016chile
+26-10-16 14:38:09: Funcion connect.- ftp_pasv.: 1
+26-10-16 14:38:09: Connected to 10.170.15.39, for user excslei1
+26-10-16 14:38:09:  File archivos/alarmas_3g_oss13.csv successfully downloaded . 
+26-10-16 14:38:09: Archivo alarmas_oss_13_3g traspasado!!.  
+26-10-16 14:38:09: Funcion connect.- connectionId.: Resource id #378
+26-10-16 14:38:10: Funcion connect.- ftp_login.- ConectionId: Resource id #378, User: excslei1, Passw: 2016chile
+26-10-16 14:38:10: Funcion connect.- ftp_pasv.: 1
+26-10-16 14:38:10: Connected to 10.170.15.39, for user excslei1
+26-10-16 14:38:10:  File archivos/alarmas_4g_oss13.csv successfully downloaded . 
+26-10-16 14:38:10: Archivo alarmas_oss_13_4g traspasado!!. 
+26-10-16 14:38:10: Funcion connect.- connectionId.: Resource id #386
+26-10-16 14:38:10: Funcion connect.- ftp_login.- ConectionId: Resource id #386, User: excsleiv, Passw: solutis201610
+26-10-16 14:38:10: Funcion connect.- ftp_pasv.: 1
+26-10-16 14:38:10: Connected to 172.18.220.202, for user excsleiv
+26-10-16 14:38:11:  File archivos/alarmas_3g_oss14.csv successfully downloaded . 
+26-10-16 14:38:11: Archivo alarmas_oss_14_3g traspasado!!. 
+26-10-16 14:38:11: Funcion connect.- connectionId.: Resource id #394
+26-10-16 14:38:11: Funcion connect.- ftp_login.- ConectionId: Resource id #394, User: excsleiv, Passw: solutis201610
+26-10-16 14:38:11: Funcion connect.- ftp_pasv.: 1
+26-10-16 14:38:11: Connected to 172.18.220.202, for user excsleiv
+26-10-16 14:38:11:  File archivos/alarmas_4g_oss14.csv successfully downloaded . 
+26-10-16 14:38:11: Archivo alarmas_oss_14_4g traspasado!!. 
+26-10-16 14:41:58: Connected to 172.16.46.104, for user administrator 
+ 26-10-16 14:41:58: Connected to 172.16.46.104, for user administrator 
+ 26-10-16 14:42:05:  File archivos/COB03.txt successfully downloaded  
+ 26-10-16 14:42:05: Archivo traspasado!!. Nodo: COB03 
+ 
+ 26-10-16 14:42:05: Connected to 172.16.46.90, for user administrator 
+ 26-10-16 14:42:05: Connected to 172.16.46.90, for user administrator 
+ 26-10-16 14:42:06:  File archivos/COB04.txt successfully downloaded  
+ 26-10-16 14:42:06: Archivo traspasado!!. Nodo: COB04 
+ 
+ 26-10-16 14:42:06: Connected to 172.16.51.203, for user administrator 
+ 26-10-16 14:42:06: Connected to 172.16.51.203, for user administrator 
+ 26-10-16 14:42:06:  File archivos/CPB02.txt successfully downloaded  
+ 26-10-16 14:42:06: Archivo traspasado!!. Nodo: CPB02 
+ 
+ 26-10-16 14:42:06: Connected to 172.29.103.115, for user administrator 
+ 26-10-16 14:42:07: Connected to 172.29.103.115, for user administrator 
+ 26-10-16 14:42:07:  File archivos/CYB02.txt successfully downloaded  
+ 26-10-16 14:42:07: Archivo traspasado!!. Nodo: CYB02 
+ 
+ 26-10-16 14:42:07: Connected to 172.16.51.52, for user administrator 
+ 26-10-16 14:42:08: Connected to 172.16.51.52, for user administrator 
+ 26-10-16 14:42:09:  File archivos/IQB03.txt successfully downloaded  
+ 26-10-16 14:42:09: Archivo traspasado!!. Nodo: IQB03 
+ 
+ 26-10-16 14:42:09: Connected to 172.16.43.32, for user administrator 
+ 26-10-16 14:42:09: Connected to 172.16.43.32, for user administrator 
+ 26-10-16 14:42:09:  File archivos/LSB03.txt successfully downloaded  
+ 26-10-16 14:42:09: Archivo traspasado!!. Nodo: LSB03 
+ 
+ 26-10-16 14:42:09: Connected to 172.16.48.100, for user administrator 
+ 26-10-16 14:42:09: Connected to 172.16.48.100, for user administrator 
+ 26-10-16 14:42:10:  File archivos/PMB03.txt successfully downloaded  
+ 26-10-16 14:42:10: Archivo traspasado!!. Nodo: PMB03 
+ 
+ 26-10-16 14:42:10: Connected to 172.16.48.105, for user administrator 
+ 26-10-16 14:42:10: Connected to 172.16.48.105, for user administrator 
+ 26-10-16 14:42:10:  File archivos/PMB04.txt successfully downloaded  
+ 26-10-16 14:42:10: Archivo traspasado!!. Nodo: PMB04 
+ 
+ 26-10-16 14:42:10: Connected to 172.16.45.64, for user administrator 
+ 26-10-16 14:42:10: Connected to 172.16.45.64, for user administrator 
+ 26-10-16 14:42:10:  File archivos/RAB03.txt successfully downloaded  
+ 26-10-16 14:42:10: Archivo traspasado!!. Nodo: RAB03 
+ 
+ 26-10-16 14:42:10: Connected to 172.29.152.65, for user administrator 
+ 26-10-16 14:42:10: Connected to 172.29.152.65, for user administrator 
+ 26-10-16 14:42:11:  File archivos/SAB05.txt successfully downloaded  
+ 26-10-16 14:42:11: Archivo traspasado!!. Nodo: SAB05 
+ 
+ 26-10-16 14:43:26: FTP connection has failed!. 
+ 
+ 26-10-16 14:43:26: Attempted to connect to 192.168.109.113 for user administrator
+ 
+ 26-10-16 14:43:26: DATOS: Servidor:192.168.109.113, User:administrator, Password:Administrator1@,
+		Carpeta:/ALOG, Nodo:SAB07, No se trae el archivo!!.
+26-10-16 14:43:26: Connected to 192.168.109.116, for user administrator 
+ 26-10-16 14:43:26: Connected to 192.168.109.116, for user administrator 
+ 26-10-16 14:43:26:  File archivos/SAB08.txt successfully downloaded  
+ 26-10-16 14:43:26: Archivo traspasado!!. Nodo: SAB08 
+ 
+ 26-10-16 14:43:26: Connected to 192.168.109.216, for user administrator 
+ 26-10-16 14:43:26: Connected to 192.168.109.216, for user administrator 
+ 26-10-16 14:43:26:  File archivos/SAB09.txt successfully downloaded  
+ 26-10-16 14:43:26: Archivo traspasado!!. Nodo: SAB09 
+ 
+ 26-10-16 14:43:26: Connected to 192.168.109.187, for user administrator 
+ 26-10-16 14:43:26: Connected to 192.168.109.187, for user administrator 
+ 26-10-16 14:43:26:  File archivos/SAB10.txt successfully downloaded  
+ 26-10-16 14:43:26: Archivo traspasado!!. Nodo: SAB10 
+ 
+ 26-10-16 14:43:26: Connected to 192.168.109.109, for user administrator 
+ 26-10-16 14:43:26: Connected to 192.168.109.109, for user administrator 
+ 26-10-16 14:43:26:  File archivos/SAB11.txt successfully downloaded  
+ 26-10-16 14:43:26: Archivo traspasado!!. Nodo: SAB11 
+ 
+ 26-10-16 14:43:26: Connected to 192.168.109.37, for user administrator 
+ 26-10-16 14:43:26: Connected to 192.168.109.37, for user administrator 
+ 26-10-16 14:43:26:  File archivos/SAB12.txt successfully downloaded  
+ 26-10-16 14:43:26: Archivo traspasado!!. Nodo: SAB12 
+ 
+ 26-10-16 14:43:26: Connected to 192.168.109.143, for user administrator 
+ 26-10-16 14:43:27: Connected to 192.168.109.143, for user administrator 
+ 26-10-16 14:43:27:  File archivos/SAB13.txt successfully downloaded  
+ 26-10-16 14:43:27: Archivo traspasado!!. Nodo: SAB13 
+ 
+ 26-10-16 14:43:27: Connected to 172.18.146.37, for user administrator 
+ 26-10-16 14:43:27: Connected to 172.18.146.37, for user administrator 
+ 26-10-16 14:43:27:  File archivos/SAB14.txt successfully downloaded  
+ 26-10-16 14:43:27: Archivo traspasado!!. Nodo: SAB14 
+ 
+ 26-10-16 14:43:27: Connected to 172.18.145.34, for user administrator 
+ 26-10-16 14:43:27: Connected to 172.18.145.34, for user administrator 
+ 26-10-16 14:43:32:  File archivos/SAB16.txt successfully downloaded  
+ 26-10-16 14:43:32: Archivo traspasado!!. Nodo: SAB16 
+ 
+ 26-10-16 14:43:32: Connected to 172.29.101.150, for user administrator 
+ 26-10-16 14:43:32: Connected to 172.29.101.150, for user administrator 
+ 26-10-16 14:43:32:  File archivos/TAB01.txt successfully downloaded  
+ 26-10-16 14:43:32: Archivo traspasado!!. Nodo: TAB01 
+ 
+ 26-10-16 14:43:32: Connected to 172.16.47.107, for user administrator 
+ 26-10-16 14:43:32: Connected to 172.16.47.107, for user administrator 
+ 26-10-16 14:43:33:  File archivos/TEB02.txt successfully downloaded  
+ 26-10-16 14:43:33: Archivo traspasado!!. Nodo: TEB02 
+ 
+ 26-10-16 14:43:33: Connected to 172.18.133.6, for user administrator 
+ 26-10-16 14:43:33: Connected to 172.18.133.6, for user administrator 
+ 26-10-16 14:43:33:  File archivos/VAB06.txt successfully downloaded  
+ 26-10-16 14:43:33: Archivo traspasado!!. Nodo: VAB06 
+ 
+ 26-10-16 14:43:33: Connected to 172.29.145.11, for user administrator 
+ 26-10-16 14:43:34: Connected to 172.29.145.11, for user administrator 
+ 26-10-16 14:43:37:  File archivos/VAB07.txt successfully downloaded  
+ 26-10-16 14:43:37: Archivo traspasado!!. Nodo: VAB07 
+ 
+ 26-10-16 14:43:37: Connected to 172.29.102.135, for user administrator 
+ 26-10-16 14:43:37: Connected to 172.29.102.135, for user administrator 
+ 26-10-16 14:43:41:  File archivos/VDB01.txt successfully downloaded  
+ 26-10-16 14:43:41: Archivo traspasado!!. Nodo: VDB01 
+ 
+ 26-10-16 14:43:42: Connected to 172.29.102.60, for user administrator 
+ 26-10-16 14:43:42: Connected to 172.29.102.60, for user administrator 
+ 26-10-16 14:43:42:  File archivos/CHB01.txt successfully downloaded  
+ 26-10-16 14:43:42: Archivo traspasado!!. Nodo: CHB01 
+ 
+ 26-10-16 14:43:42: Connected to 172.29.103.150, for user administrator 
+ 26-10-16 14:43:42: Connected to 172.29.103.150, for user administrator 
+ 26-10-16 14:43:43:  File archivos/CUB01.txt successfully downloaded  
+ 26-10-16 14:43:43: Archivo traspasado!!. Nodo: CUB01 
+ 
+ 26-10-16 14:43:43: Connected to 172.16.29.123, for user administrator 
+ 26-10-16 14:43:45: Connected to 172.16.29.123, for user administrator 
+ 26-10-16 14:43:46:  File archivos/PAB02.txt successfully downloaded  
+ 26-10-16 14:43:46: Archivo traspasado!!. Nodo: PAB02 
+ 
+ 26-10-16 14:43:46: Connected to 172.29.101.31, for user administrator 
+ 26-10-16 14:43:46: Connected to 172.29.101.31, for user administrator 
+ 26-10-16 14:43:50:  File archivos/SNB02.txt successfully downloaded  
+ 26-10-16 14:43:50: Archivo traspasado!!. Nodo: SNB02 
+ 
+ 26-10-16 14:43:50: Connected to 172.16.51.175, for user administrator 
+ 26-10-16 14:43:50: Connected to 172.16.51.175, for user administrator 
+ 26-10-16 14:43:54:  File archivos/ANB06.txt successfully downloaded  
+ 26-10-16 14:43:54: Archivo traspasado!!. Nodo: ANB06 
+ 
+ 26-10-16 14:43:54: FTP connection has failed!. 
+ 
+ 26-10-16 14:43:54: Attempted to connect to 172.18.135.134 for user administrador
+ 
+ 26-10-16 14:43:54: DATOS: Servidor:172.18.135.134, User:administrador, Password:Administrador1@,
+		Carpeta:/ALOG, Nodo:SAB15, No se trae el archivo!!.
+26-10-16 14:43:54: Error de generacion de archivo 3G_OSS13!!.
+26-10-16 14:43:55: Error de generacion de archivo 4G_OSS13!!.
+26-10-16 14:43:56: Error de generacion de archivo 3G_OSS14!!.
+26-10-16 14:43:56: Error de generacion de archivo 4G_OSS14!!.
+26-10-16 14:43:56: Funcion connect.- connectionId.: Resource id #370
+26-10-16 14:43:56: Funcion connect.- ftp_login.- ConectionId: Resource id #370, User: excslei1, Passw: 2016chile
+26-10-16 14:43:56: Funcion connect.- ftp_pasv.: 1
+26-10-16 14:43:56: Connected to 10.170.15.39, for user excslei1
+26-10-16 14:43:57:  File archivos/alarmas_3g_oss13.csv successfully downloaded . 
+26-10-16 14:43:57: Archivo alarmas_oss_13_3g traspasado!!.  
+26-10-16 14:43:57: Funcion connect.- connectionId.: Resource id #378
+26-10-16 14:43:57: Funcion connect.- ftp_login.- ConectionId: Resource id #378, User: excslei1, Passw: 2016chile
+26-10-16 14:43:57: Funcion connect.- ftp_pasv.: 1
+26-10-16 14:43:57: Connected to 10.170.15.39, for user excslei1
+26-10-16 14:43:57:  File archivos/alarmas_4g_oss13.csv successfully downloaded . 
+26-10-16 14:43:57: Archivo alarmas_oss_13_4g traspasado!!. 
+26-10-16 14:43:57: Funcion connect.- connectionId.: Resource id #386
+26-10-16 14:43:57: Funcion connect.- ftp_login.- ConectionId: Resource id #386, User: excsleiv, Passw: solutis201610
+26-10-16 14:43:57: Funcion connect.- ftp_pasv.: 1
+26-10-16 14:43:57: Connected to 172.18.220.202, for user excsleiv
+26-10-16 14:43:58:  File archivos/alarmas_3g_oss14.csv successfully downloaded . 
+26-10-16 14:43:58: Archivo alarmas_oss_14_3g traspasado!!. 
+26-10-16 14:43:58: Funcion connect.- connectionId.: Resource id #394
+26-10-16 14:43:58: Funcion connect.- ftp_login.- ConectionId: Resource id #394, User: excsleiv, Passw: solutis201610
+26-10-16 14:43:58: Funcion connect.- ftp_pasv.: 1
+26-10-16 14:43:58: Connected to 172.18.220.202, for user excsleiv
+26-10-16 14:43:58:  File archivos/alarmas_4g_oss14.csv successfully downloaded . 
+26-10-16 14:43:58: Archivo alarmas_oss_14_4g traspasado!!. 
