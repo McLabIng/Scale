@@ -135,7 +135,7 @@ class vw_scale_tv {
     public static function estado_llamado_sitio($lista_nodos){
         ?>
         <!-- <div class="ibox-content col-md-12"> -->
-            <div class="col-md-1">
+            <div class="col-md-1 col-sm-2">
                 <table class="table table-stripped small m-t-n m-b-xs m-l-n">
                     <tbody>
                         <?php
@@ -152,7 +152,7 @@ class vw_scale_tv {
                                 echo '  </body>
                                     </table>
                                     </div>
-                                    <div class="col-md-1">
+                                    <div class="col-md-1 col-sm-2">
                                         <table class="table table-stripped small m-t-n m-b-xs m-l-n">
                                             <tbody>';
                             }

@@ -44,18 +44,18 @@ $lista_nodos = vm_admin::conexion_nodos();
 
         <div class="ibox col-md-12 m-t-n">
 
-            <div class="col-lg-2 col-md-3 hidden-sm p-xxs ">
+            <div class="col-lg-2 col-md-3 hidden-sm p-xxs">
                 <!-- Mapa -->
                 <div id="chartdiv" style="width: 100%; height: 730px; font-size: 11px;"></div>
             </div>
 
-            <div class="col-lg-4 col-md-9 col-sm-12 p-xs ">
+            <div class="col-lg-4 col-md-9 col-sm-12 p-xs m-b-lg">
                 <?php
                 vw_scale_tv::alarmas_regiones($alarmas,$alarmas_sin_conexion);
                 ?>
             </div>
 
-            <div class="col-lg-6 col-sm-12 p-xs m-b-md ">
+            <div class="col-lg-6 hidden-md hidden-sm hidden-xs p-xs m-b-md ">
                 <?php
                 vw_scale_tv::lista_top_recurrentes(9);
                 ?>
@@ -65,9 +65,9 @@ $lista_nodos = vm_admin::conexion_nodos();
 
     </div>
     <div class="row">
-        <div class="col-md-12 m-t-n">
+        <div class="col-md-12">
 
-            <div class="widget blue-bg col-md-12 m-t-n m-b-xxs">
+            <div class="widget blue-bg col-sm-12 hidden-xs m-t-n m-b-xxs">
                 <!-- <div class="ibox-title "> -->
                     <h4 class="">ESTADO CONEXION DE NODOS</h4>
                 <!-- </div> -->

@@ -88,7 +88,7 @@ $lista_nodos = vm_admin::conexion_nodos();
     <div class="row">
         <div class="col-md-12">
 
-            <div class="widget blue-bg col-md-12 col-sm-12 hidden-xs m-t-n m-b-xl">
+            <div class="widget blue-bg col-sm-12 hidden-xs m-t-n m-b-xl">
                 <h4 class="">ESTADO CONEXION DE NODOS</h4>
                 <br/>
                 <?php
